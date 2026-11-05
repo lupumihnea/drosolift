@@ -2,6 +2,15 @@
 
 ## Publication hardening — 5 November 2026
 
+Completed and published at [lupumihnea/drosolift](https://github.com/lupumihnea/drosolift).
+[Final Linux CI](https://github.com/lupumihnea/drosolift/actions/runs/41950656218)
+passes all three jobs: 214 Python tests, 67 frontend tests/1,632 assertions, all
+web builds, Docker runtime-image build, official data validation and the actual
+browser flow (full WebGL2 and numerical fallback, isolated profiles, exact saved
+state/restart and retry handling). The source snapshot preserves notices and
+lineage while excluding the restricted legacy rig/history. Original history and
+the prior running local gym remain preserved. No deployment was performed.
+
 The user requested a GitHub repository and explicitly declined deployment.
 An opt-in `public-web` entry point adds independent cookie profiles and durable
 full training/model state. SQLite commits checkpoints and command outcomes before

@@ -3,7 +3,7 @@
 This plan defines a local build and a portable recorded demo. The original gates
 are preserved below. Execution on 4 November 2026 produced the following evidence.
 
-## Publication hardening — 5 November 2026 (locally verified)
+## Publication hardening — 5 November 2026 (complete)
 
 The user authorized the following repairs and a new GitHub repository. They
 explicitly declined deployment and hosting. No hosting resources are to be created.
@@ -40,9 +40,9 @@ installed 29 packages, and all 67 frontend tests/1,632 assertions and both publi
 replay builds passed. The final publication snapshot adds settled evidence,
 attributes and release documentation. Root manifest/lineage files enumerate its
 exact contents. Public repository target:
-`https://github.com/lupumihnea/drosolift`. Docker Compose validates; image execution
-and Linux CI remain distinct from the completed local checks because the local
-Docker daemon is unavailable. No deployment has been authorized or performed.
+`https://github.com/lupumihnea/drosolift`. Docker Compose validates; runtime-image
+build and Linux CI subsequently passed as recorded below. The local Docker
+daemon remains unavailable. No deployment was authorized or performed.
 
 Publication: the licensed 469-file snapshot was pushed to `main` at `7856581`;
 an ordinary Windows clone with `core.autocrlf=true` verified every byte/hash.
@@ -56,9 +56,19 @@ builds and data validation, then hit a pause-click timeout under two concurrent
 full-3D browser profiles. The revised audience check retains A's full WebGL2
 screen/captures and explicitly tests B's live numerical fallback (91 exact
 readings, HTML controls, 2D history). That flow passes on Windows with exact
-A/B restart at steps66/135; prior native evidence is preserved in its original
+A/B restart at steps 66/135; prior native evidence is preserved in its original
 paths. New evidence is in `evidence/publication/numerical-fallback`; Linux
 acceptance is rerun. Production calculations and renderers remain unchanged.
+
+Final gate: [GitHub run 41950656218](https://github.com/lupumihnea/drosolift/actions/runs/41950656218)
+is **completed / success** for `50c08af`. All three jobs passed: **214 Python
+tests / 143.938 s**, **67 frontend tests / 1,632 assertions**, all web builds,
+runtime Docker build, pinned source/data validation and the actual Linux browser
+flow with full WebGL2 plus numerical fallback, exact reload/restart and retries.
+The compact record is `evidence/publication/github-final-ci.json`. Final changes
+only record evidence/documentation and update source lineage/checksums; executable
+and test files match the verified commit. GitHub publication is complete. Hosting
+remains an optional future task for repository visitors; no deployment occurred.
 
 ## Execution record — 4 November 2026
 

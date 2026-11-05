@@ -192,7 +192,7 @@
     {
       "bytes": 1230,
       "path": "UPSTREAM_LINEAGE.json",
-      "sha256": "1844186154c12040097f719c76253122db9980bfd40a10bc4821e43ced6a9ed1"
+      "sha256": "c8c520c618f6f1fe0686126a59ab463eeded6595273863fd98963fd5922684c4"
     },
     {
       "bytes": 2,
@@ -419,9 +419,9 @@
       "sha256": "92d435db59f465828745d3db0d36b533e6df5dbef4508abb1eaa0d890c257cb3"
     },
     {
-      "bytes": 38746,
+      "bytes": 39476,
       "path": "docs/drosolift/IMPLEMENTATION_PLAN.md",
-      "sha256": "81a08e12775a38aacaf675aef07770576a6a2f39fe6f768af641d68c3cc7d5d2"
+      "sha256": "9987c30f2245b1166074eb71966896d48b586546c6e57a8a887a289fac3355f9"
     },
     {
       "bytes": 12077,
@@ -449,9 +449,9 @@
       "sha256": "edb0f52d1bf4a0494e7de6d88944a24a1b63c8ec84745e814327531f90f8beba"
     },
     {
-      "bytes": 8742,
+      "bytes": 9799,
       "path": "docs/drosolift/RELEASE.md",
-      "sha256": "ad435a023d257d52e71860e1e3cf0e986714e2c2de789ca142b857e40b34b082"
+      "sha256": "54d204665e60eb96574529bd4c61a9d9174103f59144b3d84616827c4a3a07af"
     },
     {
       "bytes": 4196,
@@ -1154,6 +1154,11 @@
       "sha256": "ded2aa26cb4aed02c5e685b8b2c9069d206893c529990f0c076f51fd62aba93c"
     },
     {
+      "bytes": 3224,
+      "path": "docs/drosolift/evidence/publication/github-final-ci.json",
+      "sha256": "ec3b2ee2ebc637a2b306de7dd137113820d79805d696ce4ef5db35f1a9cf470e"
+    },
+    {
       "bytes": 938,
       "path": "docs/drosolift/evidence/publication/github-first-run.json",
       "sha256": "a6333b861a4908b729ef4904b5207c8a71a6a147cd6fae83cb77595e99aa2026"
@@ -1522,9 +1527,9 @@
       "sha256": "bc948c6286fae31a2551867916fc849f57de12a9aadf68a7ed47f4bdcad14a1f"
     },
     {
-      "bytes": 14745,
+      "bytes": 15404,
       "path": "docs/status.md",
-      "sha256": "2cf417717935c02ed8722c3eef3039502bbf2bf8f18e5ad5caf23f5f19e7528c"
+      "sha256": "8d0dc0789153ada395f1333668e903974899236efc7d9f9cd7a17ddb4d7e9806"
     },
     {
       "bytes": 6623,
@@ -2584,6 +2589,6 @@
   ],
   "format": "drosolift-public-source-manifest",
   "manifest_self_excluded": true,
-  "total_bytes": 64412399,
+  "total_bytes": 64418069,
   "version": 1
 }

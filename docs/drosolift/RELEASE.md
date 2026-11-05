@@ -75,14 +75,14 @@ are eligible; historical baseline screenshots of the legacy rig are omitted.
   latched inputs and exports; zero WebSockets, external requests or page errors.
   Package: **15,143,226 bytes**, SHA256
   `e6ab5aad137a5e24c0efaebd51df89d3035bf6b4261182870d2ca292e26269f4`.
-- Compose configuration validated. Docker image build remains unexecuted locally:
-  this workstation has no running Docker daemon. A CI container build is configured.
+- Compose configuration validated. The runtime Docker image build passed in Linux
+  CI; this workstation's local Docker daemon remains unavailable.
 
 Commands and logs are under [evidence/publication](evidence/publication).
 The actual source export and browser checks also retain their own compact JSON
-results. The local publication gates are complete. The GitHub target is
-[lupumihnea/drosolift](https://github.com/lupumihnea/drosolift); CI is configured
-for a future Linux run, which is distinct from the measured Windows checks above.
+results. The local and Linux CI publication gates are complete. The public source is
+[lupumihnea/drosolift](https://github.com/lupumihnea/drosolift). The measurements
+above describe Windows verification; the final Linux result is recorded below.
 
 ## Practical limits
 
@@ -125,7 +125,7 @@ is preserved.
 
 The browser check now keeps A in real WebGL2 for every workout/X-ray/inspection
 capture, and explicitly exercises B with 3D unavailable. B must retain enabled
-HTML controls, all **91 exact received readings**, selected body10783, and its 2D
+HTML controls, all **91 exact received readings**, selected body 10783, and its 2D
 rate history before and after restart. Both private model sessions, their clocks,
 weight acknowledgement, exact restored frames and retry conflict checks remain.
 The updated Windows audience flow passes with A/B restored at steps **66/135**;
@@ -133,4 +133,23 @@ only four expected B initialization diagnostics are classified, with zero
 unexpected console/page/request errors. See
 [the new result](evidence/publication/numerical-fallback/public-browser-checks.json).
 The earlier two-full-3D native captures/result remain unchanged. The complete
-Linux browser flow is rerun automatically after this harness adjustment.
+Linux browser flow was rerun after this harness adjustment.
+
+## Final GitHub verification — passed
+
+[Run 41950656218](https://github.com/lupumihnea/drosolift/actions/runs/41950656218)
+completed successfully for source commit
+`50c08afc8d491dc563c38dae1f650a781aaa89d6`. All three jobs passed:
+
+- **214 Python tests / 143.938 s**, official downloads/checksums and data validation.
+- **67 frontend tests / 1,632 assertions / 1.070 s**, strict TypeScript and all
+  three production builds.
+- Runtime Docker image build, plus the complete real-browser A WebGL2/B numerical
+  fallback flow: isolation, 91 exact readings, controls, reload, abrupt restart,
+  retry/conflict handling and retained 2D history. Final Git whitespace check passed.
+
+[The compact verified CI record](evidence/publication/github-final-ci.json)
+links the exact jobs and logged stages. The final evidence/documentation commit
+does not change executable code or tests from the verified source commit.
+No deployment, hosting service or remote database was created. Local saved
+profiles are available through `public-web`; visitors can follow [SELF_HOST.md](SELF_HOST.md).

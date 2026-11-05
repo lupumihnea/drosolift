@@ -1,0 +1,114 @@
+{
+  "tested_commit": "50c08afc8d491dc563c38dae1f650a781aaa89d6",
+  "run_id": 41950656218,
+  "run_url": "https://github.com/lupumihnea/drosolift/actions/runs/41950656218",
+  "run_attempt": 1,
+  "status": "completed",
+  "conclusion": "success",
+  "verified_at_utc": "2026-11-05 01:58:37 UTC",
+  "evidence_source": "Finalized GitHub Actions job logs and run/job API responses",
+  "jobs": [
+    {
+      "id": 126993540865,
+      "name": "model-and-browser",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/lupumihnea/drosolift/actions/runs/41950656218/job/126993540865"
+    },
+    {
+      "id": 126993541194,
+      "name": "frontend",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/lupumihnea/drosolift/actions/runs/41950656218/job/126993541194"
+    },
+    {
+      "id": 126993541205,
+      "name": "container",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/lupumihnea/drosolift/actions/runs/41950656218/job/126993541205"
+    }
+  ],
+  "python": {
+    "command": "python -B -m unittest discover -s tests -t . -v",
+    "tests": 214,
+    "seconds": 143.938,
+    "summary": "Ran 214 tests in 143.938s",
+    "result": "OK",
+    "step_conclusion": "success"
+  },
+  "frontend": {
+    "command": "bun test --cwd frontend/web",
+    "passed": 67,
+    "failed": 0,
+    "assertions": 1632,
+    "files": 22,
+    "milliseconds": 1070,
+    "summary": "Ran 67 tests across 22 files. [1070.00ms]",
+    "builds": [
+      {
+        "command": "bun --bun run --cwd frontend/web build",
+        "conclusion": "success"
+      },
+      {
+        "command": "bun --bun run --cwd frontend/web build:public",
+        "conclusion": "success"
+      },
+      {
+        "command": "bun --bun run --cwd frontend/web build:replay",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "browser": {
+    "command": "python -B -m scripts.check_public_sessions",
+    "step_conclusion": "success",
+    "result": "passed",
+    "result_at_utc": "2026-11-05T01:56:40.6001583Z",
+    "logged_stages": [
+      {
+        "at_utc": "2026-11-05T01:49:10.3553983Z",
+        "stage": "server_ready",
+        "start": 1,
+        "port": 8004
+      },
+      {
+        "at_utc": "2026-11-05T01:49:32.0954256Z",
+        "stage": "browser_a_ready"
+      },
+      {
+        "at_utc": "2026-11-05T01:50:07.0066336Z",
+        "stage": "two_context_isolation_passed"
+      },
+      {
+        "at_utc": "2026-11-05T01:50:09.8106103Z",
+        "stage": "live_numerical_fallback_passed",
+        "exact_rates": 91
+      },
+      {
+        "at_utc": "2026-11-05T01:52:21.0289347Z",
+        "stage": "controls_and_reload_passed"
+      },
+      {
+        "at_utc": "2026-11-05T01:55:53.4092695Z",
+        "stage": "owned_process_tree_stopped_for_restart"
+      },
+      {
+        "at_utc": "2026-11-05T01:55:59.9255575Z",
+        "stage": "server_ready",
+        "start": 2,
+        "port": 8004
+      }
+    ]
+  },
+  "container": {
+    "command": "docker build --target runtime --tag drosolift:check .",
+    "conclusion": "success"
+  },
+  "source_validation": {
+    "download": "success",
+    "data_status": "success",
+    "diff_check": "success"
+  }
+}
