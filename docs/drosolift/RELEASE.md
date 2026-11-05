@@ -115,4 +115,22 @@ checks remain. Five comparator regressions reject changed IDs/types/counters,
 clocks, schema, topology, nonfinite or materially different values, while allowing
 one-ULP platform rounding. The focused recording module passes **10 tests / 25.439 s**
 on Windows. Recordings, telemetry and model calculations are unchanged.
-The next automatic CI run verifies the full Linux application after this repair.
+The [second CI run](https://github.com/lupumihnea/drosolift/actions/runs/41948230715)
+passed **214 Python tests / 139.921 s**, all builds and data validation. Its browser
+step timed out performing a pause click while both independent profiles rendered
+full 3D: A became ready in 22 seconds; B readiness/isolation took another 142
+seconds. This is consistent with graphics contention on the shared runner.
+[The original second-run result](evidence/publication/github-second-run.json)
+is preserved.
+
+The browser check now keeps A in real WebGL2 for every workout/X-ray/inspection
+capture, and explicitly exercises B with 3D unavailable. B must retain enabled
+HTML controls, all **91 exact received readings**, selected body10783, and its 2D
+rate history before and after restart. Both private model sessions, their clocks,
+weight acknowledgement, exact restored frames and retry conflict checks remain.
+The updated Windows audience flow passes with A/B restored at steps **66/135**;
+only four expected B initialization diagnostics are classified, with zero
+unexpected console/page/request errors. See
+[the new result](evidence/publication/numerical-fallback/public-browser-checks.json).
+The earlier two-full-3D native captures/result remain unchanged. The complete
+Linux browser flow is rerun automatically after this harness adjustment.

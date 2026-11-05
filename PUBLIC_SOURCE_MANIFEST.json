@@ -192,7 +192,7 @@
     {
       "bytes": 1230,
       "path": "UPSTREAM_LINEAGE.json",
-      "sha256": "0643d6b5dd46e5f8c8b177d535acd28a84d011fa100b018a4c8034e3ea2d4048"
+      "sha256": "1844186154c12040097f719c76253122db9980bfd40a10bc4821e43ced6a9ed1"
     },
     {
       "bytes": 2,
@@ -419,9 +419,9 @@
       "sha256": "92d435db59f465828745d3db0d36b533e6df5dbef4508abb1eaa0d890c257cb3"
     },
     {
-      "bytes": 38123,
+      "bytes": 38746,
       "path": "docs/drosolift/IMPLEMENTATION_PLAN.md",
-      "sha256": "18f90aa0ebc48038d271438f9d7eb8855ed5e2b1b26811dda62e863f38e14983"
+      "sha256": "81a08e12775a38aacaf675aef07770576a6a2f39fe6f768af641d68c3cc7d5d2"
     },
     {
       "bytes": 12077,
@@ -449,9 +449,9 @@
       "sha256": "edb0f52d1bf4a0494e7de6d88944a24a1b63c8ec84745e814327531f90f8beba"
     },
     {
-      "bytes": 7487,
+      "bytes": 8742,
       "path": "docs/drosolift/RELEASE.md",
-      "sha256": "70b809b0345f9353829639662312fc427bbd6b5e7058ac0ad52ec4d6ae34974e"
+      "sha256": "ad435a023d257d52e71860e1e3cf0e986714e2c2de789ca142b857e40b34b082"
     },
     {
       "bytes": 4196,
@@ -1159,9 +1159,49 @@
       "sha256": "a6333b861a4908b729ef4904b5207c8a71a6a147cd6fae83cb77595e99aa2026"
     },
     {
+      "bytes": 946,
+      "path": "docs/drosolift/evidence/publication/github-second-run.json",
+      "sha256": "93d00d114c954d00b85227984357b0ea4684618c52261f2a9d30ccb41b33e5a5"
+    },
+    {
       "bytes": 54,
       "path": "docs/drosolift/evidence/publication/import-boundary.log",
       "sha256": "7b3a28cee8ad0a82950da34cde3257baf21d43f48defe6cd0dbb1911e283f545"
+    },
+    {
+      "bytes": 7427,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-browser-checks.json",
+      "sha256": "e2f7a42abad9a5b4068374f1b334b0234cb107f34fd760e3987e69e87f587392"
+    },
+    {
+      "bytes": 153066,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-mobile-390x844.png",
+      "sha256": "86e3d20ada292c1d9e60f08e3d9a94db167d6331f7a58437cec5eb4a188fd111"
+    },
+    {
+      "bytes": 719658,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-neural-xray-1920x1080.png",
+      "sha256": "8e76d8b2b2bb93a539cacec529b49267457dbb5bb1483e908f12a9c9413cfe6a"
+    },
+    {
+      "bytes": 594107,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-selected-neuron-1920x1080.png",
+      "sha256": "6d9dc9da1ad341a12133220ce14a3c8d07cd35be00335e79553d5c35371a0200"
+    },
+    {
+      "bytes": 90,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-server-1.log",
+      "sha256": "8f47ff3cb13ad5a24b47b737fc8f8a434f00206393baa61080bb9b2bf787c2ff"
+    },
+    {
+      "bytes": 90,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-server-2.log",
+      "sha256": "cb7cc6e633716a8b5481e97c9737ea6e3f33e796fe2f18adc5ba57f59d5fb049"
+    },
+    {
+      "bytes": 330688,
+      "path": "docs/drosolift/evidence/publication/numerical-fallback/public-workout-1280x720.png",
+      "sha256": "ad369df9f87437b67530e1aa9302e4fbfef13d28cb7b00e06701fba8e8edcca5"
     },
     {
       "bytes": 443,
@@ -2182,9 +2222,9 @@
       "sha256": "94e9b5fe8a4b501c2417e7e16eae3995d65356282a8f47d78251a2d56ae83415"
     },
     {
-      "bytes": 18860,
+      "bytes": 22759,
       "path": "scripts/check_public_sessions.py",
-      "sha256": "3632db2e64c25cfeed6de4029908310e7bc5d819d88aefc32c5524e4236c1e71"
+      "sha256": "660293538b287141375ef464cdedf247ab44e8497586ccd717458773b66bb8e3"
     },
     {
       "bytes": 13869,
@@ -2544,6 +2584,6 @@
   ],
   "format": "drosolift-public-source-manifest",
   "manifest_self_excluded": true,
-  "total_bytes": 62600550,
+  "total_bytes": 64412399,
   "version": 1
 }

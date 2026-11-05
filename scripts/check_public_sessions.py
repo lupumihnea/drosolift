@@ -3,6 +3,8 @@
 Build dist-public and install Playwright's Chromium first. This script creates its
 own temporary SQLite database and subprocess on port 8004; existing demo servers
 are untouched. Only received frames and audience controls determine the checks.
+Browser A renders the full WebGL2 scene. Browser B deliberately lacks WebGL,
+verifying live numerical fallback without duplicating software 3D rendering.
 """
 from __future__ import annotations
 
@@ -29,6 +31,14 @@ from scripts.check_drosolift_browser import OBSERVE, capture, graphics_info, pau
 
 
 ROOT = Path(__file__).resolve().parents[1]
+NUMERICAL_FALLBACK = """(() => {
+  const nativeGetContext = HTMLCanvasElement.prototype.getContext;
+  HTMLCanvasElement.prototype.getContext = function(kind, ...args) {
+    if (['webgl', 'webgl2', 'experimental-webgl'].includes(kind)) return null;
+    return nativeGetContext.call(this, kind, ...args);
+  };
+  try { Object.defineProperty(navigator, 'gpu', {value: undefined}); } catch {}
+})();"""
 
 
 class OwnedServer:
@@ -130,18 +140,63 @@ def acknowledgements(page):
     return page.evaluate("window.__qa.messages.filter(m=>m.type==='command_ack')")
 
 
+def numerical_fallback(page) -> dict:
+    """Exercise actual HTML controls/rates while only WebGL contexts are absent."""
+    until(page, "document.querySelector('#graphics-backend').textContent==='3D unavailable'")
+    until(page, "document.querySelector('#neuron-map').dataset.anatomy==='failed'")
+    assert 'Numerical readings and controls remain available' in page.locator('#scene-loading').inner_text()
+    assert page.locator('#scene canvas, #neuron-map canvas').count() == 0
+    assert page.locator('#apply-load').is_enabled()
+    assert page.locator('#add-training-fly').is_enabled()
+    was_running = page.evaluate('window.__qa.running')
+    paused(page)
+    frozen = frame(page)
+    received = {row['body_id']: row['activity'] for row in frozen['flies'][0]['frame']['neural']['active']}
+    assert len(received) == 91 and page.locator('#neural-observed-count').inner_text() == '91'
+    page.locator('.neuron-details summary').click()
+    rows = page.locator('#active-neurons li').evaluate_all("""rows=>rows.map(row=>({
+        id:Number(row.dataset.bodyId), value:Number(row.querySelector('.neuron-activity-value').textContent)}))""")
+    assert len(rows) == 91 and {row['id']: row['value'] for row in rows} == received
+    page.locator('[data-body-id="10783"]').click()
+    assert page.locator('#selected-id').inner_text() == '10783'
+    assert float(page.locator('#selected-value').inner_text().split()[0]) == received[10783]
+    assert page.locator('#neural-rate-history').evaluate("canvas=>canvas.getContext('2d')!==null")
+    assert frame(page) == frozen, 'Fallback inspection advanced the paused model'
+    page.locator('.neuron-details summary').click()
+    if was_running:
+        paused(page, False)
+    return {'webgl_deliberately_unavailable': True, 'html_pause_and_resume': bool(was_running),
+            'exact_received_rates': len(received), 'selected_body_id': 10783, 'canvas_2d_retained': True}
+
+
 def check(browser, server: OwnedServer, output: Path) -> dict:
     contexts = []
     page_errors, console_errors, failed_requests, bootstrap, requests, sockets = [], [], [], [], [], []
+    expected_renderer_diagnostics = []
 
-    def new_page(name, viewport):
+    def new_page(name, viewport, *, numerical=False):
         context = browser.new_context(viewport=viewport, device_scale_factor=1, locale='en-US')
         contexts.append(context)
         context.add_init_script(OBSERVE)
+        if numerical:
+            context.add_init_script(NUMERICAL_FALLBACK)
         page = context.new_page()
         page.on('pageerror', lambda error: page_errors.append({'browser': name, 'message': str(error)}))
-        page.on('console', lambda message: console_errors.append({'browser': name, 'message': message.text})
-                if message.type == 'error' else None)
+
+        def console_received(message):
+            if message.type != 'error':
+                return
+            record = {'browser': name, 'message': message.text}
+            # Pinned Three r186 dereferences its deliberately absent WebGL
+            # context here; only B's two explicit application init catches are
+            # expected. A and every other console/page error remain failures.
+            known = message.text.startswith(('3D initialization failed TypeError:', 'Anatomical view failed TypeError:'))
+            if numerical and known and "Cannot read properties of null (reading 'getSupportedExtensions')" in message.text:
+                expected_renderer_diagnostics.append(record)
+            else:
+                console_errors.append(record)
+
+        page.on('console', console_received)
         page.on('request', lambda request: requests.append(request.url))
         page.on('requestfailed', lambda request: failed_requests.append({'browser': name, 'path': urlsplit(request.url).path,
                                                                        'failure': request.failure}))
@@ -159,7 +214,7 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
         return page
 
     a = new_page('A', {'width': 1280, 'height': 720})
-    b = new_page('B', {'width': 800, 'height': 720})
+    b = new_page('B', {'width': 800, 'height': 720}, numerical=True)
     url = server.origin + '/?renderer=webgl&diagnostics=1'
     try:
         ready(a, url)
@@ -181,6 +236,9 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
         isolation = {'a_paused_step': initial_a['step'], 'b_from_step': b_step,
                      'b_to_step': frame(b)['step'], 'different_runs': True, 'a_exact_frame_frozen': True}
         print(json.dumps({'stage': 'two_context_isolation_passed'}), flush=True)
+        fallback_initial = numerical_fallback(b)
+        assert frame(a) == initial_a
+        print(json.dumps({'stage': 'live_numerical_fallback_passed', 'exact_rates': 91}), flush=True)
 
         before_plates = int(a.locator('#scene').get_attribute('data-plate-count'))
         a.locator('#apply-load').click()
@@ -217,6 +275,7 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
         print(json.dumps({'stage': 'controls_and_reload_passed'}), flush=True)
         capture(a, output, 'public-workout-1280x720.png')
         graphics = graphics_info(a)
+        assert graphics['backend'] == 'WebGL2'
 
         a.set_viewport_size({'width': 1920, 'height': 1080})
         a.locator('.neuron-details summary').click()
@@ -258,6 +317,8 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
         assert b.evaluate('window.__qa.control.run_id') == run_b
         assert a.evaluate('window.__qa.running') is False
         assert b.evaluate('window.__qa.running') is False
+        fallback_restored = numerical_fallback(b)
+        assert frame(b) == saved_b
         count = len(acknowledgements(a))
         a.evaluate('command=>window.__qa.sockets.at(-1).send(JSON.stringify(command))', command)
         until(a, f"window.__qa.messages.filter(m=>m.type==='command_ack').length>{count}")
@@ -284,6 +345,7 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
         assert not page_errors, page_errors
         assert not console_errors, console_errors
         assert not failed_requests, failed_requests
+        assert len(expected_renderer_diagnostics) == 4, expected_renderer_diagnostics
         with closing(sqlite3.connect(server.database)) as connection:
             journal = connection.execute('SELECT status,COUNT(*) FROM gym_command_journal GROUP BY status').fetchall()
         return {'isolation': isolation, 'weight': {'from': .6, 'to': .8, 'pending': pending, 'applied': applied,
@@ -293,6 +355,8 @@ def check(browser, server: OwnedServer, output: Path) -> dict:
                             'a_frame_sha256': digest(saved_a), 'b_frame_sha256': digest(saved_b),
                             'exact_both_profiles': True, 'original_retry_ack': True, 'payload_conflict_rejected': True},
                 'exact_neuron': {'body_id': 10783, 'activity': reading['activity']},
+                'numerical_fallback_b': {'initial': fallback_initial, 'after_restart': fallback_restored,
+                                         'expected_renderer_diagnostics': expected_renderer_diagnostics},
                 'graphics': graphics, 'bootstrap': bootstrap, 'cookies_without_values': cookie_metadata,
                 'websocket_paths': sorted(set(urlsplit(url).path + '?' + urlsplit(url).query for url in sockets)),
                 'credential_in_url': False, 'external_requests': 0, 'journal_status_counts': dict(journal),

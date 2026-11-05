@@ -51,6 +51,14 @@ Windows/Linux continuous-value fixture rounding mismatch (~4.4e-16). The focused
 test repair uses 1e-12 abs/relative tolerance only for continuous measurements,
 with exact IDs, types, clocks and counters. All 10 recording-module tests pass;
 the complete Linux CI and audience browser check are rerun automatically.
+The second run passed all **214 Python tests / 139.921 s** plus frontend/container
+builds and data validation, then hit a pause-click timeout under two concurrent
+full-3D browser profiles. The revised audience check retains A's full WebGL2
+screen/captures and explicitly tests B's live numerical fallback (91 exact
+readings, HTML controls, 2D history). That flow passes on Windows with exact
+A/B restart at steps66/135; prior native evidence is preserved in its original
+paths. New evidence is in `evidence/publication/numerical-fallback`; Linux
+acceptance is rerun. Production calculations and renderers remain unchanged.
 
 ## Execution record — 4 November 2026
 

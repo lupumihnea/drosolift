@@ -1,0 +1,26 @@
+{
+  "run_id": 41948230715,
+  "url": "https://github.com/lupumihnea/drosolift/actions/runs/41948230715",
+  "commit": "f4187e433d04be306e57f1cc410a787e48d39ad8",
+  "jobs": {
+    "frontend": "success",
+    "container": "success",
+    "model-and-browser": "failure"
+  },
+  "python": {
+    "tests": 214,
+    "seconds": 139.921,
+    "failures": 0
+  },
+  "data_status": "success",
+  "browser": {
+    "status": "timeout",
+    "location": "paused(a): locator #running-toggle click, after load applied and two-context isolation",
+    "timeout_ms": 30000,
+    "profile_a_ready": "2026-11-05T01:27:41Z",
+    "two_context_isolation_passed": "2026-11-05T01:30:03Z",
+    "inference": "Simultaneous full 3D scenes on the shared CI runner caused graphics contention; next check retains A in 3D and explicitly exercises B as numerical/HTML renderer fallback."
+  },
+  "model_or_recording_changes": false,
+  "deployment_performed": false
+}

@@ -6,7 +6,7 @@
   ],
   "format": "drosolift-public-source-lineage",
   "history_policy": "Fresh source snapshot; original upstream history preserved in the local implementation checkout.",
-  "implementation_head": "654dc4c11841d86f33118ba9a98729dca5e888ab",
+  "implementation_head": "6a761fc4136332ef672ff5f73f3a2d98b8f2552a",
   "notices": [
     "LICENSE",
     "NOTICE",

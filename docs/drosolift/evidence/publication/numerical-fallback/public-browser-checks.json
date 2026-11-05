@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "python": "3.12.2",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "command": "python -B -m scripts.check_public_sessions",
+  "port": 8004,
+  "browser": "157.0.8103.15",
+  "checks": {
+    "isolation": {
+      "a_paused_step": 48,
+      "b_from_step": 1,
+      "b_to_step": 11,
+      "different_runs": true,
+      "a_exact_frame_frozen": true
+    },
+    "weight": {
+      "from": 0.6,
+      "to": 0.8,
+      "pending": {
+        "command": "set_load",
+        "command_id": "9f6a9d73-3377-489a-87d2-210b027f17e3",
+        "effective_step": null,
+        "run_id": "eea77445-691d-49d0-9c67-b235b8441765",
+        "status": "pending",
+        "type": "command_ack"
+      },
+      "applied": {
+        "type": "command_ack",
+        "command_id": "9f6a9d73-3377-489a-87d2-210b027f17e3",
+        "command": "set_load",
+        "status": "applied",
+        "effective_step": 66,
+        "run_id": "eea77445-691d-49d0-9c67-b235b8441765"
+      },
+      "pending_preserves_geometry": true,
+      "plates_before": 3
+    },
+    "new_fly_count": 2,
+    "reload_exact_frame": true,
+    "restart": {
+      "abrupt_owned_process": true,
+      "a_step": 66,
+      "b_step": 135,
+      "a_frame_sha256": "034a177cac7dbef5d99c6b7e806a0d5c58e5ff2ac8eb28d68db1488c886ec201",
+      "b_frame_sha256": "0a927035804cbc5ebe0c78668589a90bb4fd082e9638b493f11f3aab13ef6660",
+      "exact_both_profiles": true,
+      "original_retry_ack": true,
+      "payload_conflict_rejected": true
+    },
+    "exact_neuron": {
+      "body_id": 10783,
+      "activity": 0.24122809267976952
+    },
+    "numerical_fallback_b": {
+      "initial": {
+        "webgl_deliberately_unavailable": true,
+        "html_pause_and_resume": true,
+        "exact_received_rates": 91,
+        "selected_body_id": 10783,
+        "canvas_2d_retained": true
+      },
+      "after_restart": {
+        "webgl_deliberately_unavailable": true,
+        "html_pause_and_resume": false,
+        "exact_received_rates": 91,
+        "selected_body_id": 10783,
+        "canvas_2d_retained": true
+      },
+      "expected_renderer_diagnostics": [
+        {
+          "browser": "B",
+          "message": "3D initialization failed TypeError: Cannot read properties of null (reading 'getSupportedExtensions')\n    at new jE (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:44156)\n    at RE.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:50775)\n    at http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44406\n    at new Promise (<anonymous>)\n    at pk.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44350)\n    at vk (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:538:42147)\n    at e.create (http://127.0.0.1:8004/assets/fly-scene-DvZiCJQf.js:1:43766)\n    at Ze (http://127.0.0.1:8004/assets/index-ADe5utsE.js:2:31812)"
+        },
+        {
+          "browser": "B",
+          "message": "Anatomical view failed TypeError: Cannot read properties of null (reading 'getSupportedExtensions')\n    at new jE (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:44156)\n    at RE.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:50775)\n    at http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44406\n    at new Promise (<anonymous>)\n    at pk.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44350)\n    at vk (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:538:42147)\n    at t.create (http://127.0.0.1:8004/assets/neuron-map-Bo3wz9A7.js:1:7088)\n    at async Qe (http://127.0.0.1:8004/assets/index-ADe5utsE.js:2:34083)"
+        },
+        {
+          "browser": "B",
+          "message": "3D initialization failed TypeError: Cannot read properties of null (reading 'getSupportedExtensions')\n    at new jE (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:44156)\n    at RE.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:50775)\n    at http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44406\n    at new Promise (<anonymous>)\n    at pk.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44350)\n    at vk (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:538:42147)\n    at e.create (http://127.0.0.1:8004/assets/fly-scene-DvZiCJQf.js:1:43766)\n    at Ze (http://127.0.0.1:8004/assets/index-ADe5utsE.js:2:31812)"
+        },
+        {
+          "browser": "B",
+          "message": "Anatomical view failed TypeError: Cannot read properties of null (reading 'getSupportedExtensions')\n    at new jE (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:44156)\n    at RE.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:205:50775)\n    at http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44406\n    at new Promise (<anonymous>)\n    at pk.init (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:29:44350)\n    at vk (http://127.0.0.1:8004/assets/neural-activity-Yu-vV3vp.js:538:42147)\n    at t.create (http://127.0.0.1:8004/assets/neuron-map-Bo3wz9A7.js:1:7088)\n    at async Qe (http://127.0.0.1:8004/assets/index-ADe5utsE.js:2:34083)"
+        }
+      ]
+    },
+    "graphics": {
+      "backend": "WebGL2",
+      "vendor": "Google Inc. (NVIDIA)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 6GB (0x00001C03) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "hardwareConcurrency": 12,
+      "devicePixelRatio": 1,
+      "sceneCanvas": [
+        729,
+        284
+      ]
+    },
+    "bootstrap": [
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": false,
+        "run_id": "eea77445-691d-49d0-9c67-b235b8441765",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "B",
+        "status": 200,
+        "resumed": false,
+        "run_id": "7ea2c7db-e1ac-4a60-9cd0-d821b3de3f40",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": true,
+        "run_id": "eea77445-691d-49d0-9c67-b235b8441765",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": true,
+        "run_id": "eea77445-691d-49d0-9c67-b235b8441765",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "B",
+        "status": 200,
+        "resumed": true,
+        "run_id": "7ea2c7db-e1ac-4a60-9cd0-d821b3de3f40",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      }
+    ],
+    "cookies_without_values": [
+      {
+        "name": "drosolift_session",
+        "httpOnly": true,
+        "sameSite": "Lax",
+        "secure": false,
+        "path": "/"
+      },
+      {
+        "name": "drosolift_session",
+        "httpOnly": true,
+        "sameSite": "Lax",
+        "secure": false,
+        "path": "/"
+      }
+    ],
+    "websocket_paths": [
+      "/ws?controls=1"
+    ],
+    "credential_in_url": false,
+    "external_requests": 0,
+    "journal_status_counts": {
+      "applied": 8
+    },
+    "page_errors": [],
+    "console_errors": [],
+    "failed_requests": []
+  }
+}
