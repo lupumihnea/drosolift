@@ -192,7 +192,7 @@
     {
       "bytes": 1230,
       "path": "UPSTREAM_LINEAGE.json",
-      "sha256": "762bcee49cf03b8686fc3f73124458795fe27f2b21e1f9ae5c438da950583fb8"
+      "sha256": "0643d6b5dd46e5f8c8b177d535acd28a84d011fa100b018a4c8034e3ea2d4048"
     },
     {
       "bytes": 2,
@@ -419,9 +419,9 @@
       "sha256": "92d435db59f465828745d3db0d36b533e6df5dbef4508abb1eaa0d890c257cb3"
     },
     {
-      "bytes": 37569,
+      "bytes": 38123,
       "path": "docs/drosolift/IMPLEMENTATION_PLAN.md",
-      "sha256": "c6bdf1e28968f5a07a8a94b37e52968f50aca30a977b80ab57771b8071fb0c3f"
+      "sha256": "18f90aa0ebc48038d271438f9d7eb8855ed5e2b1b26811dda62e863f38e14983"
     },
     {
       "bytes": 12077,
@@ -449,9 +449,9 @@
       "sha256": "edb0f52d1bf4a0494e7de6d88944a24a1b63c8ec84745e814327531f90f8beba"
     },
     {
-      "bytes": 6200,
+      "bytes": 7487,
       "path": "docs/drosolift/RELEASE.md",
-      "sha256": "c76e415ee2f5bcea23747567d8e360e3f5a7bc123e6d24e35cf62d9ca048ad4e"
+      "sha256": "70b809b0345f9353829639662312fc427bbd6b5e7058ac0ad52ec4d6ae34974e"
     },
     {
       "bytes": 4196,
@@ -1084,6 +1084,11 @@
       ]
     },
     {
+      "bytes": 747,
+      "path": "docs/drosolift/evidence/publication/ci-portability-checks.json",
+      "sha256": "e1735b98de356049d3c40da8aeb4ab2b0cb19391d388f97767046c69b6a2b6c2"
+    },
+    {
       "bytes": 1489,
       "path": "docs/drosolift/evidence/publication/clean-python-check.log",
       "sha256": "c059976d40388fff138ee9a0c717e7bc45dd68365b60be6c1e023fadf2533adb"
@@ -1147,6 +1152,11 @@
       "bytes": 7134,
       "path": "docs/drosolift/evidence/publication/frontend-checks.log",
       "sha256": "ded2aa26cb4aed02c5e685b8b2c9069d206893c529990f0c076f51fd62aba93c"
+    },
+    {
+      "bytes": 938,
+      "path": "docs/drosolift/evidence/publication/github-first-run.json",
+      "sha256": "a6333b861a4908b729ef4904b5207c8a71a6a147cd6fae83cb77595e99aa2026"
     },
     {
       "bytes": 54,
@@ -2442,9 +2452,9 @@
       "sha256": "9b8a4a19c06bea27eb8c042a20d242c45c021c91670edb2b09c725458a2a6689"
     },
     {
-      "bytes": 4142,
+      "bytes": 10374,
       "path": "tests/test_record_gym.py",
-      "sha256": "a56d2a9d98c746bfcfd61eb6f47dc681e3bfe8b286524544e00da014ada89f5c"
+      "sha256": "13d483d5766845c74a8beeea7012b11e790d0dc1755f9b6f582afc6e5411dc4c"
     },
     {
       "bytes": 2,
@@ -2534,6 +2544,6 @@
   ],
   "format": "drosolift-public-source-manifest",
   "manifest_self_excluded": true,
-  "total_bytes": 62590792,
+  "total_bytes": 62600550,
   "version": 1
 }

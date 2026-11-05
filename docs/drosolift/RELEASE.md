@@ -96,3 +96,23 @@ provide TLS and a persistent volume as documented in [SELF_HOST.md](SELF_HOST.md
 
 The original running local gym and prior conference archives remain preserved.
 The new saved-profile preview uses a separate port and database.
+
+## First Linux CI and numerical portability
+
+The [first GitHub run](https://github.com/lupumihnea/drosolift/actions/runs/41946876964)
+passed the frontend, all three web builds, Docker runtime-image build, official
+download and data validation. Its 209-test Python run found one strict fixture
+comparison failure: Windows-recorded continuous motor values differed from Linux
+by about 4.4e-16. Browser acceptance was skipped after that failed prerequisite.
+The original failing result is preserved in
+[github-first-run.json](evidence/publication/github-first-run.json).
+
+The fixture comparison now allows absolute/relative tolerance 1e-12 solely for
+finite continuous neural, motor, body and related model measurements. JSON types,
+identities, keys, ordered shapes, discrete counters and authoritative clocks
+remain exact. Same-platform seeded-run equality and exact recording roundtrip
+checks remain. Five comparator regressions reject changed IDs/types/counters,
+clocks, schema, topology, nonfinite or materially different values, while allowing
+one-ULP platform rounding. The focused recording module passes **10 tests / 25.439 s**
+on Windows. Recordings, telemetry and model calculations are unchanged.
+The next automatic CI run verifies the full Linux application after this repair.

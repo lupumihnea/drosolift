@@ -1,0 +1,23 @@
+{
+  "workflow": "Verify source and application",
+  "run_id": 41946876964,
+  "url": "https://github.com/lupumihnea/drosolift/actions/runs/41946876964",
+  "commit": "78565815966e42e43b2ba259af2e14e74ed21f7d",
+  "platform": "ubuntu-latest / Python 3.12 / Bun 1.4.4",
+  "jobs": {
+    "frontend": "success",
+    "container": "success",
+    "model-and-browser": "failure"
+  },
+  "python": {
+    "tests": 209,
+    "seconds": 153.473,
+    "failures": 1,
+    "failed_test": "tests.test_record_gym.GymRecordingTest.test_none_profile_reproduces_original_bundled_calibration_frames",
+    "cause": "Exact comparison against Windows-recorded floating-point values; Linux differed at about 1e-16 in continuous motor values."
+  },
+  "browser": "Skipped after failed prerequisite; Windows public-browser acceptance passed separately.",
+  "raw_data_download": "success",
+  "data_status": "success",
+  "deployment_performed": false
+}

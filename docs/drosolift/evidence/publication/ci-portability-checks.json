@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Cross-platform recording fixture comparison only",
+  "tests": 10,
+  "seconds": 25.439,
+  "helper_regressions": 5,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "exact": [
+    "JSON types",
+    "keys",
+    "ordered list shape",
+    "body IDs",
+    "schema",
+    "booleans",
+    "strings",
+    "integer counters",
+    "step",
+    "elapsed",
+    "frame index",
+    "sample clocks",
+    "recovery countdown"
+  ],
+  "unchanged": [
+    "recorded payloads",
+    "model calculations",
+    "same-platform seeded-run exact equality",
+    "recording roundtrip exact equality"
+  ],
+  "first_failure_run": "https://github.com/lupumihnea/drosolift/actions/runs/41946876964"
+}

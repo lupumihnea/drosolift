@@ -44,6 +44,14 @@ exact contents. Public repository target:
 and Linux CI remain distinct from the completed local checks because the local
 Docker daemon is unavailable. No deployment has been authorized or performed.
 
+Publication: the licensed 469-file snapshot was pushed to `main` at `7856581`;
+an ordinary Windows clone with `core.autocrlf=true` verified every byte/hash.
+First Linux CI passed frontend and Docker builds/data validation, then found one
+Windows/Linux continuous-value fixture rounding mismatch (~4.4e-16). The focused
+test repair uses 1e-12 abs/relative tolerance only for continuous measurements,
+with exact IDs, types, clocks and counters. All 10 recording-module tests pass;
+the complete Linux CI and audience browser check are rerun automatically.
+
 ## Execution record — 4 November 2026
 
 Separate implementation clone: `implementation`, branch `drosolift/implementation`,
