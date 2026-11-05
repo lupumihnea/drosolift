@@ -1,0 +1,33 @@
+test_bootstrap_and_socket_require_explicit_origin_and_cookie (tests.frontend.test_public_server.PublicSessionTest.test_bootstrap_and_socket_require_explicit_origin_and_cookie) ... ok
+test_corrupt_saved_session_fails_without_silent_new_profile (tests.frontend.test_public_server.PublicSessionTest.test_corrupt_saved_session_fails_without_silent_new_profile) ... Public session initialization rejected: Cannot validate the saved session; original record retained
+ok
+test_full_saved_profile_quota_preserves_existing_browser (tests.frontend.test_public_server.PublicSessionTest.test_full_saved_profile_quota_preserves_existing_browser) ... Public session initialization rejected: Durable session capacity reached
+ok
+test_idle_instance_eviction_keeps_cookie_profile_and_freezes_disconnected_clock (tests.frontend.test_public_server.PublicSessionTest.test_idle_instance_eviction_keeps_cookie_profile_and_freezes_disconnected_clock) ... ok
+test_production_cookie_is_host_only_secure_http_only_and_not_a_response_token (tests.frontend.test_public_server.PublicSessionTest.test_production_cookie_is_host_only_secure_http_only_and_not_a_response_token) ... ok
+test_restart_restores_same_run_joint_clock_and_retry_ack (tests.frontend.test_public_server.PublicSessionTest.test_restart_restores_same_run_joint_clock_and_retry_ack) ... ok
+[Local filesystem path omitted from this publication copy.]
+ok
+[Local filesystem path omitted from this publication copy.]
+ok
+test_checkpoint_joins_command_transaction_and_rolls_back_with_it (tests.frontend.test_session_store.SessionStoreTest.test_checkpoint_joins_command_transaction_and_rolls_back_with_it) ... ok
+test_corrupt_database_is_not_replaced (tests.frontend.test_session_store.SessionStoreTest.test_corrupt_database_is_not_replaced) ... ok
+test_corrupt_json_or_checksum_is_reported_without_reset (tests.frontend.test_session_store.SessionStoreTest.test_corrupt_json_or_checksum_is_reported_without_reset) ... ok
+test_expired_profile_and_its_journal_are_reclaimed_together (tests.frontend.test_session_store.SessionStoreTest.test_expired_profile_and_its_journal_are_reclaimed_together) ... ok
+test_nonfinite_oversized_and_nonobject_checkpoints_are_not_written (tests.frontend.test_session_store.SessionStoreTest.test_nonfinite_oversized_and_nonobject_checkpoints_are_not_written) ... ok
+test_quota_preserves_existing_records_and_reclaims_only_expired (tests.frontend.test_session_store.SessionStoreTest.test_quota_preserves_existing_records_and_reclaims_only_expired) ... ok
+test_reopen_preserves_exact_json_and_expiry_without_storing_cookie (tests.frontend.test_session_store.SessionStoreTest.test_reopen_preserves_exact_json_and_expiry_without_storing_cookie) ... ok
+test_invalid_public_configuration_never_starts_or_loads_model (tests.test_public_cli.PublicCliTest.test_invalid_public_configuration_never_starts_or_loads_model) ... ok
+test_public_command_has_separate_port_and_explicit_durable_path_and_origin (tests.test_public_cli.PublicCliTest.test_public_command_has_separate_port_and_explicit_durable_path_and_origin) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 10.420s
+
+OK
+Public gym error: Public simulation fps must be finite within1..30
+Public gym error: Public simulation fps must be finite within1..30
+Public gym error: Public session limits are invalid
+Public gym error: Port must be within1..65535
+Public gym error: Public session limits are invalid
+Public gym error: Durable profile limit must be within1..10000
+Public gym error: Insecure cookies are restricted to loopback development

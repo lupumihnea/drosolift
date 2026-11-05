@@ -1,0 +1,19 @@
+$ tsc --noEmit && vite build --mode replay --outDir dist-replay
+vite v8.3.0 building client environment for replay...
+transforming...
+✓ 41 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-replay/index.html                         10.24 kB │ gzip:   3.81 kB
+dist-replay/assets/index-GKQ51kTG.css          14.12 kB │ gzip:   3.84 kB
+dist-replay/assets/neuron-map-Bo-2NLl4.js       9.87 kB │ gzip:   3.83 kB
+dist-replay/assets/fly-scene-BE6usnVf.js       31.28 kB │ gzip:  11.05 kB
+dist-replay/assets/index-DYQepfzi.js           35.30 kB │ gzip:  11.78 kB
+dist-replay/assets/OrbitControls-dBGp9uzb.js  859.52 kB │ gzip: 233.44 kB
+
+✓ built in 484ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 600 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "profile": "apparatus-visual-v1",
+  "kind": "authored synthetic physical apparatus indicator sensor",
+  "base_runtime": "gym-v1-runtime.json",
+  "dataset": "male-cns:v1.0",
+  "channels": ["vision_left", "vision_right"],
+  "current_input_type": "L2",
+  "calibration": {
+    "brightness_offset": 0.16,
+    "normalized_joint_gain": 0.35,
+    "load_over_3_gain": 0.15,
+    "recovery_multiplier": 0.35,
+    "weaker_side_multiplier": 0.25,
+    "bench_stronger_side": "left",
+    "curl_stronger_side": "right"
+  },
+  "combination": "maximum of existing food vision and corresponding apparatus indicator",
+  "sampling": "latched before neural update, before joint integration; no render clock",
+  "scope": "engineered apparatus indicator-light transduction, not biological exercise specialization or proprioception",
+  "unchanged": ["official body IDs", "structural edges", "neural dynamics", "motor readout", "baseline profile none", "old bench calibration recording"]
+}

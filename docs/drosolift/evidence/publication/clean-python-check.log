@@ -1,0 +1,36 @@
+No broken requirements found.
+usage: main.py public-web [-h] --session-db SESSION_DB [--dist-path DIST_PATH]
+                          --allow-origin ALLOW_ORIGIN [--host HOST]
+                          [--port PORT] [--flies FLIES] [--fps FPS]
+                          [--seed SEED]
+                          [--feedback {none,apparatus-visual-v1}]
+                          [--no-learning] [--max-active MAX_ACTIVE]
+                          [--max-clients MAX_CLIENTS]
+                          [--max-profiles MAX_PROFILES]
+                          [--cookie-days COOKIE_DAYS]
+                          [--idle-seconds IDLE_SECONDS]
+                          [--insecure-local-cookie]
+
+options:
+  -h, --help            show this help message and exit
+  --session-db SESSION_DB
+                        SQLite file on a persistent volume; one gateway worker
+  --dist-path DIST_PATH
+                        Public frontend build directory
+  --allow-origin ALLOW_ORIGIN
+                        Exact browser origin; repeat for each allowed origin
+  --host HOST
+  --port PORT
+  --flies FLIES
+  --fps FPS
+  --seed SEED
+  --feedback {none,apparatus-visual-v1}
+  --no-learning
+  --max-active MAX_ACTIVE
+  --max-clients MAX_CLIENTS
+  --max-profiles MAX_PROFILES
+  --cookie-days COOKIE_DAYS
+  --idle-seconds IDLE_SECONDS
+  --insecure-local-cookie
+                        HTTP loopback development only; production cookies are
+                        Secure

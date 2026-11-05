@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "python": "3.12.2",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "command": "python -B -m scripts.check_public_sessions",
+  "port": 8004,
+  "browser": "157.0.8103.15",
+  "checks": {
+    "isolation": {
+      "a_paused_step": 48,
+      "b_from_step": 2,
+      "b_to_step": 24,
+      "different_runs": true,
+      "a_exact_frame_frozen": true
+    },
+    "weight": {
+      "from": 0.6,
+      "to": 0.8,
+      "pending": {
+        "command": "set_load",
+        "command_id": "e1f4034e-1e35-4290-b304-9f174a81c708",
+        "effective_step": null,
+        "run_id": "32b0571f-e2b3-455b-a33e-d7efcc308f9b",
+        "status": "pending",
+        "type": "command_ack"
+      },
+      "applied": {
+        "type": "command_ack",
+        "command_id": "e1f4034e-1e35-4290-b304-9f174a81c708",
+        "command": "set_load",
+        "status": "applied",
+        "effective_step": 66,
+        "run_id": "32b0571f-e2b3-455b-a33e-d7efcc308f9b"
+      },
+      "pending_preserves_geometry": true,
+      "plates_before": 3
+    },
+    "new_fly_count": 2,
+    "reload_exact_frame": true,
+    "restart": {
+      "abrupt_owned_process": true,
+      "a_step": 67,
+      "b_step": 202,
+      "a_frame_sha256": "a103b9f0cf6da3951892d7d953b86cb4b4eae11843b3473fef0ecb800635e3b5",
+      "b_frame_sha256": "7eaad8c514c7c87055191e0f284d9957a25f0d71b23afd3ed1d64971dc1c8a2e",
+      "exact_both_profiles": true,
+      "original_retry_ack": true,
+      "payload_conflict_rejected": true
+    },
+    "exact_neuron": {
+      "body_id": 10783,
+      "activity": 0.23905714294630395
+    },
+    "graphics": {
+      "backend": "WebGL2",
+      "vendor": "Google Inc. (NVIDIA)",
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 6GB (0x00001C03) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "hardwareConcurrency": 12,
+      "devicePixelRatio": 1,
+      "sceneCanvas": [
+        729,
+        284
+      ]
+    },
+    "bootstrap": [
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": false,
+        "run_id": "32b0571f-e2b3-455b-a33e-d7efcc308f9b",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "B",
+        "status": 200,
+        "resumed": false,
+        "run_id": "2511c3a5-14ef-4417-a6e3-a0df6852e00b",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": true,
+        "run_id": "32b0571f-e2b3-455b-a33e-d7efcc308f9b",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "A",
+        "status": 200,
+        "resumed": true,
+        "run_id": "32b0571f-e2b3-455b-a33e-d7efcc308f9b",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      },
+      {
+        "browser": "B",
+        "status": 200,
+        "resumed": true,
+        "run_id": "2511c3a5-14ef-4417-a6e3-a0df6852e00b",
+        "allow_origin": "http://127.0.0.1:8004",
+        "allow_credentials": "true"
+      }
+    ],
+    "cookies_without_values": [
+      {
+        "name": "drosolift_session",
+        "httpOnly": true,
+        "sameSite": "Lax",
+        "secure": false,
+        "path": "/"
+      },
+      {
+        "name": "drosolift_session",
+        "httpOnly": true,
+        "sameSite": "Lax",
+        "secure": false,
+        "path": "/"
+      }
+    ],
+    "websocket_paths": [
+      "/ws?controls=1"
+    ],
+    "credential_in_url": false,
+    "external_requests": 0,
+    "journal_status_counts": {
+      "applied": 6
+    },
+    "page_errors": [],
+    "console_errors": [],
+    "failed_requests": []
+  }
+}

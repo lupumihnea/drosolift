@@ -1,0 +1,30 @@
+{
+  "before": {
+    "renderer": "WebGL2",
+    "model": "authored-rig",
+    "population": "1",
+    "selectedFly": "fly-1",
+    "appliedLoad": "0.4",
+    "plateCount": "2",
+    "totalPlateCount": "8",
+    "weightVisualization": "{\"station_id\":\"station-2\",\"load\":0.4,\"platesPerStack\":2,\"totalPlates\":8,\"stacks\":4}",
+    "overlayObserved": "0",
+    "overlayPositive": "0",
+    "overlayRegistration": "authored body placement of compact cells and actuator routes; not measured or validated anatomical registration"
+  },
+  "xray": {
+    "renderer": "WebGL2",
+    "model": "authored-rig",
+    "population": "1",
+    "selectedFly": "fly-1",
+    "appliedLoad": "0.4",
+    "plateCount": "2",
+    "totalPlateCount": "8",
+    "weightVisualization": "{\"station_id\":\"station-2\",\"load\":0.4,\"platesPerStack\":2,\"totalPlates\":8,\"stacks\":4}",
+    "overlayObserved": "91",
+    "overlayPositive": "91",
+    "overlayRegistration": "authored body placement of compact cells and actuator routes; not measured or validated anatomical registration"
+  },
+  "page_errors": [],
+  "sent_commands": []
+}

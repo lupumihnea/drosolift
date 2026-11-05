@@ -1,0 +1,2 @@
+# Optional reproducible scientific figure export; not needed to run DrosoLift.
+matplotlib>=3.9,<4

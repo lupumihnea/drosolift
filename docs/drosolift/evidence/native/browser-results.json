@@ -1,0 +1,227 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+    "logical_cpus": 12,
+    "browser_version": "157.0.8103.15",
+    "software_rendering_requested": false
+  },
+  "url": "http://127.0.0.1:8000",
+  "started_utc": "2026-11-04T19:13:49Z",
+  "graphics": {
+    "backend": "WebGL2",
+    "vendor": "Google Inc. (NVIDIA)",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 6GB (0x00001C03) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "hardwareConcurrency": 12,
+    "devicePixelRatio": 1,
+    "sceneCanvas": [
+      749,
+      354
+    ]
+  },
+  "pause": {
+    "step": 656,
+    "elapsed": 65.60000000000055,
+    "joint": 0.20693576086853105,
+    "frozen_ms": 600
+  },
+  "observer_invariance": {
+    "camera_modes": 3,
+    "xray": true,
+    "rapid_xray_toggles": 4,
+    "neuron_id": 10783,
+    "all_exact_readings": 91
+  },
+  "load": {
+    "from": 0.6,
+    "to": 0.8,
+    "pending": {
+      "type": "command_ack",
+      "command_id": "efe29e36-7500-4864-9e57-f80444f372ed",
+      "command": "set_load",
+      "status": "pending",
+      "effective_step": null,
+      "run_id": "63b11876-0627-4ba9-8353-7d271f709185"
+    },
+    "applied": {
+      "type": "command_ack",
+      "command_id": "efe29e36-7500-4864-9e57-f80444f372ed",
+      "command": "set_load",
+      "status": "applied",
+      "effective_step": 705,
+      "run_id": "63b11876-0627-4ba9-8353-7d271f709185"
+    },
+    "duplicate_retry": true
+  },
+  "actual_telemetry": {
+    "body_id": 10783,
+    "sample_count": 96,
+    "distinct_rates": 28,
+    "rep_start": 15,
+    "rep_end": 16
+  },
+  "performance": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "warmup_ms": 1500,
+    "sample_ms": 10000,
+    "loops": [
+      {
+        "name": "Re",
+        "source": "function Re(e){let t=U?Math.min(.2,(e-U)/1e3):0;U=e,L&&R&&B.length&&(z=Math.min(B.at(-1).elapsed,z+t",
+        "frames": 1437,
+        "span_ms": 10000.399999999998,
+        "fps": 143.59425622975084,
+        "max_gap_ms": 7.100000000002183
+      },
+      {
+        "name": "next",
+        "source": "() => {\n              if (aborted)\n                return;\n              try {\n                const",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "e",
+        "source": "(t,n)=>{this._requestId=this._context.requestAnimationFrame(e),this.renderer._inspector.isRunning&&t",
+        "frames": 1437,
+        "span_ms": 10000.399999999998,
+        "fps": 143.59425622975084,
+        "max_gap_ms": 7.100000000002183
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "e",
+        "source": "(t,n)=>{this._requestId=this._context.requestAnimationFrame(e),this.renderer._inspector.isRunning&&t",
+        "frames": 1437,
+        "span_ms": 10000.399999999998,
+        "fps": 143.59425622975084,
+        "max_gap_ms": 7.100000000002183
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "a",
+        "source": "()=>{n.getProgramParameter(o,i.COMPLETION_STATUS_KHR)?(this._completeCompile(e,r),t()):requestAnimat",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "next",
+        "source": "() => {\n              if (aborted)\n                return;\n              try {\n                const",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "next",
+        "source": "() => {\n              if (aborted)\n                return;\n              try {\n                const",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "next",
+        "source": "() => {\n              if (aborted)\n                return;\n              try {\n                const",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      },
+      {
+        "name": "next",
+        "source": "() => {\n              if (aborted)\n                return;\n              try {\n                const",
+        "frames": 0,
+        "span_ms": 0,
+        "fps": 0,
+        "max_gap_ms": null
+      }
+    ],
+    "qualification": "Observed requestAnimationFrame callbacks in real render loops; GPU completion time not measured."
+  },
+  "reconnect": {
+    "paused_step": 821,
+    "run_id": "63b11876-0627-4ba9-8353-7d271f709185",
+    "exercise_preserved": true
+  },
+  "responsive": [
+    390,
+    320
+  ],
+  "page_errors": [],
+  "renderer_unavailable": {
+    "received_readings": 91,
+    "pause_works": true,
+    "load_reachable": true
+  },
+  "webgpu_attempt": {
+    "initialized_backend": "WebGPU",
+    "navigator_gpu": true
+  },
+  "demo": {
+    "actual_browser": true,
+    "interaction_seconds": 20.094,
+    "repetitions_seen": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "file": "drosolift-live-demo.webm",
+    "bytes": 4222289,
+    "sha256": "afcbd660014da5656741d44fd91a86bfceca00de78df91774dc2ee60de5de2c1"
+  },
+  "status": "passed"
+}

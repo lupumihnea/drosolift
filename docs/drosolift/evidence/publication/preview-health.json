@@ -1,0 +1,20 @@
+{
+  "health": {
+    "status": "ready",
+    "mode": "isolated-sessions",
+    "active_sessions": 0,
+    "max_active": 4
+  },
+  "pid": 13588,
+  "javascript_mime": "text/javascript",
+  "legacy_health": {
+    "status": "ready",
+    "schema": 3,
+    "backend": "compact",
+    "dataset": "male-cns:v1.0",
+    "experiment": "gym",
+    "population": 3
+  },
+  "legacy_pid_preserved": 43100,
+  "public_url": "http://127.0.0.1:8003"
+}

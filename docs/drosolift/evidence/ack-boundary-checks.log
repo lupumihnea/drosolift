@@ -1,0 +1,36 @@
+[Local filesystem path omitted from this publication copy.]
+ok
+[Local filesystem path omitted from this publication copy.]
+ok
+test_exercise_command_rejects_unknown_kind_identity_and_extra_fields (tests.frontend.test_gym_controls.GymControlProtocolTest.test_exercise_command_rejects_unknown_kind_identity_and_extra_fields) ... ok
+test_load_command_rejects_coercion_nonfinite_and_unbounded_values (tests.frontend.test_gym_controls.GymControlProtocolTest.test_load_command_rejects_coercion_nonfinite_and_unbounded_values) ... ok
+[Local filesystem path omitted from this publication copy.]
+ok
+test_extensions_do_not_reach_legacy_observers (tests.frontend.test_gym_controls.GymControlsTest.test_extensions_do_not_reach_legacy_observers) ... ok
+test_initial_metadata_retains_seed_clock_and_official_provenance (tests.frontend.test_gym_controls.GymControlsTest.test_initial_metadata_retains_seed_clock_and_official_provenance) ... ok
+test_invalid_loads_do_not_mutate_state (tests.frontend.test_gym_controls.GymControlsTest.test_invalid_loads_do_not_mutate_state) ... ok
+test_load_is_deferred_to_full_return_and_retry_is_applied_once (tests.frontend.test_gym_controls.GymControlsTest.test_load_is_deferred_to_full_return_and_retry_is_applied_once) ... ok
+test_pause_ack_and_reconnect_preserve_exact_state (tests.frontend.test_gym_controls.GymControlsTest.test_pause_ack_and_reconnect_preserve_exact_state) ... ok
+test_midstroke_request_waits_for_return_and_preserves_completed_work (tests.world.test_exercise_setup.ExerciseSetupTest.test_midstroke_request_waits_for_return_and_preserves_completed_work) ... ok
+test_partial_return_and_setup_cannot_create_rep_or_reward (tests.world.test_exercise_setup.ExerciseSetupTest.test_partial_return_and_setup_cannot_create_rep_or_reward) ... ok
+test_same_exercise_is_noop_and_occupied_target_cannot_be_stolen (tests.world.test_exercise_setup.ExerciseSetupTest.test_same_exercise_is_noop_and_occupied_target_cannot_be_stolen) ... ok
+test_setup_at_rest_imposes_received_pose_without_work_or_counter_changes (tests.world.test_exercise_setup.ExerciseSetupTest.test_setup_at_rest_imposes_received_pose_without_work_or_counter_changes) ... ok
+test_task_bias_changes_sides_and_actual_travel_load_change_brightness (tests.world.test_apparatus_feedback.ApparatusFeedbackTest.test_task_bias_changes_sides_and_actual_travel_load_change_brightness) ... ok
+test_zero_travel_recovery_detached_and_disabled_are_defined (tests.world.test_apparatus_feedback.ApparatusFeedbackTest.test_zero_travel_recovery_detached_and_disabled_are_defined) ... ok
+test_contact_and_exclusive_occupancy_are_required (tests.world.test_equipment.EquipmentPhysicsTest.test_contact_and_exclusive_occupancy_are_required) ... ok
+test_continuous_training_recovers_while_gripping_then_starts_the_next_set (tests.world.test_equipment.EquipmentPhysicsTest.test_continuous_training_recovers_while_gripping_then_starts_the_next_set) ... ok
+test_docking_constraint_cannot_pull_a_body_from_outside_contact (tests.world.test_equipment.EquipmentPhysicsTest.test_docking_constraint_cannot_pull_a_body_from_outside_contact) ... ok
+test_heavier_load_reduces_displacement_for_the_same_drive (tests.world.test_equipment.EquipmentPhysicsTest.test_heavier_load_reduces_displacement_for_the_same_drive) ... ok
+test_long_timestep_preserves_stroke_boundaries_and_bounded_pose (tests.world.test_equipment.EquipmentPhysicsTest.test_long_timestep_preserves_stroke_boundaries_and_bounded_pose) ... ok
+test_nonfinite_or_nonpositive_steps_leave_state_untouched (tests.world.test_equipment.EquipmentPhysicsTest.test_nonfinite_or_nonpositive_steps_leave_state_untouched) ... ok
+test_partial_stroke_and_return_does_not_count (tests.world.test_equipment.EquipmentPhysicsTest.test_partial_stroke_and_return_does_not_count) ... ok
+test_pending_load_changes_at_bottom_after_a_complete_return (tests.world.test_equipment.EquipmentPhysicsTest.test_pending_load_changes_at_bottom_after_a_complete_return) ... ok
+test_release_racks_partial_weight_without_reward_and_contact_can_redock (tests.world.test_equipment.EquipmentPhysicsTest.test_release_racks_partial_weight_without_reward_and_contact_can_redock) ... ok
+test_three_complete_strokes_reward_exactly_one_set_then_release (tests.world.test_equipment.EquipmentPhysicsTest.test_three_complete_strokes_reward_exactly_one_set_then_release) ... ok
+test_upward_loaded_motion_earns_work_but_no_rep_until_full_return (tests.world.test_equipment.EquipmentPhysicsTest.test_upward_loaded_motion_earns_work_but_no_rep_until_full_return) ... ok
+test_zero_drive_never_creates_joint_work_reps_or_reward (tests.world.test_equipment.EquipmentPhysicsTest.test_zero_drive_never_creates_joint_work_reps_or_reward) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 24.589s
+
+OK

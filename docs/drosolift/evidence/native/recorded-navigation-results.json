@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "recorded_observer_tabs": {
+    "tabs": [
+      "neurons",
+      "workout",
+      "replay"
+    ],
+    "same_step": 78,
+    "websockets": 0
+  },
+  "documented_server": {
+    "url": "http://127.0.0.1:8010",
+    "default_recorded": true,
+    "websockets": 0,
+    "javascript_mime_verified": true
+  },
+  "page_errors": []
+}

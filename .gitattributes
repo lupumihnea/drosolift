@@ -1,0 +1,7 @@
+# The public snapshot has byte-level source/provenance hashes. Preserve its exact
+# bytes across Windows/Linux checkouts, including existing upstream line endings.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Generated evidence retains the exact captured log/SVG bytes, including tool
+# progress-line padding. Source code and authored documentation remain checked.
+docs/drosolift/evidence/** -whitespace
+frontend/web/public/samples/*.csv -whitespace

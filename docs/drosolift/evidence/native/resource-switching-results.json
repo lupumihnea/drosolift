@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "resource_switching": {
+    "baseline": {
+      "scene": {
+        "backend": "WebGL2",
+        "geometries": 89,
+        "textures": 9,
+        "estimatedBytes": 45758411,
+        "drawCalls": 121,
+        "triangles": 42907,
+        "points": 0,
+        "lines": 128
+      },
+      "neuron-map": {
+        "backend": "WebGL2",
+        "geometries": 5,
+        "textures": 2,
+        "estimatedBytes": 3349121,
+        "drawCalls": 5,
+        "triangles": 1,
+        "points": 139723,
+        "lines": 22413
+      }
+    },
+    "after_cycles": [
+      {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 89,
+          "textures": 9,
+          "estimatedBytes": 45758411,
+          "drawCalls": 121,
+          "triangles": 42907,
+          "points": 0,
+          "lines": 128
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 5,
+          "textures": 2,
+          "estimatedBytes": 3349121,
+          "drawCalls": 5,
+          "triangles": 1,
+          "points": 139723,
+          "lines": 22413
+        }
+      },
+      {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 89,
+          "textures": 9,
+          "estimatedBytes": 45758411,
+          "drawCalls": 121,
+          "triangles": 42907,
+          "points": 0,
+          "lines": 128
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 5,
+          "textures": 2,
+          "estimatedBytes": 3349121,
+          "drawCalls": 5,
+          "triangles": 1,
+          "points": 139723,
+          "lines": 22413
+        }
+      },
+      {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 89,
+          "textures": 9,
+          "estimatedBytes": 45758411,
+          "drawCalls": 121,
+          "triangles": 42907,
+          "points": 0,
+          "lines": 128
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 5,
+          "textures": 2,
+          "estimatedBytes": 3349121,
+          "drawCalls": 5,
+          "triangles": 1,
+          "points": 139723,
+          "lines": 22413
+        }
+      },
+      {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 89,
+          "textures": 9,
+          "estimatedBytes": 45758411,
+          "drawCalls": 121,
+          "triangles": 42907,
+          "points": 0,
+          "lines": 128
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 5,
+          "textures": 2,
+          "estimatedBytes": 3349121,
+          "drawCalls": 5,
+          "triangles": 1,
+          "points": 139723,
+          "lines": 22413
+        }
+      },
+      {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 89,
+          "textures": 9,
+          "estimatedBytes": 45758411,
+          "drawCalls": 121,
+          "triangles": 42907,
+          "points": 0,
+          "lines": 128
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 5,
+          "textures": 2,
+          "estimatedBytes": 3349121,
+          "drawCalls": 5,
+          "triangles": 1,
+          "points": 139723,
+          "lines": 22413
+        }
+      }
+    ],
+    "cycles": 5,
+    "qualification": "Three.js renderer object/draw counters; VRAM bytes not measured"
+  },
+  "source": "Captured browser renderer counters; equality rechecked from saved samples."
+}

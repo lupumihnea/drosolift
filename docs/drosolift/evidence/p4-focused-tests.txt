@@ -1,0 +1,10 @@
+test_deterministic_repeats_preserve_every_mechanics_sample (tests.test_bench_comparison.BenchComparisonTest.test_deterministic_repeats_preserve_every_mechanics_sample) ... ok
+test_heavier_load_changes_mechanics_under_identical_frozen_drive (tests.test_bench_comparison.BenchComparisonTest.test_heavier_load_changes_mechanics_under_identical_frozen_drive) ... ok
+test_maximum_travel_includes_top_stop_between_saved_samples (tests.test_bench_comparison.BenchComparisonTest.test_maximum_travel_includes_top_stop_between_saved_samples) ... ok
+test_periodic_has_identical_commanded_positive_impulse_per_cycle (tests.test_bench_comparison.BenchComparisonTest.test_periodic_has_identical_commanded_positive_impulse_per_cycle) ... ok
+test_zero_command_has_no_positive_work_or_completed_repetitions (tests.test_bench_comparison.BenchComparisonTest.test_zero_command_has_no_positive_work_or_completed_repetitions) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.011s
+
+OK

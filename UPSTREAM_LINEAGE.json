@@ -1,0 +1,27 @@
+{
+  "audited_upstream_revision": "2c5a03aa90f01048f011e13546b4d7fffc693945",
+  "documentation_policy": "Exported documentation/evidence omits local machine paths; transformed files retain their original SHA256 in the manifest.",
+  "excluded_asset_sha256": [
+    "2c7a3398c2b0f9fdae6f62351379b4ea5a01d7fcf6f3a1d582d4c5106ab75b57"
+  ],
+  "format": "drosolift-public-source-lineage",
+  "history_policy": "Fresh source snapshot; original upstream history preserved in the local implementation checkout.",
+  "implementation_head": "5bcf099861336ebba659ec1ca8a1a4fa16c2f823",
+  "notices": [
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "licenses/three-MIT.txt",
+    "frontend/web/src/assets/fly/ATTRIBUTION.md",
+    "frontend/web/src/assets/fly/source-manifest.json",
+    "frontend/web/src/assets/fly/walking-source.json",
+    "data/malecns/v1.0/source-manifest.json",
+    "docs/drosolift/SOURCES.md",
+    "docs/drosolift/ASSETS.md",
+    "docs/drosolift/MORPHOLOGY.md"
+  ],
+  "reason": "Historical walking-fly.glb has no supplied public redistribution license; excluded with legacy renders.",
+  "uncommitted_changes_included": false,
+  "upstream_repository": "https://github.com/tiredbooy/Fruit-Fly",
+  "version": 1
+}

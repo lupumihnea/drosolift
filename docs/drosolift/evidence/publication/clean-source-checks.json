@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "Local attributed review snapshot and fresh clone; no remote publication or deployment",
+  "review_directory": "../public-source-review-20261105a",
+  "clone_directory": "../public-source-clean-check",
+  "review_commit": "abcf7108baa533b27ccfaaf42b7b1e399552c940",
+  "review_author": "Lupu Mihnea <145950114+lupumihnea@users.noreply.github.com>",
+  "manifest_sha256": "51383e6dfaa2a25f9296f02aefe5b657c3fe14ef2d06e81a6674730d425304f7",
+  "lineage_sha256": "21d8746b5098bba50f48275ddcdc2c4cb824661a3c4e941530708a16ac58273b",
+  "manifest_files": 454,
+  "manifest_total_bytes": 62514745,
+  "excluded_inventory_files": 28,
+  "sanitized_documentation_files": 14,
+  "manifest_verified_after_clone_before_install": true,
+  "git_byte_policy": "Per-command core.autocrlf=false during initial add and clone; all manifest bytes verified in clone",
+  "restricted_asset_present": false,
+  "legacy_history_copied": false,
+  "original_history_preserved": true,
+  "frozen_install": {
+    "runtime": "Bun 1.4.4",
+    "packages": 29,
+    "seconds": 21.89,
+    "exit_code": 0
+  },
+  "frontend_tests": {
+    "passed": 67,
+    "failed": 0,
+    "assertions": 1632,
+    "test_files": 22,
+    "seconds": 4.14,
+    "exit_code": 0
+  },
+  "build_public": {"typecheck": "passed", "modules": 52, "index_present": true, "exit_code": 0},
+  "build_replay": {"typecheck": "passed", "modules": 52, "index_present": true, "exit_code": 0},
+  "logs": [
+    "clean-source-manifest.log",
+    "clean-source-install.log",
+    "clean-source-tests.log",
+    "clean-source-public-build.log",
+    "clean-source-replay-build.log"
+  ],
+  "limitation": "This earlier stable review snapshot proves the product build; root produces a final fresh publication snapshot after final documentation/evidence and the implementation commit. The later .gitattributes and exporter/docs hardening are included in that final snapshot."
+}

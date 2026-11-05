@@ -1,0 +1,90 @@
+{
+  "archive": "drosolift-publication-replay.zip",
+  "sha256": "e6ab5aad137a5e24c0efaebd51df89d3035bf6b4261182870d2ca292e26269f4",
+  "bytes": 15143226,
+  "browser": "<local-filesystem path omitted>",
+  "software_rendering_requested": false,
+  "checks": [
+    {
+      "path": "/",
+      "exercise": "bench_press",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 2,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/",
+      "exercise": "bicep_curl",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 3,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/demo/",
+      "exercise": "bench_press",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 2,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/demo/",
+      "exercise": "bicep_curl",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 3,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    }
+  ],
+  "entries": 69,
+  "manifest_verified": 68,
+  "restricted_assets": false,
+  "samples": {
+    "bench_press": {
+      "frames": 201,
+      "final_repetitions": 5,
+      "feedback_profile": "apparatus-visual-v1"
+    },
+    "bicep_curl": {
+      "frames": 201,
+      "final_repetitions": 6,
+      "feedback_profile": "apparatus-visual-v1"
+    }
+  },
+  "browser_version": "157.0.8103.15",
+  "javascript_mime": {
+    "/": [
+      "text/javascript"
+    ],
+    "/demo/": [
+      "text/javascript"
+    ]
+  },
+  "status": "passed"
+}

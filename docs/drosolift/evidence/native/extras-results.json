@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "documented_server": {
+    "url": "http://127.0.0.1:8010",
+    "default_recorded": true,
+    "websockets": 0,
+    "javascript_mime_verified": true
+  },
+  "recorded_observer_tabs": {
+    "tabs": [
+      "neurons",
+      "workout",
+      "replay"
+    ],
+    "same_step": 78,
+    "websockets": 0
+  },
+  "local_video": {
+    "fixture": "actual DrosoLift app recording; no supplied athlete video",
+    "offset_seconds": 2,
+    "expected_video_seconds": 6.520000000000003,
+    "actual_video_seconds": 6.52,
+    "local_blob": true
+  },
+  "network_reconnect": {
+    "paused_step": 6668,
+    "same_full_snapshot": true,
+    "same_run_and_loads": true
+  },
+  "population": {
+    "counts": [
+      1,
+      10,
+      1
+    ],
+    "paused_setup_preserves_step": true,
+    "selected_fly": "fly-2",
+    "selected_station": null,
+    "selected_load": null,
+    "curl_title": null,
+    "qualification": "Previously removed identities retain physical state/recovery; readding does not promise a new grip."
+  },
+  "page_errors": []
+}

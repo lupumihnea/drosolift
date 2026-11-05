@@ -1,0 +1,25 @@
+bun test v1.4.4 (38afee6c8)
+
+src\curl-support.test.ts:
+(pass) the four free curl feet meet their authored sloped supports without moving root or grips [111.51ms]
+
+src\equipment-scene.test.ts:
+(pass) weights and grips share the actual station stroke and world transform [184.83ms]
+
+src\equipment-weight.test.ts:
+(pass) an applied 0.2 load step adds symmetric discs without moving a bar or its grip targets [131.84ms]
+(pass) plate representation is bounded, stable under retries and refuses nonfinite loads [109.79ms]
+
+src\motor-overlay.test.ts:
+(pass) X-ray keeps real IDs, rates and official edges on an explicitly illustrative body layout [5.02ms]
+
+src\procedural-fly.test.ts:
+(pass) the shipped fly has redistributable original geometry and six articulated legs [34.01ms]
+(pass) replacement rig keeps bench/curl grips at both endpoints and independent pose state [40.61ms]
+(pass) the shipped replacement walks from received displacement and shares only immutable mesh resources [31.81ms]
+(pass) authored bench support folds four resting legs toward the pad and restores wings off the bench [31.61ms]
+
+ 9 pass
+ 0 fail
+ 142 expect() calls
+Ran 9 tests across 5 files. [914.00ms]

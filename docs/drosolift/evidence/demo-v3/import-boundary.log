@@ -1,0 +1,3 @@
+Direct brain/world import boundary check
+Patterns: brain imports world; world imports brain
+Matches: 0

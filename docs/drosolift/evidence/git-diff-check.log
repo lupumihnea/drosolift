@@ -1,0 +1,6 @@
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'AGENTS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'THIRD_PARTY_NOTICES.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/web/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/test_main.py', LF will be replaced by CRLF the next time Git touches it
+git diff --check exit code: 0

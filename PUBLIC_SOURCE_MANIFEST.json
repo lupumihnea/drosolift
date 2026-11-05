@@ -1,0 +1,2539 @@
+{
+  "exclusions": [
+    {
+      "path": ".impeccable/config.json",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".impeccable/design.json",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".impeccable/surfaces/frontend-web-index-html.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/.gitignore",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/brain/core.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/conventions.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/core.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/frontend/core.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/frontend_observatory.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/memory_maintenance.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/simulation/core.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/suggested_commands.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/task_completion.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/tech_stack.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/memories/world/core.md",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": ".serena/project.yml",
+      "reason": "private tool/runtime state or Git history"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-browser.json",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-download-verify.txt",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-downloader-tests.txt",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-frontend-tests.txt",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-portability-fix.txt",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-python-tests.txt",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-telemetry.json",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-workout-1280.png",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/drosolift/evidence/p0-workout-1920.png",
+      "reason": "legacy baseline evidence"
+    },
+    {
+      "path": "docs/media/flybrain-lab-preview.jpg",
+      "reason": "legacy renders without standalone public rig permission"
+    },
+    {
+      "path": "docs/media/flybrain-lab-preview.mp4",
+      "reason": "legacy renders without standalone public rig permission"
+    },
+    {
+      "path": "frontend/web/src/assets/fly/walking-fly.glb",
+      "reason": "legacy rig without standalone public redistribution license"
+    }
+  ],
+  "files": [
+    {
+      "bytes": 3237,
+      "path": ".21st/DESIGN.md",
+      "sha256": "e239ec10dab207cdf9ab4fb0d4a0ddab5f1d8267dea24af0a871c994639bb80e"
+    },
+    {
+      "bytes": 5486,
+      "path": ".21st/design.json",
+      "sha256": "a45b74035c15e9cc8cacdb8bfbe5726ce1d56ea8a345e209471901f847d6769f"
+    },
+    {
+      "bytes": 237,
+      "path": ".dockerignore",
+      "sha256": "44f4c4c79863f05c7eff257a15ed3da9212c5c57bbb797432edb105cdccfd07f"
+    },
+    {
+      "bytes": 479,
+      "path": ".gitattributes",
+      "sha256": "db0fa6827c458748d7a4a666b8dac49b0bc439c29bd2b22b55a5bd4c740af4fe"
+    },
+    {
+      "bytes": 1842,
+      "path": ".github/workflows/ci.yml",
+      "sha256": "6780a95ec82eb7f3e3d8838a7dd81f43ca25ddfabd42483f99890d094310812e"
+    },
+    {
+      "bytes": 309,
+      "path": ".gitignore",
+      "sha256": "056007998abf1b725549662adf021c6e2177599b0b99ce1f8ef46bc2edab0f07"
+    },
+    {
+      "bytes": 15543,
+      "path": "AGENTS.md",
+      "sha256": "c86b80a6ae4e7d52521fe9c71226b925e5ee97abccc99d8c9265d341fffda0aa"
+    },
+    {
+      "bytes": 13680,
+      "path": "DESIGN.md",
+      "sha256": "1f144dee273e1adf34f83c7a1ba056468a8d882ef3061714f8526dab7c75890c"
+    },
+    {
+      "bytes": 1270,
+      "path": "Dockerfile",
+      "sha256": "adb32e20ab344378a106ef186016246d9441c1ace0947ec46d69ab1b316aac56"
+    },
+    {
+      "bytes": 11560,
+      "path": "LICENSE",
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "bytes": 3843,
+      "path": "Makefile",
+      "sha256": "b4ea1bfc413367a3772ab32dfda404af27729ccc16870c738dc8ff84b314d1bd"
+    },
+    {
+      "bytes": 305,
+      "path": "NOTICE",
+      "sha256": "4c6750dcf55ec2b57b9928aaddb718b32e3ae115590eda4836fe72d8aa9654af"
+    },
+    {
+      "bytes": 5018,
+      "path": "PRODUCT.md",
+      "sha256": "f963f9791ed2a448c3ed15b17cef9d6dbb0613cfe65417e1ec743f8c58e80b73"
+    },
+    {
+      "bytes": 17496,
+      "path": "README.md",
+      "sha256": "b90824f2bd165301bc69329395b2ed07815b4cf00f6aaaf69e8d03203a7d7646"
+    },
+    {
+      "bytes": 3743,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "08c209ebf04f78438feec733389ab257299dfcc965284e7613d55632d892389a"
+    },
+    {
+      "bytes": 1230,
+      "path": "UPSTREAM_LINEAGE.json",
+      "sha256": "762bcee49cf03b8686fc3f73124458795fe27f2b21e1f9ae5c438da950583fb8"
+    },
+    {
+      "bytes": 2,
+      "path": "brain/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 3875,
+      "path": "brain/circuit.py",
+      "sha256": "e0e4877d048245b0e9082dcfa6052cc29212bf1d996863e84d5b2575633ad420"
+    },
+    {
+      "bytes": 11566,
+      "path": "brain/data.py",
+      "sha256": "e9c5fcb25cd9ce5357a64e1dcbd60a78dc97b5c6c865ca4413806e6c3effb259"
+    },
+    {
+      "bytes": 6923,
+      "path": "brain/full_graph.py",
+      "sha256": "0664d31e8f5fd79f057eaaf13c07bfce7f694f55cae954d38b508f663a484a66"
+    },
+    {
+      "bytes": 9098,
+      "path": "brain/full_graph_builder.py",
+      "sha256": "70cb10a2ed35d61b23130d6a0c0a9d66f103b152f02523db1ac8d1dbc6d3afd2"
+    },
+    {
+      "bytes": 5218,
+      "path": "brain/full_network.py",
+      "sha256": "a882661be760a66ed5cf7700f12fe205263a2c0e3fe5ded6a979a13aa2a85a61"
+    },
+    {
+      "bytes": 2055,
+      "path": "brain/gym.py",
+      "sha256": "f51130dcf07cae7911aaf26674ea95ee6e7f32ac2a29cdc5f3b4a1d9b3eba9aa"
+    },
+    {
+      "bytes": 7848,
+      "path": "brain/gym_circuit.py",
+      "sha256": "2dd6cbd3f8154cfbd7e7098458d5bfaa9d80018f193f8d2a4a89fc9d9f3b3c8b"
+    },
+    {
+      "bytes": 5295,
+      "path": "brain/gym_selection.py",
+      "sha256": "aa58eb619d6efb9b472e460017ae9221f61638a4e4807cc6fb35b0af284e50fd"
+    },
+    {
+      "bytes": 13785,
+      "path": "brain/learning.py",
+      "sha256": "915b38a3b133f4f95d99c2176186c90f7ba376268b62eaeac3816e6f87de8dfd"
+    },
+    {
+      "bytes": 7619,
+      "path": "brain/memory.py",
+      "sha256": "844d03bb4002817ab0743cb899f3fe8326356a00f8559cc219ea402412e5e875"
+    },
+    {
+      "bytes": 198,
+      "path": "brain/modulation.py",
+      "sha256": "933265a1d323e608d61de4eb9835f5cd213ca96cb1261dc0116dbe9a3c6739d6"
+    },
+    {
+      "bytes": 5245,
+      "path": "brain/network.py",
+      "sha256": "6498428520d391ce4cf655a7174277f9ad25c1b77901480fef5d8bb95d7b238a"
+    },
+    {
+      "bytes": 292,
+      "path": "brain/neuron.py",
+      "sha256": "4b0ec540fb6af4ae45f2989e3e07e2b303f17747c9df64b6c1f8e418c3eacc0d"
+    },
+    {
+      "bytes": 928,
+      "path": "brain/readout.py",
+      "sha256": "1db7b54e5da79832106fe5660f370ba360018b632c4bfcf8195ca9d28d0ca2dd"
+    },
+    {
+      "bytes": 2286,
+      "path": "brain/sensory.py",
+      "sha256": "ffb21ce6000b61b8c5e0a9ab1359bf46f32b860edec1a4a9dd1d4d6f124812ad"
+    },
+    {
+      "bytes": 530,
+      "path": "compose.yaml",
+      "sha256": "85ca39e997377f135520b67bd72cc92c2fe562e2547cef64eecb21dc823e08c0"
+    },
+    {
+      "bytes": 25,
+      "path": "data/.gitignore",
+      "sha256": "4e5f2232428bbd604d6a5d5e9f34184ea4e87780fb220fc9b6f24b494853aeee"
+    },
+    {
+      "bytes": 2,
+      "path": "data/.gitkeep",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 983,
+      "path": "data/circuits/apparatus-visual-v1.json",
+      "sha256": "a14d45499c99e7c528f473b68a9e4d70fef7234743d41d22161fb2e176b6e2a3"
+    },
+    {
+      "bytes": 7303,
+      "path": "data/circuits/foraging-v1-learning.json",
+      "sha256": "22ca2efb28f6a3012ee962dfc70b0bebab4d8c225ce5c404447d6c88b52cb9dc"
+    },
+    {
+      "bytes": 4793,
+      "path": "data/circuits/foraging-v1-runtime.json",
+      "sha256": "d2e6acc5fc93b53b6e3ecaa91ad13d3ee754b4961c1a67278bf77c32705145d9"
+    },
+    {
+      "bytes": 2054,
+      "path": "data/circuits/foraging-v1.json",
+      "sha256": "44b5f396c384ba0e16d6edba47eb8f7c7b14b805f78def0d357dbb4b6dcf60a8"
+    },
+    {
+      "bytes": 11756,
+      "path": "data/circuits/gym-v1-learning.json",
+      "sha256": "c6eb4d21ddc75440d01a3df8e75763d9dea357a993e1b6752cafb735d3d18f3f"
+    },
+    {
+      "bytes": 13091,
+      "path": "data/circuits/gym-v1-runtime.json",
+      "sha256": "54081369f125a80ba8f7166342b5b5abd19be9d446540ea8e603c6b08e9d27cf"
+    },
+    {
+      "bytes": 928,
+      "path": "data/malecns/v1.0/source-manifest.json",
+      "sha256": "41c519e208f1db405c3d68bcae45521786ba39bb9140e51b5edc2fd00f8bdaae"
+    },
+    {
+      "bytes": 20071,
+      "path": "docs/architecture.md",
+      "sha256": "84dc4847a618f126cb928ac25f5a919f62ad8dc579041162f0838aa5a82d88b5"
+    },
+    {
+      "bytes": 2993,
+      "path": "docs/decisions/0001-learning-memory.md",
+      "sha256": "59174e0e34edbb1b594ae89db788b95bb458c41797664876b9f25e82200e19c6"
+    },
+    {
+      "bytes": 2057,
+      "path": "docs/decisions/0002-full-connectome-engine.md",
+      "sha256": "d250613b0809a4581b86dc25689913243ba70d1dd79297a289dce99f4e2d424f"
+    },
+    {
+      "bytes": 1681,
+      "path": "docs/decisions/0003-threejs-observatory.md",
+      "sha256": "8abcb4edb5de8e603bcd0dcadc6f9e4f3dd2c206d495baf2bc1aced795ca4de2"
+    },
+    {
+      "bytes": 2325,
+      "path": "docs/decisions/0004-webgpu-ct-fly.md",
+      "sha256": "3369cfb3028bad016d6de49ae7abfffdbc9f4fcd811071782e691a6a07fc0a30"
+    },
+    {
+      "bytes": 5033,
+      "path": "docs/decisions/0005-gym-and-fly-observation.md",
+      "sha256": "66890e0395b4a4ccce7be901b86f009bb74d32c1bc7db0e3caf431b1dc985e7d"
+    },
+    {
+      "bytes": 4586,
+      "path": "docs/decisions/0006-articulated-gym-equipment.md",
+      "sha256": "1ca34ebdae77875780c3c8a0c586e31da98b62f29d7bfe7573964be639d08c9b"
+    },
+    {
+      "bytes": 2441,
+      "path": "docs/decisions/0007-drosolift-observatory.md",
+      "sha256": "905e353564fac04a9d788c984490e62664ee4b8455cfb399b2527bca2cf77931"
+    },
+    {
+      "bytes": 2293,
+      "path": "docs/decisions/0008-session-checkpoints.md",
+      "sha256": "b31c16f412dfba391fded18bbfe646aab37253d9bea636fbe75336afc4857983"
+    },
+    {
+      "bytes": 1495,
+      "path": "docs/decisions/0009-public-source-and-sessions.md",
+      "sha256": "4895afb0fc7fa19c3eb9d9864085d18f9952659f43d413feeb02105e4701f717"
+    },
+    {
+      "bytes": 2987,
+      "path": "docs/drosolift/AGENTS.md",
+      "sha256": "ca36a7892e97cb3fb14f0d127328672fd7d09f123487c39e4df7f6e3878e1a4d"
+    },
+    {
+      "bytes": 15664,
+      "path": "docs/drosolift/ASSETS.md",
+      "sha256": "01c27905737f699788668c2b2dde6d52def5effa9d0a9ec21a899d87f5e61525"
+    },
+    {
+      "bytes": 6950,
+      "path": "docs/drosolift/BASELINE.md",
+      "sha256": "db694058ffbaa8b612619cf41a0a4f8d6f2548b208290a02bcb6bc4f820b7e78"
+    },
+    {
+      "bytes": 9431,
+      "path": "docs/drosolift/CODEX_PROMPT.md",
+      "sha256": "44257b3cd4d304e3e1f48b202d895854f1f6277ddd11fb59424e41228ea840ff"
+    },
+    {
+      "bytes": 5102,
+      "path": "docs/drosolift/COMMAND_JOURNAL.md",
+      "sha256": "b303abcc0c929609f41884be69d430f63cface1520c3963e8be81650f072023e",
+      "source_sha256": "09a66820b31b713a7d1131c38e206be701bf05c3ec41b3041b8714316f370e91",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 5727,
+      "path": "docs/drosolift/COMPARISON.md",
+      "sha256": "0588f6568cdd5369ecd738dbcf1d77b0a76e1610bc053c7608e8a7b2c1e8aa05"
+    },
+    {
+      "bytes": 6877,
+      "path": "docs/drosolift/DEMO_UPGRADE.md",
+      "sha256": "158179ad5c4fbf91ead31613b008654fe16e10c058f4955e1d3a39dbafc64ad0"
+    },
+    {
+      "bytes": 7013,
+      "path": "docs/drosolift/EXERCISES.md",
+      "sha256": "92d435db59f465828745d3db0d36b533e6df5dbef4508abb1eaa0d890c257cb3"
+    },
+    {
+      "bytes": 37569,
+      "path": "docs/drosolift/IMPLEMENTATION_PLAN.md",
+      "sha256": "c6bdf1e28968f5a07a8a94b37e52968f50aca30a977b80ab57771b8071fb0c3f"
+    },
+    {
+      "bytes": 12077,
+      "path": "docs/drosolift/MORPHOLOGY.md",
+      "sha256": "51b65019bad9c77e6a92ac94dedc43464e8e619b14f343a716565986f504000c"
+    },
+    {
+      "bytes": 9170,
+      "path": "docs/drosolift/PROTOCOL.md",
+      "sha256": "6d52ddb6639234033cd4da8b758934cb4a091e219fd35d3ec13fe10c9b8acab3"
+    },
+    {
+      "bytes": 7291,
+      "path": "docs/drosolift/PUBLIC_SESSIONS.md",
+      "sha256": "b49927a1b5cb9dd9bff1a4e81b2d97020beb945860c6c6b2f04a8d0f823f9431"
+    },
+    {
+      "bytes": 5747,
+      "path": "docs/drosolift/PUBLIC_SOURCE_EXPORT.md",
+      "sha256": "6bbe4f12ff44dc444e7ea7094faee995c1073e104ed3e84915ea9305f56d78a3"
+    },
+    {
+      "bytes": 9336,
+      "path": "docs/drosolift/QA.md",
+      "sha256": "edb0f52d1bf4a0494e7de6d88944a24a1b63c8ec84745e814327531f90f8beba"
+    },
+    {
+      "bytes": 6200,
+      "path": "docs/drosolift/RELEASE.md",
+      "sha256": "c76e415ee2f5bcea23747567d8e360e3f5a7bc123e6d24e35cf62d9ca048ad4e"
+    },
+    {
+      "bytes": 4196,
+      "path": "docs/drosolift/SELF_HOST.md",
+      "sha256": "2b912ef81cf1964ac65cef026f81af61e8e7945fb42b975580a52fbea9251fc7"
+    },
+    {
+      "bytes": 3929,
+      "path": "docs/drosolift/SESSION_CHECKPOINTS.md",
+      "sha256": "60a96f974cb3b84533c07075459f8d9baad6f0741e2f9bbc31b80d24f3894c30"
+    },
+    {
+      "bytes": 5571,
+      "path": "docs/drosolift/SOURCES.md",
+      "sha256": "cc780200db55a7c57c9e961152fe6ffc37f570cd5c46604b2faffa60f17615d8"
+    },
+    {
+      "bytes": 5634,
+      "path": "docs/drosolift/TRAINING_UI.md",
+      "sha256": "db5ba1e79a1e5a27696e7a0fc2f32238974a8026e05bbd57421ebf77e6f46f49"
+    },
+    {
+      "bytes": 4844,
+      "path": "docs/drosolift/evidence/ack-boundary-checks.log",
+      "sha256": "bf72ee3b29bbc1d6d03bc27314fbc324c7a7486ea94be9f61e0fbe2e78ea69f6",
+      "source_sha256": "f62b74141ae3ea7da221eaa81b4439f2d4ff9c22a9704dc6d69db4698f227e26",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 5065,
+      "path": "docs/drosolift/evidence/browser-results-live-attempt1.json",
+      "sha256": "347108555f3c3a0583126cfcf0a59c674f52e7661024de070cab851b427044c9"
+    },
+    {
+      "bytes": 13613,
+      "path": "docs/drosolift/evidence/browser-results.json",
+      "sha256": "0835dd9e690fd012a4e6e1af489b01c69e441eae11f84d25edbed93b41f9df50"
+    },
+    {
+      "bytes": 28284,
+      "path": "docs/drosolift/evidence/browser-telemetry.json",
+      "sha256": "8a2f7f3daa5f243f1f8bb11666fc4407357e4450c4e0dae0413cee604aa24abc"
+    },
+    {
+      "bytes": 376,
+      "path": "docs/drosolift/evidence/data-status-exercises.log",
+      "sha256": "4feae05b141633886c4f824451852650f37169ddcf1c27a19c9ea61c17c3a4be"
+    },
+    {
+      "bytes": 376,
+      "path": "docs/drosolift/evidence/data-status.log",
+      "sha256": "4feae05b141633886c4f824451852650f37169ddcf1c27a19c9ea61c17c3a4be"
+    },
+    {
+      "bytes": 188677,
+      "path": "docs/drosolift/evidence/default-renderer.png",
+      "sha256": "c3ab66bce87726d2d07e142163457d6c49045b86caf9b150e4af1df27855391a"
+    },
+    {
+      "bytes": 1432,
+      "path": "docs/drosolift/evidence/demo-v2-frontend-build.log",
+      "sha256": "d7246e1dad0529b1b6ba133394185756bd497fc5c1563f9e7f27fd2bc54f59ca"
+    },
+    {
+      "bytes": 1060,
+      "path": "docs/drosolift/evidence/demo-v2-replay-build.log",
+      "sha256": "f664a7ad08b27b16c1fe1c91f7f7f1b885e40aa3709cccb09c0d15c86686a26a"
+    },
+    {
+      "bytes": 310495,
+      "path": "docs/drosolift/evidence/demo-v2/bench-1280x720.png",
+      "sha256": "782afc6f3e81c2637177106d67125cdb7fd95820021caf52b9a4cbe0396ded8f"
+    },
+    {
+      "bytes": 590147,
+      "path": "docs/drosolift/evidence/demo-v2/bench-1920x1080.png",
+      "sha256": "27cdea98bfbc36ddfaf976cfd28dc8a41f85e04b958a8febb8b108da3b0ba1e9"
+    },
+    {
+      "bytes": 56521,
+      "path": "docs/drosolift/evidence/demo-v2/browser-checks.json",
+      "sha256": "e3d0ca55385a609d3b9f896bec1269a19b8172070421a1d63aacb36ae8b5b9c7"
+    },
+    {
+      "bytes": 315883,
+      "path": "docs/drosolift/evidence/demo-v2/curl-1280x720.png",
+      "sha256": "91f48985c8463dfb6551584a9216faf86c3f3cacc2bb8522e44fe90ede382fa2"
+    },
+    {
+      "bytes": 600954,
+      "path": "docs/drosolift/evidence/demo-v2/curl-1920x1080.png",
+      "sha256": "1af7eec2c97546bd767c04aaf7e7e84fb480f9fe349badfeb0bd0c30d598cbc3"
+    },
+    {
+      "bytes": 609649,
+      "path": "docs/drosolift/evidence/demo-v2/curl-anatomy-xray-1920x1080.png",
+      "sha256": "1619c0dd80c7a9cc26f329465491b237a9bd993711801c3403df903d1c18af5d"
+    },
+    {
+      "bytes": 622374,
+      "path": "docs/drosolift/evidence/demo-v2/curl-circuit-xray-1920x1080.png",
+      "sha256": "027ffc191d09b9329e6609f81bb12c752b859b108bf479863acbae169af43368"
+    },
+    {
+      "bytes": 334362,
+      "path": "docs/drosolift/evidence/demo-v2/default-anatomy-1280x720.png",
+      "sha256": "4053325c5a72b82a74d01cb0f59097d590a03d6b3a13c3034f9d3a9c12203408"
+    },
+    {
+      "bytes": 320691,
+      "path": "docs/drosolift/evidence/demo-v2/default-camera-eye.png",
+      "sha256": "febb702f2f6b3d40e6441e6e5bd9a9c0d5b5dee32f89675eeb6113a3dff1b2ab"
+    },
+    {
+      "bytes": 334364,
+      "path": "docs/drosolift/evidence/demo-v2/default-camera-follow.png",
+      "sha256": "f9a2e2d207f32d5ba72b9898cbb10d288a96bae5c6bbc538b7a71f70cf68e8c2"
+    },
+    {
+      "bytes": 276086,
+      "path": "docs/drosolift/evidence/demo-v2/default-camera-overview.png",
+      "sha256": "78fc6b34edbb95da5e1069f75f14f7a63eeaa092a9c62d9971726b23861e197f"
+    },
+    {
+      "bytes": 356861,
+      "path": "docs/drosolift/evidence/demo-v2/default-circuit-1280x720.png",
+      "sha256": "c082b8108d4741346706cab9326705b6ff52f26cd008ed899d6fd880d1cdd89c"
+    },
+    {
+      "bytes": 113280,
+      "path": "docs/drosolift/evidence/demo-v2/default-mobile-320.png",
+      "sha256": "f4c738c5b34a5cdf5583c2435d3c5aa211e214f225a3ee452133d66b54393c34"
+    },
+    {
+      "bytes": 133389,
+      "path": "docs/drosolift/evidence/demo-v2/default-mobile-390.png",
+      "sha256": "d818dc7170141f447fc18004699d59f7c23006aa2c06db376e125ad8054dcad9"
+    },
+    {
+      "bytes": 1429645,
+      "path": "docs/drosolift/evidence/demo-v2/drosolift-demo-v2.webm",
+      "sha256": "8e3ba39e2ef15e5b2889dd142ca92d5ed80bd158ab05c6c65337fdf016628d05"
+    },
+    {
+      "bytes": 676,
+      "path": "docs/drosolift/evidence/demo-v2/git-diff-check.txt",
+      "sha256": "3a4730c62dd3d5c3776cbf95ef088f6a7e6e200c0694f9595be8b2158808e4dd"
+    },
+    {
+      "bytes": 194709,
+      "path": "docs/drosolift/evidence/demo-v2/mobile-overflow-before.png",
+      "sha256": "47e218fa943bf4f16bd7abddf0c6e68a519dc75a8ecf34ded31f0f33984dd973"
+    },
+    {
+      "bytes": 1555,
+      "path": "docs/drosolift/evidence/demo-v2/package-unit-checks.txt",
+      "sha256": "7382af5d2642632f2d825d5d1426bc68ba77bf94d9f474dd735cd1d8e7cd2cf6"
+    },
+    {
+      "bytes": 2253,
+      "path": "docs/drosolift/evidence/demo-v2/package-verification.json",
+      "sha256": "00eda80282b7bd2866387b42c4a2fba904e55fc5346f682a772a9cab5b7da56e",
+      "source_sha256": "7b7c9c071359bb9d6e1e826a4af4ce020a110ad0041675cc9da80073bc6bc382",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 3864,
+      "path": "docs/drosolift/evidence/demo-v2/presentation-checks.json",
+      "sha256": "e09674aa53588a076093cd1f19e7d79edfb6e7950df8c2690dcaf400a4f569b7"
+    },
+    {
+      "bytes": 333368,
+      "path": "docs/drosolift/evidence/demo-v2/recorded-bench_press-1280x720.png",
+      "sha256": "14c2a7ae63b9de1d3f2a2c06a9bc9753e2d91f9e8eb126e870841d77d7bc87ab"
+    },
+    {
+      "bytes": 332683,
+      "path": "docs/drosolift/evidence/demo-v2/recorded-bicep_curl-1280x720.png",
+      "sha256": "85616ac4148672a4a10176e988c9b18dda7cac1632a13cd4d86c74256fe3c52c"
+    },
+    {
+      "bytes": 271100,
+      "path": "docs/drosolift/evidence/demo-v2/renderer-unavailable.png",
+      "sha256": "84786a8a9fb06c8ecb44538ad73c7924ddbe62bda336221343c783ce823175da"
+    },
+    {
+      "bytes": 439264,
+      "path": "docs/drosolift/evidence/demo-v2/video-bench-frame.png",
+      "sha256": "9e8c4e55523ddb7e740beb1ab7d9cef43e375c9662708ede309da84c923feb94"
+    },
+    {
+      "bytes": 434790,
+      "path": "docs/drosolift/evidence/demo-v2/video-curl-frame.png",
+      "sha256": "b829666d0d2f95588b4531085407798882a80b63644a6edd154c29ba9c1b4ddd"
+    },
+    {
+      "bytes": 1688,
+      "path": "docs/drosolift/evidence/demo-v2/video-metadata.txt",
+      "sha256": "412236b84a06e9845efa93d33260f1449e26aacf40bde419ea924681fe64e435",
+      "source_sha256": "61755ea0f98f6e59426838c8bf292c5a1c33d0f07de2c8c5b90a4c796c3d9a82",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 334318,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-anatomy-1280x720.png",
+      "sha256": "0b162f1890cbc42de617f8dd4a5c893dcbeb44bb9a75b9fc246aed2f71c8639c"
+    },
+    {
+      "bytes": 320822,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-camera-eye.png",
+      "sha256": "1a50b35b97d92a339d744cbc5fb22ec44dde6dd60c54e35d68a8190a836c79f7"
+    },
+    {
+      "bytes": 334320,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-camera-follow.png",
+      "sha256": "54f78f09a6060a78d4058dcb101fcc2e75a5b5b3f9f03c9de17be80bc38103eb"
+    },
+    {
+      "bytes": 276204,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-camera-overview.png",
+      "sha256": "fc83d268adff93a184ec31f66ddf43bc15cd2f323680a28927af259e0d773045"
+    },
+    {
+      "bytes": 357090,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-circuit-1280x720.png",
+      "sha256": "da428b86d6d27233ed0518da07ddea18e1572ff25624ae5e01d0d1f3f01e577f"
+    },
+    {
+      "bytes": 113334,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-mobile-320.png",
+      "sha256": "3b400e2a10bce0bf6b4f3a55c359b91b70b15b7661070f15f7e789f529152c18"
+    },
+    {
+      "bytes": 133576,
+      "path": "docs/drosolift/evidence/demo-v2/webgl-mobile-390.png",
+      "sha256": "abcbf76c9d5dc430fdadbc5bc6c337d49b9f60168b27eb353a06f1e8522d71d5"
+    },
+    {
+      "bytes": 108,
+      "path": "docs/drosolift/evidence/demo-v3/browser-before-implementation.json",
+      "sha256": "70d151d807e19a1cab51fa7a34a0744e761674c20c1824a1ce98968051e16073"
+    },
+    {
+      "bytes": 41665,
+      "path": "docs/drosolift/evidence/demo-v3/browser-checks.json",
+      "sha256": "c807a49a32b27344b592881175a8a8d7a857c121968c23d17f08bfb5cb37ce04"
+    },
+    {
+      "bytes": 376,
+      "path": "docs/drosolift/evidence/demo-v3/data-status.log",
+      "sha256": "4feae05b141633886c4f824451852650f37169ddcf1c27a19c9ea61c17c3a4be"
+    },
+    {
+      "bytes": 1227225,
+      "path": "docs/drosolift/evidence/demo-v3/drosolift-training-demo.webm",
+      "sha256": "f52ab672fa74e9f2fa9eb1c2592a80eed55bcbfe51f1743ae13f69fc5c47759f"
+    },
+    {
+      "bytes": 399546,
+      "path": "docs/drosolift/evidence/demo-v3/first-pass-1184x839.png",
+      "sha256": "04537fad5e93f909357ddf4e00dd4605f0aa7d6dca8ad53358da243617722bc0"
+    },
+    {
+      "bytes": 999,
+      "path": "docs/drosolift/evidence/demo-v3/frontend-build.log",
+      "sha256": "15ca0052b49ba58901146064d6a300d16c723a2ef1b157db1230a28fea053ae4"
+    },
+    {
+      "bytes": 6792,
+      "path": "docs/drosolift/evidence/demo-v3/frontend-checks.log",
+      "sha256": "8a32095bd389ae7a32a8c6297cc8c4c94a4072f4b5e418da02d0d0335904a9f2"
+    },
+    {
+      "bytes": 692,
+      "path": "docs/drosolift/evidence/demo-v3/git-diff-check.log",
+      "sha256": "c564e0f92bfc739a0d798a6a59a2746e885eb1b9e6d538cc5838faf613ab2770"
+    },
+    {
+      "bytes": 106,
+      "path": "docs/drosolift/evidence/demo-v3/import-boundary.log",
+      "sha256": "0203a814ea0c53a1af9f26c901fb6dfb5b713ea728f92a53bf8ee7327d5cca1b"
+    },
+    {
+      "bytes": 403203,
+      "path": "docs/drosolift/evidence/demo-v3/neural-xray-1184x839.png",
+      "sha256": "8867d5685e6804ebf08f02968249d4054a323d95b96e39eb2c2d8d8ef1458f59"
+    },
+    {
+      "bytes": 2354,
+      "path": "docs/drosolift/evidence/demo-v3/package-browser.log",
+      "sha256": "840455f94e224b2fcb8d29c94fb360d5e10ff6771622a4a1d08e956c45f8425c",
+      "source_sha256": "a17b5b22ab922c325189e6fdee6432800fb7f4bbb090a118bf9eff0102d694a1",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 1555,
+      "path": "docs/drosolift/evidence/demo-v3/package-checks.log",
+      "sha256": "ceba26d64662f440866b3ce4ffcaf34265694a36640e5ccaa5526a037782c183"
+    },
+    {
+      "bytes": 2253,
+      "path": "docs/drosolift/evidence/demo-v3/package-verification.json",
+      "sha256": "aa4c26e44b06850a9453c2bcbc8e98dd073a26ef9e1cbae633cacbde97eb51bf",
+      "source_sha256": "454c51c9252c5b031f72e62c47cc87d4438fb4710ae0667c8c1d3de7b27ddcf5",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 28386,
+      "path": "docs/drosolift/evidence/demo-v3/python-checks.log",
+      "sha256": "e57f5998a9376c1d11c2d93d2c6cdab97785414efcc9fa54a24e53560bd7ef4e",
+      "source_sha256": "eca9db1a0318bf61547bf424030f83d23143200665fd16cf885fc7205e3be6ff",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 1072,
+      "path": "docs/drosolift/evidence/demo-v3/replay-build.log",
+      "sha256": "ead5ff7788608d3f573b88331f4d550782fdefeeb160ab64e01b000c90cf1d08"
+    },
+    {
+      "bytes": 411073,
+      "path": "docs/drosolift/evidence/demo-v3/training-bench-1184x839.png",
+      "sha256": "26442bfe1f66f54e9e4cc93b3a9ccd38ceba49b8d123d72bec5a54eff1253b11"
+    },
+    {
+      "bytes": 741283,
+      "path": "docs/drosolift/evidence/demo-v3/training-bench-1920x1080.png",
+      "sha256": "4b77a5bfcba4fa6143ca8470ddd67ed240ce2337a02b65c52e663d253b9b0d06"
+    },
+    {
+      "bytes": 334452,
+      "path": "docs/drosolift/evidence/demo-v3/training-curl-1280x720.png",
+      "sha256": "0de98139f83319ab747edf969cb1c418f4b128d700665493d7643a9f26011ed8"
+    },
+    {
+      "bytes": 717144,
+      "path": "docs/drosolift/evidence/demo-v3/training-curl-1920x1080.png",
+      "sha256": "04157f0f4b517b9297a1d14b4a986e39f7fccd3b37b625f1db0a026f55dd22a5"
+    },
+    {
+      "bytes": 375056,
+      "path": "docs/drosolift/evidence/demo-v3/training-default-1184x839.png",
+      "sha256": "0db6a7c83d37e3071b157e217f95f2573119d25da36638de11ddc5c2a56fc828"
+    },
+    {
+      "bytes": 115825,
+      "path": "docs/drosolift/evidence/demo-v3/training-mobile-320.png",
+      "sha256": "69a0936affc158ec529a137369b4f53073260a9a5cd2edc145d8f3b47fb2d06d"
+    },
+    {
+      "bytes": 144452,
+      "path": "docs/drosolift/evidence/demo-v3/training-mobile-390.png",
+      "sha256": "610e84cdbccaca81852fb6219bdc45a761b524d0148fc1703b374abac9704910"
+    },
+    {
+      "bytes": 191656,
+      "path": "docs/drosolift/evidence/demo-v3/training-unavailable-1184x839.png",
+      "sha256": "513be1e600ecfd4e6607b60bbbc0411ea66c29ae0537e1a770f186ccf833abe1"
+    },
+    {
+      "bytes": 374931,
+      "path": "docs/drosolift/evidence/demo-v3/training-webgl-1184x839.png",
+      "sha256": "2c1e3639b21a78247c06d43b1a00dbe3879ddc71951490d05cb701987d4458c5"
+    },
+    {
+      "bytes": 68604,
+      "path": "docs/drosolift/evidence/demo-v3/video-checks.json",
+      "sha256": "19f343388e6bb4c85e693a0070b1ea089b8e006db1dd78bef15279ffe5135ea3"
+    },
+    {
+      "bytes": 1688,
+      "path": "docs/drosolift/evidence/demo-v3/video-metadata.txt",
+      "sha256": "ecfeaeefa1481392953a79066f3214f7f62a059b6d89115ca1d3897c3d4bb3cc",
+      "source_sha256": "72b6a457e8929f5373ea2b632d7ab8e51921824d241ee9afba408319755f34ad",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 3558128,
+      "path": "docs/drosolift/evidence/drosolift-live-demo.webm",
+      "sha256": "ec0ae7a6003e7d6655ef9a51be3b74404e932e0b7b7e3ca3fdaca87b783468e0"
+    },
+    {
+      "bytes": 1876,
+      "path": "docs/drosolift/evidence/exercise-feedback.json",
+      "sha256": "dd1f4fc068e00dbb6a9332394fb673d749be45ce416ef633cee0b42384347f4a"
+    },
+    {
+      "bytes": 22101,
+      "path": "docs/drosolift/evidence/exercise-live-start.json",
+      "sha256": "2227bc1f05f072a3f7f8f65ac0967c4c164d0ab4ff4c83ceef647e22b903083c"
+    },
+    {
+      "bytes": 987,
+      "path": "docs/drosolift/evidence/frontend-build.log",
+      "sha256": "f52fe079bf212984fbeb98866e2afa5f0e5396e2300575d5f1758940a9b1b57b"
+    },
+    {
+      "bytes": 4695,
+      "path": "docs/drosolift/evidence/frontend-checks.log",
+      "sha256": "e6138e30dcc5c614d9684b09bea715bca21a6824456b69f0269f54f8069b13d2"
+    },
+    {
+      "bytes": 987,
+      "path": "docs/drosolift/evidence/frontend-exercise-build.log",
+      "sha256": "fb806638bb0d5ebe742246f5467955ee1808c5dda22ceada9fec23fffc4fb27f"
+    },
+    {
+      "bytes": 6008,
+      "path": "docs/drosolift/evidence/frontend-exercise-checks.log",
+      "sha256": "23ab2ce94e1379a72e87835d57ac5108f14a89293bd06cb2c80344d0a18e81d2"
+    },
+    {
+      "bytes": 583,
+      "path": "docs/drosolift/evidence/git-diff-check.log",
+      "sha256": "d1e8c1ae1bef8cd03e52165bea0a1f56d40999d673f96318e78108bd5ec428ab"
+    },
+    {
+      "bytes": 156782,
+      "path": "docs/drosolift/evidence/initial-1280x720.png",
+      "sha256": "721ffe25fec2f599ab639be1a222402b8e9d568708a6304ecc9487d886c9dff4"
+    },
+    {
+      "bytes": 301178,
+      "path": "docs/drosolift/evidence/initial-1920x1080.png",
+      "sha256": "04e886daf9fba9582ebe2304e97a468a1499f9d92ecb2d6be6733ddd3a20eb08"
+    },
+    {
+      "bytes": 72249,
+      "path": "docs/drosolift/evidence/mobile-320.png",
+      "sha256": "ad3da7ef4fd13a42c66c27d25dc0b35656139e2b2ca7b0add41b133814a7d164"
+    },
+    {
+      "bytes": 107523,
+      "path": "docs/drosolift/evidence/mobile-390.png",
+      "sha256": "bbdd8e8328461a39a5d3fa763facf69a99d964c44f5477ec2e701cde65b49eff"
+    },
+    {
+      "bytes": 6724,
+      "path": "docs/drosolift/evidence/native/browser-results.json",
+      "sha256": "9ee00943afd20c364c2609906842f058f268ebbc5a25bfb38e1b049ecb406975"
+    },
+    {
+      "bytes": 22178,
+      "path": "docs/drosolift/evidence/native/browser-telemetry.json",
+      "sha256": "9b24fdad5f07ded97da2720bec808c9b984c974c2deb9b312d9bcc4b78eb883b"
+    },
+    {
+      "bytes": 194744,
+      "path": "docs/drosolift/evidence/native/default-renderer.png",
+      "sha256": "2d52fbd679445a3a1e6917150db93d917e540d3953bba0a9bab8bc9052dd4e08"
+    },
+    {
+      "bytes": 4222289,
+      "path": "docs/drosolift/evidence/native/drosolift-live-demo.webm",
+      "sha256": "afcbd660014da5656741d44fd91a86bfceca00de78df91774dc2ee60de5de2c1"
+    },
+    {
+      "bytes": 1084,
+      "path": "docs/drosolift/evidence/native/extras-results.json",
+      "sha256": "2b73230059f08e32d51003b8bdb7cb7fdc96414389f96337d874ac02fe6bf50c"
+    },
+    {
+      "bytes": 207870,
+      "path": "docs/drosolift/evidence/native/local-video-alignment.png",
+      "sha256": "aa75a2f166841580882fb9cbd118ee735464ecc643e44e5b4db02b91308e177b"
+    },
+    {
+      "bytes": 76674,
+      "path": "docs/drosolift/evidence/native/mobile-320.png",
+      "sha256": "f581abec768b5eb10c1340bb767da080f307a20ace5e274435fd128ce90103d9"
+    },
+    {
+      "bytes": 109885,
+      "path": "docs/drosolift/evidence/native/mobile-390.png",
+      "sha256": "44fbbefda41c63e97714ad097644306dd0c2a254620a42c2ad80da346af5e8dd"
+    },
+    {
+      "bytes": 193776,
+      "path": "docs/drosolift/evidence/native/neurons-xray-1280x720.png",
+      "sha256": "5cad8cb4b6bea26d4c41ee57b8d047ecea0830ac0286f6eb75136fb86a95922e"
+    },
+    {
+      "bytes": 414723,
+      "path": "docs/drosolift/evidence/native/neurons-xray-1920x1080.png",
+      "sha256": "c000268a2f797a65070ddca65bbf9cc37ddfa7df4c138286f54e82ec397b55ce"
+    },
+    {
+      "bytes": 363,
+      "path": "docs/drosolift/evidence/native/recorded-navigation-results.json",
+      "sha256": "e0d5e7cf58f379bd5957450bba3654fefd7f4a125dc1bf8facab7a05f922ff1d"
+    },
+    {
+      "bytes": 130723,
+      "path": "docs/drosolift/evidence/native/renderer-unavailable.png",
+      "sha256": "2e62b231e85165ae09effa6c51d8b650ce645ba33c6048e803953b6bd6706234"
+    },
+    {
+      "bytes": 230269,
+      "path": "docs/drosolift/evidence/native/replay-1280x720.png",
+      "sha256": "4de1b0e8dbcf02881b206f4bd009ca657556c7ee0d0337a29a4b0ccf3e6162f9"
+    },
+    {
+      "bytes": 516034,
+      "path": "docs/drosolift/evidence/native/replay-1920x1080.png",
+      "sha256": "576acef9483b3112beb1897f28c0a518ce618b72b26ecbd5ece04fe721ff512e"
+    },
+    {
+      "bytes": 3578,
+      "path": "docs/drosolift/evidence/native/resource-switching-results.json",
+      "sha256": "d62e657ff93e9934e7be82b0650b4ffaa3110b221293e1af9c0fe9a6ff69adb3"
+    },
+    {
+      "bytes": 191749,
+      "path": "docs/drosolift/evidence/native/workout-1280x720.png",
+      "sha256": "3c5ecd614de009a6f5b6fe5e2565187087b0e9bf65071fc699eaced7403021e8"
+    },
+    {
+      "bytes": 404274,
+      "path": "docs/drosolift/evidence/native/workout-1920x1080.png",
+      "sha256": "261ae3dd1ce5dbfd4f03970d84d88805d3885d6160692e9bbaa28af8f940c197"
+    },
+    {
+      "bytes": 200175,
+      "path": "docs/drosolift/evidence/neurons-xray-1280x720.png",
+      "sha256": "06e91f65fb019be80ed15fcc2cc50df61d482825e707c796367ce7a9dc9fe390"
+    },
+    {
+      "bytes": 439659,
+      "path": "docs/drosolift/evidence/neurons-xray-1920x1080.png",
+      "sha256": "ee695c387acef23cd35ba892f73e1f28a553a820f764c08f74c3aa311d605acd"
+    },
+    {
+      "bytes": 1006,
+      "path": "docs/drosolift/evidence/offline/browser-results.json",
+      "sha256": "836b291214ad4520d13bcd033ba338037e8d87578347a1b26947de7627626644"
+    },
+    {
+      "bytes": 223475,
+      "path": "docs/drosolift/evidence/offline/recorded-build-default.png",
+      "sha256": "f2ca281645468671e1228d249a2572ae32b497cc878b8e0165bc2f81de2ac564"
+    },
+    {
+      "bytes": 223475,
+      "path": "docs/drosolift/evidence/offline/recorded-build-subpath.png",
+      "sha256": "f2ca281645468671e1228d249a2572ae32b497cc878b8e0165bc2f81de2ac564"
+    },
+    {
+      "bytes": 223065,
+      "path": "docs/drosolift/evidence/offline/replay-1280x720.png",
+      "sha256": "dcbb73bfb1510ff7433d2035b7237954dca5d69274b18b59088af67cdf90047d"
+    },
+    {
+      "bytes": 510053,
+      "path": "docs/drosolift/evidence/offline/replay-1920x1080.png",
+      "sha256": "b9aacdb5ce081627a93b105b3808fb93c794a21bc3dbd4164a3f30dfe1c89ea5"
+    },
+    {
+      "bytes": 223065,
+      "path": "docs/drosolift/evidence/offline/replay-subpath.png",
+      "sha256": "dcbb73bfb1510ff7433d2035b7237954dca5d69274b18b59088af67cdf90047d"
+    },
+    {
+      "bytes": 119141,
+      "path": "docs/drosolift/evidence/p4-comparison.png",
+      "sha256": "bfbe52413b10f0584b25feefc45d66f5a50078dc1eafbc802c1319d1155bcf9f"
+    },
+    {
+      "bytes": 27673,
+      "path": "docs/drosolift/evidence/p4-comparison.svg",
+      "sha256": "ef99d794a1f96f7dd84640a08e9a11f21a6c315f9836a6087e61c1fcea62c83c"
+    },
+    {
+      "bytes": 1019,
+      "path": "docs/drosolift/evidence/p4-focused-tests.txt",
+      "sha256": "fbda8a068195249817c926f6185b3e9e6174c9c9b9a1833e4dd5aa08d7caa4ed"
+    },
+    {
+      "bytes": 2878,
+      "path": "docs/drosolift/evidence/p4-results.json",
+      "sha256": "fe77cf5ddfa76301ff2f669f5307efe8a19ad398687306057c95d6de28a50547"
+    },
+    {
+      "bytes": 574,
+      "path": "docs/drosolift/evidence/p4-summary.csv",
+      "sha256": "b2f5eaba393ed45d21cbdfb721ea5da7f821a18945cec04eff8724f89dd70944"
+    },
+    {
+      "bytes": 60,
+      "path": "docs/drosolift/evidence/package-build.txt",
+      "sha256": "e92fd7f2df2073c30cefc68ddce2381a313d05096824102822bbd1e1390579f7",
+      "source_sha256": "b04db5a164a23dbd78bf833f4cecfaae74cb0733da5342dc98ea9e2a5ac871ca",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 947,
+      "path": "docs/drosolift/evidence/package-tests.txt",
+      "sha256": "5cbc42d7f626396ec23e6dad649cf9cd2e1e0f6071d8e5278195a9f61c30588a"
+    },
+    {
+      "bytes": 954,
+      "path": "docs/drosolift/evidence/package-verification.json",
+      "sha256": "07488a1070d22a882508a653522b92be4255318aa28f90b42902ac8f675d9a16",
+      "source_sha256": "7d258ef14d2a9842c47125b6c1fb592cfe61e95430595886943c6efb50d37d87",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 3621,
+      "path": "docs/drosolift/evidence/public-sessions/gateway-checks.log",
+      "sha256": "d0cd891a1e66d3856829bf7fe817d16f790bc3922b0159da04a6b71982896dbe",
+      "source_sha256": "82928a910cadd9d1a5dcaacc9bd67bc7630192752288a339aa015dd6812f6c57",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 1489,
+      "path": "docs/drosolift/evidence/publication/clean-python-check.log",
+      "sha256": "c059976d40388fff138ee9a0c717e7bc45dd68365b60be6c1e023fadf2533adb"
+    },
+    {
+      "bytes": 3720,
+      "path": "docs/drosolift/evidence/publication/clean-python-install.log",
+      "sha256": "26d038cabe3e3dd28b49fae9330a37f4a07bcec00945f2cedf6beb61c643a2bb"
+    },
+    {
+      "bytes": 1910,
+      "path": "docs/drosolift/evidence/publication/clean-source-checks.json",
+      "sha256": "b94d4a558821713ebfb88e212a12c59eb3a491bff5f84d658033c226ccc596c7"
+    },
+    {
+      "bytes": 163,
+      "path": "docs/drosolift/evidence/publication/clean-source-install.log",
+      "sha256": "1839a503cbc45b0036d6efdb98d00e257e687f82a16c0bb75dcf09b46eba4408"
+    },
+    {
+      "bytes": 44,
+      "path": "docs/drosolift/evidence/publication/clean-source-manifest.log",
+      "sha256": "4b171f0c1e93670f9dbddaa40972b25379f1e26ae025d5599dc8d76767b7888e"
+    },
+    {
+      "bytes": 1459,
+      "path": "docs/drosolift/evidence/publication/clean-source-public-build.log",
+      "sha256": "1c12a278b51fe776eeefe69611bcf53eea915bfd1976df6ffbfdabd9ea6dad79"
+    },
+    {
+      "bytes": 1459,
+      "path": "docs/drosolift/evidence/publication/clean-source-replay-build.log",
+      "sha256": "41dff6dd3ef07f619f73cd635c71377e19c019e4d32ec9941734ed4a2bcfbee3"
+    },
+    {
+      "bytes": 7138,
+      "path": "docs/drosolift/evidence/publication/clean-source-tests.log",
+      "sha256": "32ab214e0a04f739ec7bd53f527574a63c0a27781b2e2bf6a29d5090a20eedf9"
+    },
+    {
+      "bytes": 376,
+      "path": "docs/drosolift/evidence/publication/data-status.log",
+      "sha256": "4feae05b141633886c4f824451852650f37169ddcf1c27a19c9ea61c17c3a4be"
+    },
+    {
+      "bytes": 26,
+      "path": "docs/drosolift/evidence/publication/diff-check.log",
+      "sha256": "408d8ffd5d2095fb6c3fe04ed6319480a2c115e272bfcd711f2318af1b356552"
+    },
+    {
+      "bytes": 586,
+      "path": "docs/drosolift/evidence/publication/environment-checks.json",
+      "sha256": "508a40ead2b3234196b90cb77a2c842586689c4fa22d940046b3f672a89c7dbe"
+    },
+    {
+      "bytes": 999,
+      "path": "docs/drosolift/evidence/publication/frontend-build.log",
+      "sha256": "6f8ecc2e18d6d396468c8916787040a8317be11cd7f3c6f32efc0a7ff80afe1e"
+    },
+    {
+      "bytes": 7134,
+      "path": "docs/drosolift/evidence/publication/frontend-checks.log",
+      "sha256": "ded2aa26cb4aed02c5e685b8b2c9069d206893c529990f0c076f51fd62aba93c"
+    },
+    {
+      "bytes": 54,
+      "path": "docs/drosolift/evidence/publication/import-boundary.log",
+      "sha256": "7b3a28cee8ad0a82950da34cde3257baf21d43f48defe6cd0dbb1911e283f545"
+    },
+    {
+      "bytes": 443,
+      "path": "docs/drosolift/evidence/publication/preview-health.json",
+      "sha256": "1c70ca1c5059098aa9ae3a56543a76ce2905f13ffcf95bfd5b48446ff8247cbc"
+    },
+    {
+      "bytes": 3815,
+      "path": "docs/drosolift/evidence/publication/public-browser-checks.json",
+      "sha256": "70a20dbda94acf015c62b28bd87393b5f151bb0d16868f196805f2da6bc0b753"
+    },
+    {
+      "bytes": 153121,
+      "path": "docs/drosolift/evidence/publication/public-mobile-390x844.png",
+      "sha256": "e0aa2d20599fc62144139ee00d45bc7e89156d568f07b396a0296955e4a9c8fa"
+    },
+    {
+      "bytes": 719116,
+      "path": "docs/drosolift/evidence/publication/public-neural-xray-1920x1080.png",
+      "sha256": "a46e3d9b6e6b5311fb88b6a5c1d367795176d66ed3b31489e06237927258a138"
+    },
+    {
+      "bytes": 594345,
+      "path": "docs/drosolift/evidence/publication/public-selected-neuron-1920x1080.png",
+      "sha256": "d521396b409c998548860382e0fe13f46f9a30e173558de5c257b0006c8b642e"
+    },
+    {
+      "bytes": 90,
+      "path": "docs/drosolift/evidence/publication/public-server-1.log",
+      "sha256": "9d8d8d37b2d6a64582cddea18a7f5f5191fd765dca838ffa70c438c3f9fa52ac"
+    },
+    {
+      "bytes": 90,
+      "path": "docs/drosolift/evidence/publication/public-server-2.log",
+      "sha256": "9ef38b243a84a771b694b37f1dcafe36577a02c94326c0bc2946dc4a36748766"
+    },
+    {
+      "bytes": 330769,
+      "path": "docs/drosolift/evidence/publication/public-workout-1280x720.png",
+      "sha256": "272142d16b08f7c0416ffe4c8f35ad8f97ef0bd12789e9e7b48ecd3de3fc1918"
+    },
+    {
+      "bytes": 35858,
+      "path": "docs/drosolift/evidence/publication/python-checks.log",
+      "sha256": "5fed02990121efb7137506ea1f98b431ae6bcae743518d38f27e35c76580037f",
+      "source_sha256": "26a8d2a1d5e88245243021786ad03f23e0bf796f05c9ddb219fbaa5afe6c4c0e",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 33617,
+      "path": "docs/drosolift/evidence/publication/python-first-discovery.log",
+      "sha256": "dfa065e78d4d469725692eaa3ac665032fa64cb279afaad3d9a75d0ff7e4a66d",
+      "source_sha256": "15aa2ed6bbea747d53b4ead7d3811d3a261f6f26ae933446d65c8693cbd47754",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 1072,
+      "path": "docs/drosolift/evidence/publication/replay-build.log",
+      "sha256": "86d1b4c4e87086b5f9b458839b5d5008dbfbbdd739739b048a455b4044e4eb35"
+    },
+    {
+      "bytes": 2258,
+      "path": "docs/drosolift/evidence/publication/replay-package-checks.json",
+      "sha256": "4ec046d5120cb8397ce0488f6932fb6beb0b54abb8f4f411753c6736f3e660bc",
+      "source_sha256": "4808e267e3988d286c34a822d87e597f8942923c3e41e92123c69b23d8d21b29",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 2359,
+      "path": "docs/drosolift/evidence/publication/replay-package-checks.log",
+      "sha256": "e3b9bc4c494bae6ce952a0cca7d9dae3623be1e2eb2819bfbcb39a448d80d0f5",
+      "source_sha256": "b5a5ca81ab5d546290d36b32fb90fbb3e9dd8e952d018a307746142f3a696a58",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 1711,
+      "path": "docs/drosolift/evidence/python-additional.log",
+      "sha256": "381d67cba74718bd5db871368f060988bd927ad6c5a59ee33c297791a52d82c0"
+    },
+    {
+      "bytes": 23327,
+      "path": "docs/drosolift/evidence/python-checks.log",
+      "sha256": "e251e27a7f99bc2b34eb5a92da2dbd10270ac133b82f0591ce8fcb15441cbbe6",
+      "source_sha256": "2fa9dd920880901c3fe9ad5788fae9d39643349debcf3a1dbd968515e2cfbd7e",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 28537,
+      "path": "docs/drosolift/evidence/python-exercise-checks.log",
+      "sha256": "62d87e13195502044b4b70814acad197aff8929c0b263bef47aae9336ec515ac",
+      "source_sha256": "d30c3005df627f2ce647595e28e6deddf673f2603302ba73ce696c7f3f9745c0",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 27741,
+      "path": "docs/drosolift/evidence/python-exercise-first-full.log",
+      "sha256": "a5bb657d15749227e381dac21e59936456ea8fcaa9ae1b175fa7658547b758a3",
+      "source_sha256": "6be8d422c36021fd104a94e57f7e70e967da37fa5d86f215b125ac9d69a08361",
+      "transformations": [
+        "local-machine/path redaction"
+      ]
+    },
+    {
+      "bytes": 4413,
+      "path": "docs/drosolift/evidence/python-exercise-prestream.log",
+      "sha256": "1d083806be9b34f3324557b2a3a14559bca14b8619dfbc0f7e14bb439353678e"
+    },
+    {
+      "bytes": 332380,
+      "path": "docs/drosolift/evidence/reference-ui/neural-cell-colors-first-1280.png",
+      "sha256": "067ad85b27bd626cda4880951d162260f7e29c71a90279587b370c798007ecc5"
+    },
+    {
+      "bytes": 239121,
+      "path": "docs/drosolift/evidence/reference-ui/neural-reference-first-1280.png",
+      "sha256": "b620800930724fe18b93b862a6fd0992a8c21a5a28771e74aec41d956a22961d"
+    },
+    {
+      "bytes": 712854,
+      "path": "docs/drosolift/evidence/reference-ui/neural-reference-first-1920.png",
+      "sha256": "63fff56d4620279f851b06986638c95ff99513b751e42d612432aca72535575f"
+    },
+    {
+      "bytes": 117849,
+      "path": "docs/drosolift/evidence/renderer-unavailable.png",
+      "sha256": "696c0d6b65f948b8f733d7591c2990e9b46a55ddb74de71eb217806fa01918db"
+    },
+    {
+      "bytes": 1060,
+      "path": "docs/drosolift/evidence/replay-build.log",
+      "sha256": "9ce8e764334e5dac1a67b2623bc7127e90b043b82d8d070ad9cf85221efcaf69"
+    },
+    {
+      "bytes": 1060,
+      "path": "docs/drosolift/evidence/replay-exercise-build.log",
+      "sha256": "d613e677422b5dd2969f9466c0ffc8721b569319cfabe7a8348bc37ed87afac5"
+    },
+    {
+      "bytes": 201101,
+      "path": "docs/drosolift/evidence/revised-1280x720.png",
+      "sha256": "c119313ea95e3c207d29ae94f9ae86766644cc750182f421db4b8566ea8c4f66"
+    },
+    {
+      "bytes": 422810,
+      "path": "docs/drosolift/evidence/revised-1920x1080.png",
+      "sha256": "9b3fcfe2c0c8b94e1bc1fe685700fa41d2b43be021090d01719fb83ef09cf23e"
+    },
+    {
+      "bytes": 40,
+      "path": "docs/drosolift/evidence/startup-server.log",
+      "sha256": "e0c6dafc0b5f22e33edf623fd424356fc9173ba28315a1550c903600f62ebc04"
+    },
+    {
+      "bytes": 633,
+      "path": "docs/drosolift/evidence/startup.json",
+      "sha256": "bc4a352d53bfd6667007052fc6184e4adab9e7d76d10d15e97f231cf41da27b4"
+    },
+    {
+      "bytes": 3068,
+      "path": "docs/drosolift/evidence/supporting-checks.txt",
+      "sha256": "444c2e0fd7e41574dafb981b41096e4a245696d8571a1f830ad98eb7b397ed48"
+    },
+    {
+      "bytes": 1069,
+      "path": "docs/drosolift/evidence/training-audit-2026-11-05.json",
+      "sha256": "055cd3c7f1b4ed37d29e7bb58fd97b829928f4126d0c2b84cdbd243347dc2dff"
+    },
+    {
+      "bytes": 708964,
+      "path": "docs/drosolift/evidence/training-review/weights-actual-preview.png",
+      "sha256": "ecd182fd956ad76c3df2d54ba11396c1709f15372d80d995177bb3b73477a3ba"
+    },
+    {
+      "bytes": 717257,
+      "path": "docs/drosolift/evidence/training-review/xray-actual-preview.png",
+      "sha256": "9912c2c8f3f1fb42f3f7177fd532524f4887fb3fc2d3d29263019277847b8a5c"
+    },
+    {
+      "bytes": 1125,
+      "path": "docs/drosolift/evidence/training-review/xray-weight-browser-preview.json",
+      "sha256": "4ce165d8a52a4eae0580a21bd10c31b8c7077eae3a255d16cf6e61b143314251"
+    },
+    {
+      "bytes": 1203,
+      "path": "docs/drosolift/evidence/training-review/xray-weight-checks.txt",
+      "sha256": "3905d4b3b279e698b1533f37480c37d5347036dbc703bfb596b4bd94d9af523a"
+    },
+    {
+      "bytes": 192906,
+      "path": "docs/drosolift/evidence/v2/neural-atlas-initial-1280.png",
+      "sha256": "1054ae8349785edb902bcd1b0ba30f2a341cc1792c9995b1f51dd03190ca7fb3"
+    },
+    {
+      "bytes": 557097,
+      "path": "docs/drosolift/evidence/v2/neural-atlas-initial-1920.png",
+      "sha256": "b517722e383aad76d3a76560a3c81d8017d81dbe0d14b6f8b46f6bbadf3ea286"
+    },
+    {
+      "bytes": 327561,
+      "path": "docs/drosolift/evidence/v2/neural-circuit-initial-1280.png",
+      "sha256": "858f21e27af4a925649a31dffd21227c8c0bcea263e1dcbf9534c085ad04acc2"
+    },
+    {
+      "bytes": 41060,
+      "path": "docs/drosolift/evidence/visual-revision/art-check.json",
+      "sha256": "09ee188aa798a1c26a0c46d0e3de6bb03df4973ad24ee683217b13a42b74bbbd"
+    },
+    {
+      "bytes": 826,
+      "path": "docs/drosolift/evidence/visual-revision/art-focused-checks.txt",
+      "sha256": "8b2835daade65e536142ceef02dbb0fb7abdfda04ade36f7381fe7a4bac1ee3c"
+    },
+    {
+      "bytes": 302405,
+      "path": "docs/drosolift/evidence/visual-revision/bench-polish-1280.png",
+      "sha256": "61d89823bd97aae243d9dc9917276b307d14f085a6b26d7a8c537a7176fdfc2b"
+    },
+    {
+      "bytes": 551337,
+      "path": "docs/drosolift/evidence/visual-revision/bench-polish-1920.png",
+      "sha256": "0ed18b02335544910014697ffc92bc29dc963d11b1b7170a4971ec9468f803cc"
+    },
+    {
+      "bytes": 306202,
+      "path": "docs/drosolift/evidence/visual-revision/curl-polish-1280.png",
+      "sha256": "10b6dad5b5e1d822861ba6d0b57661393b849d7ecd6ce54ce4fc6ca3b2044266"
+    },
+    {
+      "bytes": 558222,
+      "path": "docs/drosolift/evidence/visual-revision/curl-polish-1920.png",
+      "sha256": "1d54cd31f690bf999e76e19bc33c614a5a4e468ed76ad07ba177b0d45214ba29"
+    },
+    {
+      "bytes": 625026,
+      "path": "docs/drosolift/evidence/visual-revision/workout-art-pass1-1920.png",
+      "sha256": "3804575749f91b8265bc8b1c4cfd446085f20fa4c1c27b88b56bb132da5ab58b"
+    },
+    {
+      "bytes": 474128,
+      "path": "docs/drosolift/evidence/visual-revision/workout-art-pass2-1920.png",
+      "sha256": "bb4f1e85005fe1ef3f193ff287077f6117c619c927c1f20c4ef0f589540e284c"
+    },
+    {
+      "bytes": 196476,
+      "path": "docs/drosolift/evidence/workout-1280x720.png",
+      "sha256": "b87cfafb8c706028bda0f8d2738441bf29fc950366ba9bf44972bef1d684d182"
+    },
+    {
+      "bytes": 423273,
+      "path": "docs/drosolift/evidence/workout-1920x1080.png",
+      "sha256": "3edbb9be779bae9c4e8aeb11f29465f6aa748c63bc47f486bbadf75815ec3368"
+    },
+    {
+      "bytes": 2306236,
+      "path": "docs/drosolift/references/01-workout.png",
+      "sha256": "bfa317140b19215395f005a29a8fb730d923ae20dfd9dcd9de9d5d3faf75c208"
+    },
+    {
+      "bytes": 2305890,
+      "path": "docs/drosolift/references/02-neuron-explorer.png",
+      "sha256": "f65dc1f78aeff01df9db5e487d3f411384f767dac8069b122d077703d718e8ec"
+    },
+    {
+      "bytes": 1939976,
+      "path": "docs/drosolift/references/03-replay.png",
+      "sha256": "ad336273e55c437a01b58b19cce0820c9cdd2ce0dc09fabcc16de4a6c2031dbd"
+    },
+    {
+      "bytes": 12990,
+      "path": "docs/frontend-observatory.md",
+      "sha256": "66214ccc53004bb74342e1923050d073e95c9f6d1cb0dfa42291735f9932317b"
+    },
+    {
+      "bytes": 5004,
+      "path": "docs/neural-performance-2026-09-13.md",
+      "sha256": "71eacce70aa0444e052739b7cb22c6570f48bcfda6d93005fdea2565e09cf4f1"
+    },
+    {
+      "bytes": 2666,
+      "path": "docs/science/apparatus-visual-v1.md",
+      "sha256": "189374b94251fdfc33c286a43d3fdce7453b6651a173fa9c963a9da05e1bc056"
+    },
+    {
+      "bytes": 17059,
+      "path": "docs/science/equipment.md",
+      "sha256": "25ce3077ba6f86ea61d047905cf19b6b0cd111602a5e4071c17dd42aa39a873d"
+    },
+    {
+      "bytes": 3211,
+      "path": "docs/science/full-connectome.md",
+      "sha256": "975d8970c9775c88c71c4b2f175dcaaf3835aa0569be8f9a8f19a0da751bf4fe"
+    },
+    {
+      "bytes": 9693,
+      "path": "docs/science/gym.md",
+      "sha256": "f7aca5fdf9d7aa102e20e34a6c8a5b43f96be99c2013a7f93f28865906ca310a"
+    },
+    {
+      "bytes": 7592,
+      "path": "docs/science/learning-memory.md",
+      "sha256": "891ff87b2b728bd0611de295d84b55a12dd18150c320c5f829795547f331d4d5"
+    },
+    {
+      "bytes": 3567,
+      "path": "docs/science/observation.md",
+      "sha256": "bc948c6286fae31a2551867916fc849f57de12a9aadf68a7ed47f4bdcad14a1f"
+    },
+    {
+      "bytes": 14745,
+      "path": "docs/status.md",
+      "sha256": "2cf417717935c02ed8722c3eef3039502bbf2bf8f18e5ad5caf23f5f19e7528c"
+    },
+    {
+      "bytes": 6623,
+      "path": "docs/superpowers/plans/2026-09-12-experiment-1.md",
+      "sha256": "6a4ed53fc7a86d519de7881e2094dc1acd321f76f75151517492c3d88e150f7a"
+    },
+    {
+      "bytes": 2711,
+      "path": "docs/superpowers/plans/2026-09-12-project-scaffold.md",
+      "sha256": "c3df8af463c12632b7b8bee47f8ec4c22a668918dcf9d3bb69aed2f14f6e421f"
+    },
+    {
+      "bytes": 4316,
+      "path": "docs/superpowers/plans/2026-09-13-articulated-gym.md",
+      "sha256": "5a959b46fa78eeae47e537c4ea7464ccc355c56d1895eeb35e6842f1b9ebae9b"
+    },
+    {
+      "bytes": 5504,
+      "path": "docs/superpowers/plans/2026-09-13-fly-observer.md",
+      "sha256": "df0e159005ddf6db745434756c285fe5f9f76c3bdd1074b0a3bd6e04ae076501"
+    },
+    {
+      "bytes": 14552,
+      "path": "docs/superpowers/plans/2026-09-13-full-connectome-engine.md",
+      "sha256": "c270e522023cbb1f909e51825c68851d0d97d28dc7a6649656e1f59c0435dad3"
+    },
+    {
+      "bytes": 7648,
+      "path": "docs/superpowers/plans/2026-09-13-gym-visual-simulator.md",
+      "sha256": "c7d4ed3a953bdd99e42ce302024a884a5f58d13e67826161cc04b592ad4acc14"
+    },
+    {
+      "bytes": 15149,
+      "path": "docs/superpowers/plans/2026-09-13-learning-memory.md",
+      "sha256": "c3c14a2721813dc5201bf9f9abc06c7724577d4004a55e16815fa214b2603bc0"
+    },
+    {
+      "bytes": 12031,
+      "path": "docs/superpowers/plans/2026-09-13-threejs-observatory.md",
+      "sha256": "e1b32712aa08f6099306f24fa5b158ef2caf9fb9e2b70e7cb26e72d94c1a4a15"
+    },
+    {
+      "bytes": 12251,
+      "path": "docs/superpowers/specs/2026-09-12-experiment-1-architecture-design.md",
+      "sha256": "faed9ac29acbf4bdfc139e18f63bebeda67f5a3f64beffa2efedaecafb7d8a7f"
+    },
+    {
+      "bytes": 1678,
+      "path": "docs/superpowers/specs/2026-09-12-project-scaffold-design.md",
+      "sha256": "4fd6099faed1694c1fc8b2a08ec2852eb79fb050e15a5ba10028be30c660f667"
+    },
+    {
+      "bytes": 8011,
+      "path": "docs/superpowers/specs/2026-09-13-full-connectome-engine-design.md",
+      "sha256": "53b2be77d04e575d7f3ae1a1ef6a0f8ae75b74929055fab7c44fbef81ee80709"
+    },
+    {
+      "bytes": 10777,
+      "path": "docs/superpowers/specs/2026-09-13-learning-memory-design.md",
+      "sha256": "4ad6a474bacf726c61d7cedc47c0b522a7dd01dddc8a83a8562127388d144c2b"
+    },
+    {
+      "bytes": 8166,
+      "path": "docs/superpowers/specs/2026-09-13-threejs-observatory-design.md",
+      "sha256": "1a94cf22d89c6754628e6a2e693e94126061ee5c5af8e998d434a9f30b0f1bfd"
+    },
+    {
+      "bytes": 45,
+      "path": "experiments/__init__.py",
+      "sha256": "5f2625aa7671b3e89e8c35fe503946e696691f1d5479b889ed4cfff80b3f11a7"
+    },
+    {
+      "bytes": 8464,
+      "path": "experiments/bench_comparison.py",
+      "sha256": "74d6df795cc7f0f6d36ac8c05287756cab2a8d7ddaf7072c19af6c5ea8800b09"
+    },
+    {
+      "bytes": 1283,
+      "path": "experiments/experiment_001.py",
+      "sha256": "844ba9ba4cfbded596f4dde936133237d350cb60479cc4226b8d2fd6f8cd267c"
+    },
+    {
+      "bytes": 4566,
+      "path": "experiments/experiment_002.py",
+      "sha256": "15a9763bd9049c80d450826a4852c65bd0e30ed9702fee383c6c0d899f356636"
+    },
+    {
+      "bytes": 3123,
+      "path": "experiments/plot_bench_comparison.py",
+      "sha256": "e632ab9dfd789e7449e2caad317904b10be148a697d6bc5b3940fa8ef76d6bee"
+    },
+    {
+      "bytes": 8425,
+      "path": "experiments/record_gym.py",
+      "sha256": "dcb3229a6d920856af5149404a0e31c199715720f9f7c3308d317212b75d9cc5"
+    },
+    {
+      "bytes": 24861,
+      "path": "experiments/session_checkpoint.py",
+      "sha256": "45d01f70e0779b4bfb29424d58d2b7de2450b4c84b0a56586b3c8d336f6f541e"
+    },
+    {
+      "bytes": 2,
+      "path": "frontend/.gitkeep",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 10232,
+      "path": "frontend/command_journal.py",
+      "sha256": "574d9d1b8749661212c0348874b1fca667ad4562e206a7bf6790fa8051f729bc"
+    },
+    {
+      "bytes": 6302,
+      "path": "frontend/console.py",
+      "sha256": "8ea838cad1b0d7d6ba6002734132fca8470bd9d50cb3735cead6d23309ce7b73"
+    },
+    {
+      "bytes": 2926,
+      "path": "frontend/gym_controls.py",
+      "sha256": "6f19d6d6099095f05d9660fd0bb69f032b8eec5f2869b01e1e990a5e63d11223"
+    },
+    {
+      "bytes": 2619,
+      "path": "frontend/gym_metadata.py",
+      "sha256": "2d3cb0e8267edc7c1c8d1a4c39042de82de5d33eef8eb75cabe7d284bc871e7f"
+    },
+    {
+      "bytes": 18891,
+      "path": "frontend/gym_server.py",
+      "sha256": "26346154ac34e51415ed0b69ae0799645626f9f2f19afbf7ba8d9bdc5f54a605"
+    },
+    {
+      "bytes": 2445,
+      "path": "frontend/gym_telemetry.py",
+      "sha256": "eba997fd43da46f0a6265aff5469608ff1f2829bc37e2d78ae5aa8a62ea55ce3"
+    },
+    {
+      "bytes": 15969,
+      "path": "frontend/public_server.py",
+      "sha256": "37d67e435db2e1cc8b3734ffebfcc60b6fb0112eaeb6939170a6cab93ad3a531"
+    },
+    {
+      "bytes": 7438,
+      "path": "frontend/server.py",
+      "sha256": "da4aa8fbca4dfe8895385e01602f17e32e832ca1cd1a04f04844d06a8f124851"
+    },
+    {
+      "bytes": 7235,
+      "path": "frontend/session_store.py",
+      "sha256": "81ed92d96f5f83450554820a9210cbfdc6fedf70098502c01eba07e5200fa1c7"
+    },
+    {
+      "bytes": 3953,
+      "path": "frontend/telemetry.py",
+      "sha256": "31684d3da9948199b3275496af4a29c1ff19f77e60aa88b55bd6d76f16b20068"
+    },
+    {
+      "bytes": 42,
+      "path": "frontend/web/.env.public",
+      "sha256": "f4f440fc34bb98d58b534e15e4ea2cf6e607eb10d663962704f559d60428dcc3"
+    },
+    {
+      "bytes": 19,
+      "path": "frontend/web/.env.replay",
+      "sha256": "78999197b5d52f5ca57528c50cd6a3f31da25a54a5d7111998195b84095f5189"
+    },
+    {
+      "bytes": 18481,
+      "path": "frontend/web/bun.lock",
+      "sha256": "4a8964046413a505b5c8a368e576b80eaf81e487795e7c5e9e896f2ffcd27285"
+    },
+    {
+      "bytes": 13839,
+      "path": "frontend/web/index.html",
+      "sha256": "2c3dfe88e45db4f4e8d569f6063b59d73917948ab127cbab76d882578893f0bc"
+    },
+    {
+      "bytes": 626,
+      "path": "frontend/web/package.json",
+      "sha256": "b4f2e57503e430b148f22e0fcfd8ab66d8463e5f0034bc30ed01cd14b6669044"
+    },
+    {
+      "bytes": 5610577,
+      "path": "frontend/web/public/assets/neuron-positions.json",
+      "sha256": "c57b2ec78c43a09300a19b40266e9007405fd0c6c98ffc07b90347b0a027bdfc"
+    },
+    {
+      "bytes": 2275156,
+      "path": "frontend/web/public/assets/selected-skeletons.json",
+      "sha256": "d6d21b0a206f3790b98b12e51ba639bf24def5a92527fc0eda4f2025ec1e75f2"
+    },
+    {
+      "bytes": 456,
+      "path": "frontend/web/public/favicon.svg",
+      "sha256": "95e34a23319df5f77b02972c711f026b205cce79c9cfbab7652844589f4ff166"
+    },
+    {
+      "bytes": 25613,
+      "path": "frontend/web/public/samples/bench.csv",
+      "sha256": "5653005e5ab11d9768aace96a60cf06af43cbc9375a2c176a32bdc784caae1b1"
+    },
+    {
+      "bytes": 1598543,
+      "path": "frontend/web/public/samples/bench.json",
+      "sha256": "ad29f1343ab5ad712c538653c3d14a336f5cd295224f61c7418981b82e1fe150"
+    },
+    {
+      "bytes": 24390,
+      "path": "frontend/web/public/samples/demo-bench.csv",
+      "sha256": "88acf0ea2225276570dfd49442b3c380f177f6d98acf2f683da83830ebacbc8d"
+    },
+    {
+      "bytes": 2006074,
+      "path": "frontend/web/public/samples/demo-bench.json",
+      "sha256": "eaf86a5111364c3a4b5f22b5193054bbfddc3d5bcd03cb782e2761fc03212810"
+    },
+    {
+      "bytes": 23637,
+      "path": "frontend/web/public/samples/demo-curl.csv",
+      "sha256": "72ddf5bc480de394d34dd842fcdebe08f5a80bc2dbe58343c0fb31896fdd8eee"
+    },
+    {
+      "bytes": 1996249,
+      "path": "frontend/web/public/samples/demo-curl.json",
+      "sha256": "2781d774fe6934abd3d94e5427507b4ce3ad26af75b786adcbd839105d38dc94"
+    },
+    {
+      "bytes": 4081,
+      "path": "frontend/web/src/animated-fly.test.ts",
+      "sha256": "7fc5f9de0a295003362a9cc084ddec39176ba293928c122b0ea6b2170c649200"
+    },
+    {
+      "bytes": 4992,
+      "path": "frontend/web/src/animated-fly.ts",
+      "sha256": "2d902973fc975a9f4383058b5ea49b9185935a112ac198f516b7304dba331bea"
+    },
+    {
+      "bytes": 1574,
+      "path": "frontend/web/src/assets/fly/ATTRIBUTION.md",
+      "sha256": "02fc9467f9b1a96b3f1ceefafe1ce85b4f3b8afcf5dad1ae98571b3bb5e9538d"
+    },
+    {
+      "bytes": 1432200,
+      "path": "frontend/web/src/assets/fly/drosophila.glb",
+      "sha256": "c967c27467b1373be70c32f90dffc56e6f11ce38d8699671f40740a2316a7d75"
+    },
+    {
+      "bytes": 1478,
+      "path": "frontend/web/src/assets/fly/procedural-source.json",
+      "sha256": "69251d9a5c9d10aba9aa01780e0de34838b5e46ce0b9c82b0e73e5e91a9eee26"
+    },
+    {
+      "bytes": 1352,
+      "path": "frontend/web/src/assets/fly/source-manifest.json",
+      "sha256": "32f8dee9dbe2f45265cefd0c384920cc853dde72127e6e72df67cd5ea0ce897b"
+    },
+    {
+      "bytes": 873,
+      "path": "frontend/web/src/assets/fly/walking-source.json",
+      "sha256": "42e2971726be82f216b41106f181214867a17a3e3b7699bee1ac291842ac0f91"
+    },
+    {
+      "bytes": 2066,
+      "path": "frontend/web/src/bench-support-pose.ts",
+      "sha256": "565af7bf92e12321c02ffe6c7a04801327858de2f0ee8fa993a9bded371d574b"
+    },
+    {
+      "bytes": 1346,
+      "path": "frontend/web/src/curl-support.test.ts",
+      "sha256": "843050162431a752017ffab6edab6012189b61b34a3f978fbdb10dbe10b5f8ae"
+    },
+    {
+      "bytes": 7063,
+      "path": "frontend/web/src/dashboard.ts",
+      "sha256": "654cefef7570f2c5d3c77b1d38b1340550aa9f548b494ef317f52332e93d67c6"
+    },
+    {
+      "bytes": 9894,
+      "path": "frontend/web/src/demo-polish.css",
+      "sha256": "f357c34215932c23618b9445d6d7dea8b0968d1ba41ba2a8a042218fcb2fbfc4"
+    },
+    {
+      "bytes": 14161,
+      "path": "frontend/web/src/drosolift.css",
+      "sha256": "4a2eb61eef0889ca99ae9c07edef04a500c399eae4e7aeaaf69b54f9d264631c"
+    },
+    {
+      "bytes": 11821,
+      "path": "frontend/web/src/equipment-meshes.ts",
+      "sha256": "bef04b3cae84ac6d3be143d9b68f74a99871458cab819bca1467371ec4b5d8ae"
+    },
+    {
+      "bytes": 2296,
+      "path": "frontend/web/src/equipment-scene.test.ts",
+      "sha256": "b5a5717d637766a9cf1fd5d8c922c4df04832292bc5143fe1379e79da60d41af"
+    },
+    {
+      "bytes": 4112,
+      "path": "frontend/web/src/equipment-scene.ts",
+      "sha256": "f8b7f276a4502aaddc96957c959f090528098bb1e1fe7f93b208d2c9ba284f23"
+    },
+    {
+      "bytes": 3555,
+      "path": "frontend/web/src/equipment-snapshot.ts",
+      "sha256": "da6ae45e634fdce6ae13f99a68a4b2c831316e9ffc741c06c561329f0430e7f6"
+    },
+    {
+      "bytes": 2323,
+      "path": "frontend/web/src/equipment-weight.test.ts",
+      "sha256": "71602de32ffcdb1b558038119e9fafd79145c39a2e1c21189def199581c3a493"
+    },
+    {
+      "bytes": 1016,
+      "path": "frontend/web/src/fly-asset.test.ts",
+      "sha256": "f76e62dc38ff8b86025fd54a0f9b3bd7a434216b9a05afcb527cebe4c50df89a"
+    },
+    {
+      "bytes": 293,
+      "path": "frontend/web/src/fly-model.ts",
+      "sha256": "4a0a17c511b6e331e29fd880af8f9833c3a2121835cd83b2ed73a1521919a86f"
+    },
+    {
+      "bytes": 1122,
+      "path": "frontend/web/src/fly-population.test.ts",
+      "sha256": "0a2bf9198dc73fe0b7fafb7cd309a253bba1186bfa9448ac2a332b93ebcc6319"
+    },
+    {
+      "bytes": 4387,
+      "path": "frontend/web/src/fly-population.ts",
+      "sha256": "4d2a78f2003fcfebf947b515e8fed2ed4200be37788c6954b25ab9b146f72ccb"
+    },
+    {
+      "bytes": 3196,
+      "path": "frontend/web/src/fly-scene.test.ts",
+      "sha256": "5b50b7dbeb84b3b12232003b7f9acfd52acbea4e86e9bccf26e596bfa332b6a1"
+    },
+    {
+      "bytes": 12179,
+      "path": "frontend/web/src/fly-scene.ts",
+      "sha256": "08a1a15b5289ebe290bebe337dc4e63c3b13f0ad80b82a66ddb9b41aa233b5cf"
+    },
+    {
+      "bytes": 3547,
+      "path": "frontend/web/src/foreleg-pose.ts",
+      "sha256": "bbda6651d04fc531f001a8405c0e0fdabbd363b526f175cd2da409903f4a9e1e"
+    },
+    {
+      "bytes": 2638,
+      "path": "frontend/web/src/graphics-renderer.ts",
+      "sha256": "b416993e78a03a3233bc3398f47605981563f671ad72ea03ca4d9c86c9861a28"
+    },
+    {
+      "bytes": 6585,
+      "path": "frontend/web/src/gym-dashboard.ts",
+      "sha256": "d11cc641b8703e84600a440c7bba1a0e14321a989dda3396b9e7983b8eb3ff16"
+    },
+    {
+      "bytes": 5554,
+      "path": "frontend/web/src/gym-observatory.css",
+      "sha256": "2eb819638a62f27571239a7c14419a29b1576728c54a852fffcc90c41c730e6f"
+    },
+    {
+      "bytes": 1896,
+      "path": "frontend/web/src/gym-scene.ts",
+      "sha256": "db52aeed13be68419aa9dd449576d7417545a56ae1f0729f9d4d411791f6790f"
+    },
+    {
+      "bytes": 3860,
+      "path": "frontend/web/src/gym-snapshot.ts",
+      "sha256": "e717f3028c926261b7a91ed3f55202211e6af0d7ef5f16f5b2b667ba5f72590e"
+    },
+    {
+      "bytes": 1536,
+      "path": "frontend/web/src/gym-types.ts",
+      "sha256": "2112dfa7ba33f4ecb471f9010c9fe98914cef09ee42b270df2cd4a438b3eb84d"
+    },
+    {
+      "bytes": 27911,
+      "path": "frontend/web/src/main.ts",
+      "sha256": "b285ff8180a7196e356fe21ac5f4e060687fae153d9c35bee883294535ca57b7"
+    },
+    {
+      "bytes": 2788,
+      "path": "frontend/web/src/motor-overlay.test.ts",
+      "sha256": "1a7a77e3d60a98a0e858916a2d9468143a29dce0e503694228428c607064a7a6"
+    },
+    {
+      "bytes": 9065,
+      "path": "frontend/web/src/motor-overlay.ts",
+      "sha256": "9c5a48c489a7ae6d59e45277a163a8df72e5e652a915c4d09312b8bc18c58564"
+    },
+    {
+      "bytes": 2273,
+      "path": "frontend/web/src/neural-activity.test.ts",
+      "sha256": "626c4eca1b0eb5327d56feada5eba7be99478872f21003fe334ac815c04d6549"
+    },
+    {
+      "bytes": 4800,
+      "path": "frontend/web/src/neural-activity.ts",
+      "sha256": "e4370c755467ccc9aeb3a25b2e3ddac1ca2d2b61b4e0eced3b2ce7a376cd1958"
+    },
+    {
+      "bytes": 1373,
+      "path": "frontend/web/src/neural-history.test.ts",
+      "sha256": "861725832c59040cd52d7df1f3e57ddc6e5e47381bb281577e5b90ad01557637"
+    },
+    {
+      "bytes": 1523,
+      "path": "frontend/web/src/neural-history.ts",
+      "sha256": "04bd4fb1e01512892702b8bcbec960249159c77ba4a243b61fcd818f2ddde600"
+    },
+    {
+      "bytes": 1649,
+      "path": "frontend/web/src/neural-sprites.ts",
+      "sha256": "e2472290e44e946fe2619f1ca141f6b994c4b1268bfbd0e9286b8f728f9c2a8a"
+    },
+    {
+      "bytes": 1574,
+      "path": "frontend/web/src/neuron-anatomy.test.ts",
+      "sha256": "d9238912b7e3698d7a447f9df77d1b216439492e24745cd3898d5381df69f7d3"
+    },
+    {
+      "bytes": 1730,
+      "path": "frontend/web/src/neuron-anatomy.ts",
+      "sha256": "1f3c59bcf16a9eb203e4fca5795de733288147af518835d55e1bdada78e9f77e"
+    },
+    {
+      "bytes": 2255,
+      "path": "frontend/web/src/neuron-inspector.css",
+      "sha256": "4380c2b281bed8bdadbee99d9264e7ce089ce45127f5580fab65cfae62cb0e5e"
+    },
+    {
+      "bytes": 4872,
+      "path": "frontend/web/src/neuron-inspector.ts",
+      "sha256": "1538677b89f3e92c9411fbb16e6c5c6bd064df229bcca7ac4792da5350429825"
+    },
+    {
+      "bytes": 24618,
+      "path": "frontend/web/src/neuron-map.ts",
+      "sha256": "7ee4218272cd15b566f964164a31e3477243bf21e57e0e814fa751dc590881ed"
+    },
+    {
+      "bytes": 1552,
+      "path": "frontend/web/src/neuron-readings.test.ts",
+      "sha256": "2ac691b5cf0e653a2b9832255afed9dfcfd65a47ad3c88a8ad57651450312429"
+    },
+    {
+      "bytes": 508,
+      "path": "frontend/web/src/neuron-readings.ts",
+      "sha256": "49af019c7384b60e2e68a4e135555d44024cf9cb257f88719ffa6d048422a7bc"
+    },
+    {
+      "bytes": 5616,
+      "path": "frontend/web/src/observatory-state.ts",
+      "sha256": "e30a7c7db245864b0cccf4bcfbb81cafd1031ada8a19695214be1dd33eaf0a47"
+    },
+    {
+      "bytes": 3115,
+      "path": "frontend/web/src/observatory.test.ts",
+      "sha256": "07b3bfca13fe2b97e0bf9d068d7c7d19547d1616157aebcc062ccb8345e3c981"
+    },
+    {
+      "bytes": 4624,
+      "path": "frontend/web/src/procedural-fly.test.ts",
+      "sha256": "7e2edd7e714e20d33f567e5b33db6aecee6238b0726e031810ea3b26177961ca"
+    },
+    {
+      "bytes": 11491,
+      "path": "frontend/web/src/procedural-fly.ts",
+      "sha256": "976c864950d898ebd0b3bbb8e1d93531f2a11ff75b18bd58bf7d29e1cdbbf2b2"
+    },
+    {
+      "bytes": 1766,
+      "path": "frontend/web/src/public-session.test.ts",
+      "sha256": "36e17e56b3e1bdbc9f5de5385f1de01d4f599967c2d9f4f9c7b3bc6a92cfff0f"
+    },
+    {
+      "bytes": 1779,
+      "path": "frontend/web/src/public-session.ts",
+      "sha256": "07ddb5b84679805eead549dba2f77f7bf705544424b6ad23826b4981355b076e"
+    },
+    {
+      "bytes": 2165,
+      "path": "frontend/web/src/recording.test.ts",
+      "sha256": "c5c58a61d1c62ff7418b14bd13c21813db4108386ae1bc4b528ad62299637fe8"
+    },
+    {
+      "bytes": 2265,
+      "path": "frontend/web/src/recording.ts",
+      "sha256": "a7b7814578f8dd7469aed6a11903246548cf56e2fea7e4a00ddacb044d42e8a9"
+    },
+    {
+      "bytes": 4632,
+      "path": "frontend/web/src/scene-camera.ts",
+      "sha256": "015231463ddd4db68dcfced751f0123e8789501fc07b6e302700a6192d55a580"
+    },
+    {
+      "bytes": 2172,
+      "path": "frontend/web/src/scene-controls.css",
+      "sha256": "a5c82c8cb7d6f6de765a588044c31f89d319edbf757d379079ed0d4bc2a50ab4"
+    },
+    {
+      "bytes": 3319,
+      "path": "frontend/web/src/scene-disposal.test.ts",
+      "sha256": "8382ec4bf9c39a7bfa3a7f2ff61b3cfc7ad006d6269695529dd9ca9438d3586b"
+    },
+    {
+      "bytes": 2205,
+      "path": "frontend/web/src/scene-math.ts",
+      "sha256": "3e054295d5e962bd5d3f783353445cdd3b8f927c5ee573998a67af73ff177e3d"
+    },
+    {
+      "bytes": 3356,
+      "path": "frontend/web/src/scene-primitives.ts",
+      "sha256": "b2cff0207907833e69d153b6fc335e9e6e7d4dd9f017e93a35111b500a2dc5c4"
+    },
+    {
+      "bytes": 3683,
+      "path": "frontend/web/src/simulation-client.test.ts",
+      "sha256": "0ca99699916aff55878ddc6716c95149b63f560b42de89a77ae757212ca51cd5"
+    },
+    {
+      "bytes": 5190,
+      "path": "frontend/web/src/simulation-client.ts",
+      "sha256": "1681cfef93cd68018916524e6856345ce13d6042597896362890840c8d205614"
+    },
+    {
+      "bytes": 2125,
+      "path": "frontend/web/src/skeleton-view.test.ts",
+      "sha256": "f959a50d508b8153747836d09919ab969e60da9980a274493c713a636d4a6dbe"
+    },
+    {
+      "bytes": 7924,
+      "path": "frontend/web/src/skeleton-view.ts",
+      "sha256": "01173dc60d09bf640815c1e60856179692d51f03c226bfd0a115b07b00fbf815"
+    },
+    {
+      "bytes": 1922,
+      "path": "frontend/web/src/snapshot-values.ts",
+      "sha256": "a4a2b020c7392d8d2006c92b9947fb9adc0abeb2655869bb1d0c130592c145bc"
+    },
+    {
+      "bytes": 5992,
+      "path": "frontend/web/src/snapshot.test.ts",
+      "sha256": "f74b8fa855501bc0187b938821226919db6bc0cd72aac07357dd5a72d48a4c31"
+    },
+    {
+      "bytes": 6108,
+      "path": "frontend/web/src/snapshot.ts",
+      "sha256": "d552855e7935de97fb9528c9784f46721d965cadf540dba209e9e7edc000c1bf"
+    },
+    {
+      "bytes": 10603,
+      "path": "frontend/web/src/styles.css",
+      "sha256": "9cd2fab8167299e6f64e9960db403fccb64f5bea7c4541fd0d0fdee43a046aaf"
+    },
+    {
+      "bytes": 545,
+      "path": "frontend/web/src/training-controls.test.ts",
+      "sha256": "3bd5f57c4e79e30fb7f4873d593e60189c3aef54180130f074cb853b246a456b"
+    },
+    {
+      "bytes": 332,
+      "path": "frontend/web/src/training-controls.ts",
+      "sha256": "539c6bbbf95e36fae648eb7fb824c1fc1c2adb4c56017f2028bb18ee142592ff"
+    },
+    {
+      "bytes": 994,
+      "path": "frontend/web/src/training-history.test.ts",
+      "sha256": "291755d08205c1fe2976f0dbc3329dfce060ba61ab241065ceb272ea07f41819"
+    },
+    {
+      "bytes": 804,
+      "path": "frontend/web/src/training-history.ts",
+      "sha256": "eb0129ad88a9eba214fa5ef253137b99d148c36936eead5a812132df4d0103cf"
+    },
+    {
+      "bytes": 13451,
+      "path": "frontend/web/src/training-ui.css",
+      "sha256": "cce055e068c8315565064416ec2d2df4a8dcecd7e06dcfe269c879215a4a7f1f"
+    },
+    {
+      "bytes": 1493,
+      "path": "frontend/web/src/types.ts",
+      "sha256": "0fc297c2d7266330baf4748b861cfe2ce32fce64611bca8faa6df2924c135ebe"
+    },
+    {
+      "bytes": 39,
+      "path": "frontend/web/src/vite-env.d.ts",
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92"
+    },
+    {
+      "bytes": 6197,
+      "path": "frontend/web/src/world-scene.ts",
+      "sha256": "631525de2fbb585ea8ad033b3d6c50518b153d0a5bd40a5014d571a49d8de228"
+    },
+    {
+      "bytes": 496,
+      "path": "frontend/web/tsconfig.json",
+      "sha256": "49b8844357a586cb1a71ba10491f6d37ca88dc393269d7581f4a18480b2f279d"
+    },
+    {
+      "bytes": 489,
+      "path": "frontend/web/vite.config.ts",
+      "sha256": "51166c2417f5c63cc192b034cc2d5bb6c9342f1db786e81f73351ec6ea5f51a4"
+    },
+    {
+      "bytes": 4030,
+      "path": "gym_cli.py",
+      "sha256": "53449f36d0fe9db762fa5dd9a327933f62f987afa4a7d70153e077bd77c089cb"
+    },
+    {
+      "bytes": 1081,
+      "path": "licenses/three-MIT.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "bytes": 19095,
+      "path": "main.py",
+      "sha256": "87def304ba3e07d5cf49020680a9a12a9ebf392ef3a49fb58216ba864c7f3c41"
+    },
+    {
+      "bytes": 4624,
+      "path": "public_cli.py",
+      "sha256": "72e525e88f7b4d43182952b401ea493e95cae156836ff6b57e9c14516d9eb3ec"
+    },
+    {
+      "bytes": 99,
+      "path": "requirements-analysis.txt",
+      "sha256": "7c2a19f0c63988315570c8068c44a8b1ddb70aefac43c2d2999eb2896ffc3d1c"
+    },
+    {
+      "bytes": 405,
+      "path": "requirements.lock.txt",
+      "sha256": "0f317345f715968cfc2ff86f5b0e775e2bcb89abb321dbe9839ff5eed3745742"
+    },
+    {
+      "bytes": 82,
+      "path": "requirements.txt",
+      "sha256": "548e8e95af2f7b75f6db356301f81492e5b8e231b29938e4cff5ca235a5b870a"
+    },
+    {
+      "bytes": 4056,
+      "path": "scripts/build_fly_asset.py",
+      "sha256": "0264aee94b47f749f50551e6c040d9b9cb3cd75a784fe00e913d7322fae37021"
+    },
+    {
+      "bytes": 12051,
+      "path": "scripts/check_conference_package.py",
+      "sha256": "e918e7d5d5ea4472d1576006b17c7b5843176910b4a60a266e8c5e69a91b2b81"
+    },
+    {
+      "bytes": 10192,
+      "path": "scripts/check_demo_presentation.py",
+      "sha256": "9768edb670ff8b58d43675c8bf4584f4f34a28910798f917d70acd3f090eb168"
+    },
+    {
+      "bytes": 10457,
+      "path": "scripts/check_demo_upgrade.py",
+      "sha256": "b15e38e166e3acf69666933fb6211afb3b91ca47903b5f128314bd408a630540"
+    },
+    {
+      "bytes": 23966,
+      "path": "scripts/check_drosolift_browser.py",
+      "sha256": "7e3a6595eaf9192fdd35d8df6b7259362d62b2f9d1f34ff00c698355b5b608b9"
+    },
+    {
+      "bytes": 10156,
+      "path": "scripts/check_drosolift_extras.py",
+      "sha256": "192e6f6f35c2d2bb897d83e60f20b71a2acccefa34fbe2285bc5f0a6c092173e"
+    },
+    {
+      "bytes": 4459,
+      "path": "scripts/check_drosolift_startup.py",
+      "sha256": "06138f0e62e18c0f2dba5ad4674ab0aefd4ed611306946c863a15c625beaefb2"
+    },
+    {
+      "bytes": 5870,
+      "path": "scripts/check_equipment_browser.py",
+      "sha256": "76118336738f0c459d99c4cea4bf9d2584327a5c916adbbf79dfbf771278a06e"
+    },
+    {
+      "bytes": 10579,
+      "path": "scripts/check_gym_browser.py",
+      "sha256": "dad7391e29acd33bf90733a77e702552e3c609062201044e29423ada9253de66"
+    },
+    {
+      "bytes": 2301,
+      "path": "scripts/check_neuron_updates.py",
+      "sha256": "7d0aa9ea3f88f850ef9361639d0b391ea828f533ee9e61ea0787325777c0d90a"
+    },
+    {
+      "bytes": 14312,
+      "path": "scripts/check_observatory.py",
+      "sha256": "94e9b5fe8a4b501c2417e7e16eae3995d65356282a8f47d78251a2d56ae83415"
+    },
+    {
+      "bytes": 18860,
+      "path": "scripts/check_public_sessions.py",
+      "sha256": "3632db2e64c25cfeed6de4029908310e7bc5d819d88aefc32c5524e4236c1e71"
+    },
+    {
+      "bytes": 13869,
+      "path": "scripts/check_training_ui.py",
+      "sha256": "5048555f3a31ce2986330cc31c5f38002ff5aa7b72135f507146199f440ccca0"
+    },
+    {
+      "bytes": 3596,
+      "path": "scripts/download_malecns.py",
+      "sha256": "81d1b3f95e62bcf94cc2f05d5545574e69a45a0276a9297fa5a5f8fbb80a1f6a"
+    },
+    {
+      "bytes": 3139,
+      "path": "scripts/export_neuron_positions.py",
+      "sha256": "21fcffa852f725e087a89e528d9fd08591f81051fe69661f2c9176a2e60c48d8"
+    },
+    {
+      "bytes": 15764,
+      "path": "scripts/export_public_source.py",
+      "sha256": "42512d4cf8218bc71d2ea05f3281bd039332b043e5c654a97afb75fe4c39f18e"
+    },
+    {
+      "bytes": 4730,
+      "path": "scripts/export_selected_skeletons.py",
+      "sha256": "d21127bb3828d910bb9fbc6051005aefe1645adcaa24e550b24201cda680aff8"
+    },
+    {
+      "bytes": 9319,
+      "path": "scripts/package_conference.py",
+      "sha256": "e2d625151a535f3fcaf72a1c5133a0cb93e6afebb14519f9af5de7865685b282"
+    },
+    {
+      "bytes": 3932,
+      "path": "scripts/record_training_demo.py",
+      "sha256": "77d7eb32ca2f17c5d7cc14ab35f9235296253aa8e33c524bb9e2b324b065df79"
+    },
+    {
+      "bytes": 1685,
+      "path": "scripts/serve_replay.py",
+      "sha256": "e5e103587f5cafde17f99c8c31f95a990737da0bf4a098353b6939d853349687"
+    },
+    {
+      "bytes": 68,
+      "path": "simulation/__init__.py",
+      "sha256": "9006d53533b2d4e74d6e139e31dd16f0f9655f03e4e5131bbc5c70ef453ec501"
+    },
+    {
+      "bytes": 9341,
+      "path": "simulation/gym.py",
+      "sha256": "1cf07046b25edf292d791228cd2f72accb8ab69708a608d7f7e908d7f049c1d7"
+    },
+    {
+      "bytes": 1282,
+      "path": "simulation/gym_signals.py",
+      "sha256": "8a480501d9e2d33421561c753a70fefef91811d393321442333136e46199e3b9"
+    },
+    {
+      "bytes": 2373,
+      "path": "simulation/loop.py",
+      "sha256": "be4c712e3a6b8d82c7bd5c8b2c41309f9b98e791e8366c0dd5c0d829b70013da"
+    },
+    {
+      "bytes": 1882,
+      "path": "simulation/signals.py",
+      "sha256": "496d2d37fbe7eef1816e9e8549e0065c57dcb98deb00889354062c48beed8586"
+    },
+    {
+      "bytes": 2,
+      "path": "tests/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 2,
+      "path": "tests/brain/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 3612,
+      "path": "tests/brain/test_circuit.py",
+      "sha256": "6ad2b10cef1262c19cbb563c5d0a04291de7c9af4674d8adad699aacd94c951d"
+    },
+    {
+      "bytes": 6264,
+      "path": "tests/brain/test_data.py",
+      "sha256": "7282cbfde90f6766c9e05bffa7ab6d230db4bea74a9126671707cc5d5b6d8f7c"
+    },
+    {
+      "bytes": 4341,
+      "path": "tests/brain/test_full_graph.py",
+      "sha256": "feff3c8e5b18d50ed76e8a6bc1380f7c158d6abe6a70d15f54d04f48b071ff2e"
+    },
+    {
+      "bytes": 3771,
+      "path": "tests/brain/test_full_graph_builder.py",
+      "sha256": "6994c8da410a24f059dbd9ca33521f29d80b2c9a50af61de22b2120334828201"
+    },
+    {
+      "bytes": 6511,
+      "path": "tests/brain/test_full_network.py",
+      "sha256": "b3bfe901eabd69f07b6e3ab21d32cdec070f803eb0dd597bf7de3131059f4317"
+    },
+    {
+      "bytes": 1735,
+      "path": "tests/brain/test_gym_circuit.py",
+      "sha256": "2e53bb53f5196ed4b5e0d926150c02b0f9cb77d97214517b646d21832a7e5d52"
+    },
+    {
+      "bytes": 1839,
+      "path": "tests/brain/test_gym_selection.py",
+      "sha256": "b1e0dd282bef6f3de10faab8fc12729d971c00d3573a09ce9996857e307c4235"
+    },
+    {
+      "bytes": 7608,
+      "path": "tests/brain/test_learning.py",
+      "sha256": "1c1e2b06bcecdc4b05b37a4fda5629ef647cc6ad0aadb4c49eb6cfaf13f486cd"
+    },
+    {
+      "bytes": 3789,
+      "path": "tests/brain/test_memory.py",
+      "sha256": "88799b4a96f8b23882f961b240e181dcd8a98e5226cfbd61aa934d7d25ce3588"
+    },
+    {
+      "bytes": 2366,
+      "path": "tests/brain/test_network.py",
+      "sha256": "14a30deaefce1a57d8274c2f22c64d8287d09ecc3b994e4dc571edb3088bd935"
+    },
+    {
+      "bytes": 7094,
+      "path": "tests/brain/test_network_equivalence.py",
+      "sha256": "c639c5553ff095bdf696886e1aaf70d3dc0c6270d84aace3f05f817966ef12a3"
+    },
+    {
+      "bytes": 72,
+      "path": "tests/experiments/__init__.py",
+      "sha256": "c5219035f4e18b27e42bb2b0ab8d985e88235299891fd0f47dd7add50f578001"
+    },
+    {
+      "bytes": 5875,
+      "path": "tests/experiments/test_session_checkpoint.py",
+      "sha256": "7bedb706701478f18d09f48fe4f29a6795bbfa638100c282bf6e64ef99d59fdf"
+    },
+    {
+      "bytes": 2,
+      "path": "tests/frontend/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 4998,
+      "path": "tests/frontend/test_command_journal.py",
+      "sha256": "5bf63923223cae783a7fb875bb388526370edef9e0787398bdebbc425185838d"
+    },
+    {
+      "bytes": 2869,
+      "path": "tests/frontend/test_console.py",
+      "sha256": "20964aae62e5d33e7cba03d117c678e3c63e1e7b29f38345c029a2b0abffceb8"
+    },
+    {
+      "bytes": 3928,
+      "path": "tests/frontend/test_gym_ack_boundaries.py",
+      "sha256": "4d9145ad3a63884a57e1904f4248d4fefed185867f6bf61b4e288484c77f409c"
+    },
+    {
+      "bytes": 8253,
+      "path": "tests/frontend/test_gym_command_durability.py",
+      "sha256": "3ffa4e82aadc41e0f016176d315d2abe0a367d20bcefc5998fb1439cb3ee83a8"
+    },
+    {
+      "bytes": 9755,
+      "path": "tests/frontend/test_gym_controls.py",
+      "sha256": "df4d27a291a0cab3e8daaeefa4ed6d6604a5cd7dbca65df4ced34c8e2e59e171"
+    },
+    {
+      "bytes": 8153,
+      "path": "tests/frontend/test_gym_server.py",
+      "sha256": "1731f0f1afb8a999c8d4f2ef666cef88a5faf1909567c67fb589810c9bc069b1"
+    },
+    {
+      "bytes": 10980,
+      "path": "tests/frontend/test_public_server.py",
+      "sha256": "1fdbfa0d26032a536227c0c26539ba5dd20a8aad79c38896c88767e293db2f4f"
+    },
+    {
+      "bytes": 10796,
+      "path": "tests/frontend/test_server.py",
+      "sha256": "039709ec0c4ff168d0bfe75372e0ae56eb3bd2ed432b237a95af3a0691bc86bd"
+    },
+    {
+      "bytes": 4254,
+      "path": "tests/frontend/test_session_store.py",
+      "sha256": "f2fe64f9daba2536b447b5abfb2ded513e5a05688f72a27066e31a776f732740"
+    },
+    {
+      "bytes": 3918,
+      "path": "tests/frontend/test_telemetry.py",
+      "sha256": "8fe38471db0c42b5babe2d509ee951ecd3ac29ba9e4bf345a2a6c602ff677673"
+    },
+    {
+      "bytes": 2,
+      "path": "tests/simulation/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 2667,
+      "path": "tests/simulation/test_apparatus_feedback.py",
+      "sha256": "83b8b480f023fd4882e63fab14cff0ad18cf5b9c0f696c1c1b68534d5fcdee1b"
+    },
+    {
+      "bytes": 10300,
+      "path": "tests/simulation/test_gym.py",
+      "sha256": "207d944e7ad01ce9bfe9921689977c2baf08041ee0e49809f0961fc44b4f6923"
+    },
+    {
+      "bytes": 6222,
+      "path": "tests/simulation/test_loop.py",
+      "sha256": "abd92ed10f3e3fcb1833a1739622d4ec47a8866b333aff81639a618b33020c2e"
+    },
+    {
+      "bytes": 1734,
+      "path": "tests/test_bench_comparison.py",
+      "sha256": "ce6c3a288b7309d46392d78171b19d1ca6bc04893b84a37db0f7bb797fab021f"
+    },
+    {
+      "bytes": 2251,
+      "path": "tests/test_conference_verifier.py",
+      "sha256": "9082358d4fd4e1959c3239fb5663dd2aa765e18fd56b70db36aa5156f6d48372"
+    },
+    {
+      "bytes": 2791,
+      "path": "tests/test_download_malecns.py",
+      "sha256": "fc8e4cf77019ca13012992891d15410149ce079f77ccdd889c26f138431a877e"
+    },
+    {
+      "bytes": 8746,
+      "path": "tests/test_export_public_source.py",
+      "sha256": "2dba6a01b12cd6751fc7d6d66110443d20e5c6e2f9a202c50fe0a763eb35ddec"
+    },
+    {
+      "bytes": 1794,
+      "path": "tests/test_gym_cli.py",
+      "sha256": "968e5978455ba67986cacb01e8ea05547398cfcbafec3995a6e734356d225206"
+    },
+    {
+      "bytes": 2747,
+      "path": "tests/test_main.py",
+      "sha256": "c60ef49c3be8565798a4f797c8d8c1b2a61496344e1c7028461d7570fe43dcd1"
+    },
+    {
+      "bytes": 1022,
+      "path": "tests/test_neuron_positions.py",
+      "sha256": "0150980bf233442342f97f8f961f82ef49d41046a0ea7c8f00833004e9478303"
+    },
+    {
+      "bytes": 3929,
+      "path": "tests/test_package_conference.py",
+      "sha256": "83a33c20e0b1eae88141511d75ad599bd8ea1a1f4baadf431d5d379b9c12eb41"
+    },
+    {
+      "bytes": 2334,
+      "path": "tests/test_project_contract.py",
+      "sha256": "caf17a72a4790b3b1deb5f1b25e540821a2eaf4fe61af0a4d04ac92131861730"
+    },
+    {
+      "bytes": 1564,
+      "path": "tests/test_public_cli.py",
+      "sha256": "9b8a4a19c06bea27eb8c042a20d242c45c021c91670edb2b09c725458a2a6689"
+    },
+    {
+      "bytes": 4142,
+      "path": "tests/test_record_gym.py",
+      "sha256": "a56d2a9d98c746bfcfd61eb6f47dc681e3bfe8b286524544e00da014ada89f5c"
+    },
+    {
+      "bytes": 2,
+      "path": "tests/world/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 2052,
+      "path": "tests/world/test_apparatus_feedback.py",
+      "sha256": "b17d8d950cd3bd6e8b74ccead1e463996feb83e2aa34d12e6a228b5c33b9ad24"
+    },
+    {
+      "bytes": 1872,
+      "path": "tests/world/test_environment.py",
+      "sha256": "71535efd393b7352225e6d32deb4feb8eb2a80052f87cfd2a4515fe89aaa4fe0"
+    },
+    {
+      "bytes": 9035,
+      "path": "tests/world/test_equipment.py",
+      "sha256": "6cc05d1246740e638cfd037d4616687c3b7a5f6516c5c59fa11cf794c397f611"
+    },
+    {
+      "bytes": 4370,
+      "path": "tests/world/test_exercise_setup.py",
+      "sha256": "08bee12b9418b39331717ed53c280aed7cf1b8465883393661676fec0c38cbfa"
+    },
+    {
+      "bytes": 2157,
+      "path": "tests/world/test_food.py",
+      "sha256": "bfa4bed073c7026e342740fde2745d95b99c8fb3453b9be771566dd68f2abcd0"
+    },
+    {
+      "bytes": 2816,
+      "path": "tests/world/test_gym.py",
+      "sha256": "1c2d75a98acf8a2a3f3db41de1d0ea4646a48791baa19f341fedf9b2ddd7b663"
+    },
+    {
+      "bytes": 291,
+      "path": "vercel.json",
+      "sha256": "33a2885d8ec903a3c9a73db1af55950e81d952e610cc324b9a0209e863e4dd2e"
+    },
+    {
+      "bytes": 2,
+      "path": "world/__init__.py",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 1154,
+      "path": "world/apparatus_feedback.py",
+      "sha256": "6836685e173c747c5785c340cb57e9df3ccb5ee7e26c4feae80018162b958646"
+    },
+    {
+      "bytes": 1592,
+      "path": "world/environment.py",
+      "sha256": "fc558d7ee146ecf1ecc682a2bf3037c44a90c3c09eeb0ce5702a0d290562df92"
+    },
+    {
+      "bytes": 15758,
+      "path": "world/equipment.py",
+      "sha256": "0f3509dc363e5c224e34086ad0351121dd5275560338dc9f6c1266c321a59b24"
+    },
+    {
+      "bytes": 1425,
+      "path": "world/fly.py",
+      "sha256": "9fffb9db99b5afc0646b3c73b5530c6677eaa6f476a599e91a1ed3dfee8a12c9"
+    },
+    {
+      "bytes": 4442,
+      "path": "world/food.py",
+      "sha256": "8f1c9a88c1cbbe547d0e46b1f9f90374c7b3c879421a4c3ec4ca3147310dafac"
+    },
+    {
+      "bytes": 4749,
+      "path": "world/gym.py",
+      "sha256": "e44eb4a0b53f43ededc88f55624c7b6b8514f4fc3af965382dbb61bee975196c"
+    },
+    {
+      "bytes": 136,
+      "path": "world/motor.py",
+      "sha256": "9f60aec5efef2a9bdb01f00c8d3b1f154e04a9ec435a49b8d734fb9afad8de6e"
+    },
+    {
+      "bytes": 2160,
+      "path": "world/sensors.py",
+      "sha256": "da418db2ed3dbd8ecf663449d17036095ae04d54883c34e95fc050fb0ab6359e"
+    }
+  ],
+  "format": "drosolift-public-source-manifest",
+  "manifest_self_excluded": true,
+  "total_bytes": 62590792,
+  "version": 1
+}

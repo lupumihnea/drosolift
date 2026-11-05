@@ -1,0 +1,80 @@
+{
+  "demo-bench": {
+    "frames": 201,
+    "duration": 20.0,
+    "exercise": "bench_press",
+    "feedback_profile": "apparatus-visual-v1",
+    "load": 0.6,
+    "repetitions": 5,
+    "positive_work": 2.2240732133714043,
+    "visual_groups": {
+      "left": {
+        "body_ids": [
+          36800,
+          18571,
+          546043,
+          21982,
+          14473,
+          546087
+        ],
+        "first_received": 0.06649999999999999,
+        "minimum": 0.06649999999999999,
+        "maximum": 0.5399163443818017
+      },
+      "right": {
+        "body_ids": [
+          63316,
+          28221,
+          27196,
+          37738,
+          24236,
+          27390
+        ],
+        "first_received": 0.016624999999999997,
+        "minimum": 0.016624999999999997,
+        "maximum": 0.13497908609545042
+      }
+    },
+    "input_rate_mismatches": 0,
+    "sha256": "eaf86a5111364c3a4b5f22b5193054bbfddc3d5bcd03cb782e2761fc03212810"
+  },
+  "demo-curl": {
+    "frames": 201,
+    "duration": 20.0,
+    "exercise": "bicep_curl",
+    "feedback_profile": "apparatus-visual-v1",
+    "load": 0.4,
+    "repetitions": 6,
+    "positive_work": 1.3200000000000007,
+    "visual_groups": {
+      "left": {
+        "body_ids": [
+          36800,
+          18571,
+          546043,
+          21982,
+          14473,
+          546087
+        ],
+        "first_received": 0.01575,
+        "minimum": 0.01575,
+        "maximum": 0.1325
+      },
+      "right": {
+        "body_ids": [
+          63316,
+          28221,
+          27196,
+          37738,
+          24236,
+          27390
+        ],
+        "first_received": 0.063,
+        "minimum": 0.063,
+        "maximum": 0.53
+      }
+    },
+    "input_rate_mismatches": 0,
+    "sha256": "2781d774fe6934abd3d94e5427507b4ce3ad26af75b786adcbd839105d38dc94"
+  }
+}

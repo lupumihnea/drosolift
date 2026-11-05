@@ -1,0 +1,117 @@
+bun test v1.4.4 (38afee6c8)
+
+src\animated-fly.test.ts:
+(pass) shipping rig clones share geometry but never animated joint state [147.70ms]
+(pass) walking phase depends on ground distance, not elapsed wall time [60.58ms]
+(pass) bench and curl forelegs reach the measured handles without moving the physical root [34.33ms]
+
+src\curl-support.test.ts:
+(pass) the four free curl feet meet their authored sloped supports without moving root or grips [31.52ms]
+
+src\equipment-scene.test.ts:
+(pass) weights and grips share the actual station stroke and world transform [120.40ms]
+
+src\equipment-weight.test.ts:
+(pass) an applied 0.2 load step adds symmetric discs without moving a bar or its grip targets [90.93ms]
+(pass) plate representation is bounded, stable under retries and refuses nonfinite loads [89.16ms]
+
+src\fly-asset.test.ts:
+(pass) the shipped GLB matches its attribution manifest and stays within the mesh budget [121.90ms]
+
+src\fly-population.test.ts:
+(pass) an acknowledged station setup snaps to its received anchor before grip interpolation [69.95ms]
+
+src\fly-scene.test.ts:
+(pass) worldToScene > maps world corners into the specimen chamber [0.03ms]
+(pass) worldToScene > projects all arena corners inside the oblique perspective viewport [0.85ms]
+(pass) worldToScene > fits the complete arena at desktop and portrait aspect ratios [0.06ms]
+(pass) eyeCameraPose > places a zero-heading eye at head height and looks forward [0.04ms]
+(pass) eyeCameraPose > uses the scene's negative z axis for a quarter turn [0.02ms]
+(pass) eyeCameraPose > preserves negative positions and headings [0.02ms]
+(pass) scene signals > interpolates across the shortest heading arc [0.01ms]
+(pass) scene signals > clamps odor halo scale and handles absent food [0.03ms]
+(pass) scene signals > uses zero intensity for an inactive network [0.04ms]
+
+src\motor-overlay.test.ts:
+(pass) X-ray keeps real IDs, rates and official edges on an explicitly illustrative body layout [3.58ms]
+
+src\neural-activity.test.ts:
+(pass) functional model groups exactly partition official runtime identities without exercise-specialized neurons [0.46ms]
+(pass) group means use received observations only and keep zero distinct from absence [0.27ms]
+(pass) atlas links use only measured endpoints and official structural edges; circuit positions stay explicit [0.56ms]
+
+src\neural-history.test.ts:
+(pass) rate history preserves timestamps, zeros and missing observations without inventing spikes [0.57ms]
+(pass) brain framing is an explicit source-coordinate crop; cell colors do not encode rates [0.12ms]
+
+src\neuron-anatomy.test.ts:
+(pass) shipped anatomy uses unique official body IDs and finite measured positions [315.92ms]
+(pass) anatomical highlights distinguish absent telemetry, received zero and tiny positive rates [0.19ms]
+(pass) malformed or duplicate anatomy is rejected, never replaced with invented coordinates [30.05ms]
+
+src\neuron-readings.test.ts:
+(pass) filterNeuronReadings > returns every reading sorted by activity then body ID for an empty query [0.50ms]
+(pass) filterNeuronReadings > matches labels without case sensitivity [9.70ms]
+(pass) filterNeuronReadings > matches a body ID substring [0.07ms]
+(pass) filterNeuronReadings > retains received zero-activity readings [0.03ms]
+(pass) filterNeuronReadings > returns an empty array when nothing matches [0.02ms]
+(pass) filterNeuronReadings > returns a new array without changing input order [2.44ms]
+
+src\observatory.test.ts:
+(pass) load acknowledgements reject non-finite state and distinguish pending from effective steps [0.29ms]
+(pass) seeking selects the recorded state without inventing counts or interpolating telemetry [0.06ms]
+(pass) selection follows identity across ranking changes and missing observations stay missing [0.17ms]
+(pass) exercise setup and latched apparatus feedback preserve their exact acknowledged clock [0.66ms]
+
+src\procedural-fly.test.ts:
+(pass) the shipped fly has redistributable original geometry and six articulated legs [15.92ms]
+(pass) replacement rig keeps bench/curl grips at both endpoints and independent pose state [23.38ms]
+(pass) the shipped replacement walks from received displacement and shares only immutable mesh resources [21.35ms]
+(pass) authored bench support folds four resting legs toward the pad and restores wings off the bench [18.35ms]
+
+src\public-session.test.ts:
+(pass) public session bootstrap uses credentials and keeps its websocket on the configured service [21.05ms]
+(pass) backend endpoints reject insecure remote URLs, credentials, paths and redirects [0.34ms]
+
+src\recording.test.ts:
+(pass) recorded apparatus inputs remain on the same sampled model clock [151.01ms]
+(pass) both shipped exercise scenarios retain actual latched inputs and distinct source visual rates [91.44ms]
+
+src\scene-disposal.test.ts:
+(pass) disposes shared point-cloud geometry and material exactly once [0.54ms]
+(pass) deduplicates resources shared by points, meshes, and lines [0.33ms]
+(pass) shared procedural surface textures are released exactly once [0.31ms]
+(pass) shared neural sprite geometry, materials and glow texture are released once [0.32ms]
+(pass) instance buffers are released per object while shared geometry/material dispose only once [0.23ms]
+
+src\simulation-client.test.ts:
+(pass) retired sockets cannot overwrite a reconnected session; extensions require server negotiation [119.15ms]
+(pass) a public socket waits for session bootstrap and cancelled bootstrap cannot reconnect [4.77ms]
+
+src\skeleton-view.test.ts:
+(pass) skeleton cache preserves native atlas axes and exact parent edges [0.34ms]
+(pass) morphology distinguishes unobserved from received zero and positive rate [0.31ms]
+(pass) the bounded default morphology collection includes official sensory, relay and descending cells [18.80ms]
+
+src\snapshot.test.ts:
+(pass) parseServerMessage > accepts articulated equipment without changing neural readings [0.82ms]
+(pass) parseServerMessage > accepts gym populations without changing the existing nested frame [0.19ms]
+(pass) parseServerMessage > accepts gym hello and validates actual count acknowledgements [0.14ms]
+(pass) parseServerMessage > accepts a complete finite frame [0.04ms]
+(pass) parseServerMessage > accepts hello and running state messages [0.05ms]
+(pass) parseServerMessage > rejects incompatible, missing, and non-finite values [0.11ms]
+(pass) display formatting > formats official IDs without locale digit substitution [0.02ms]
+(pass) display formatting > formats activity readings consistently [8.07ms]
+
+src\training-controls.test.ts:
+(pass) weight buttons move by a visible plate step within authoritative limits [0.07ms]
+(pass) invalid received weights never turn into a model command [0.06ms]
+
+src\training-history.test.ts:
+(pass) training traces keep actual per-fly samples and bounded memory [0.48ms]
+(pass) paused duplicate samples do not fabricate a learning curve; restart clears stale history [0.05ms]
+
+ 67 pass
+ 0 fail
+ 1632 expect() calls
+Ran 67 tests across 22 files. [3.43s]

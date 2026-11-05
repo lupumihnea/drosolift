@@ -1,0 +1,812 @@
+{
+  "health": {
+    "status": "ready",
+    "schema": 3,
+    "backend": "compact",
+    "dataset": "male-cns:v1.0",
+    "experiment": "gym",
+    "population": 1
+  },
+  "run_id": "d5ecb2d5-99ce-4efe-8f6d-b1e59f9f0f00",
+  "metadata_model": "DrosoLift gym-apparatus-visual-v1",
+  "metadata_seed": 7,
+  "metadata_dt": 0.1,
+  "initial_step": 0,
+  "received_step": 59,
+  "exercises": [
+    {
+      "fly_id": "fly-1",
+      "kind": "bench_press",
+      "station_id": "station-1",
+      "pending_kind": null,
+      "pending_station_id": null,
+      "pending_command_id": null
+    }
+  ],
+  "feedback": [
+    {
+      "fly_id": "fly-1",
+      "profile": "apparatus-visual-v1",
+      "indicator_left": 0.3152226056840472,
+      "indicator_right": 0.0788056514210118,
+      "sample_step": 59,
+      "sample_elapsed": 5.899999999999995
+    }
+  ],
+  "frame": {
+    "type": "gym_frame",
+    "schema": 3,
+    "step": 59,
+    "elapsed": 5.899999999999995,
+    "flies": [
+      {
+        "id": "fly-1",
+        "frame": {
+          "type": "frame",
+          "schema": 1,
+          "step": 59,
+          "elapsed": 5.899999999999995,
+          "body": {
+            "x": -6.4,
+            "y": -2.0,
+            "heading": 0.22
+          },
+          "food": {
+            "x": -12.0,
+            "y": -5.130764559989487,
+            "radius": 0.7
+          },
+          "hunger": 0.44607672412770394,
+          "ate": false,
+          "sensory": {
+            "smell_left": 0.3042643421126023,
+            "smell_right": 0.31394976591106416,
+            "vision_left": 0.3152226056840472,
+            "vision_right": 0.0788056514210118
+          },
+          "motor": {
+            "forward": 0.8166374572418358,
+            "turn": 0.07532909370842722
+          },
+          "neural": {
+            "roles": {
+              "forward_left": 0.26942201754662,
+              "forward_right": 0.27500295394793717,
+              "steering_high_left": 0.3169462624322258,
+              "steering_high_right": 0.3698285305231551,
+              "steering_low_left": 0.3624880851186534,
+              "steering_low_right": 0.32843809045483086
+            },
+            "active": [
+              {
+                "body_id": 80841,
+                "label": "ORN_DM2#80841",
+                "activity": 1.0
+              },
+              {
+                "body_id": 182016,
+                "label": "ORN_DM2#182016",
+                "activity": 1.0
+              },
+              {
+                "body_id": 201965,
+                "label": "ORN_DM2#201965",
+                "activity": 1.0
+              },
+              {
+                "body_id": 203339,
+                "label": "ORN_DM2#203339",
+                "activity": 1.0
+              },
+              {
+                "body_id": 204061,
+                "label": "ORN_DM2#204061",
+                "activity": 1.0
+              },
+              {
+                "body_id": 217529,
+                "label": "ORN_DM2#217529",
+                "activity": 1.0
+              },
+              {
+                "body_id": 424866,
+                "label": "ORN_DM2#424866",
+                "activity": 1.0
+              },
+              {
+                "body_id": 464464,
+                "label": "ORN_DM2#464464",
+                "activity": 1.0
+              },
+              {
+                "body_id": 13431,
+                "label": "lLN2T_b#13431",
+                "activity": 0.7615941559557649
+              },
+              {
+                "body_id": 67052,
+                "label": "lLN2T_b#67052",
+                "activity": 0.7615941559557649
+              },
+              {
+                "body_id": 10628,
+                "label": "AL-AST1#10628",
+                "activity": 0.6420149920119997
+              },
+              {
+                "body_id": 13940,
+                "label": "M_l2PN3t18#13940",
+                "activity": 0.6420149920119997
+              },
+              {
+                "body_id": 14319,
+                "label": "M_l2PN3t18#14319",
+                "activity": 0.6420149920119997
+              },
+              {
+                "body_id": 11517,
+                "label": "lLN2T_c#11517",
+                "activity": 0.5896125802333645
+              },
+              {
+                "body_id": 10030,
+                "label": "pIP1#10030",
+                "activity": 0.5662699759614795
+              },
+              {
+                "body_id": 10038,
+                "label": "pIP1#10038",
+                "activity": 0.5662699759614795
+              },
+              {
+                "body_id": 11610,
+                "label": "DNae007#11610",
+                "activity": 0.5662699759614795
+              },
+              {
+                "body_id": 13215,
+                "label": "GNG512#13215",
+                "activity": 0.5662699759614795
+              },
+              {
+                "body_id": 10702,
+                "label": "M_l2PNl20#10702",
+                "activity": 0.5645571107255071
+              },
+              {
+                "body_id": 527409,
+                "label": "CB0683#527409",
+                "activity": 0.5296136323740848
+              },
+              {
+                "body_id": 19508,
+                "label": "CB0356#19508",
+                "activity": 0.5113468660737133
+              },
+              {
+                "body_id": 173968,
+                "label": "SIP022#173968",
+                "activity": 0.5113468660737133
+              },
+              {
+                "body_id": 520615,
+                "label": "CRE014#520615",
+                "activity": 0.5113468660737133
+              },
+              {
+                "body_id": 10567,
+                "label": "M_l2PNl20#10567",
+                "activity": 0.5071334632569667
+              },
+              {
+                "body_id": 12974,
+                "label": "LAL182#12974",
+                "activity": 0.48507683063396506
+              },
+              {
+                "body_id": 10971,
+                "label": "DNa11#10971",
+                "activity": 0.47098316356867886
+              },
+              {
+                "body_id": 532944,
+                "label": "GNG553#532944",
+                "activity": 0.47098316356867886
+              },
+              {
+                "body_id": 19519,
+                "label": "CB0356#19519",
+                "activity": 0.4677031807547728
+              },
+              {
+                "body_id": 24396,
+                "label": "SIP022#24396",
+                "activity": 0.4677031807547728
+              },
+              {
+                "body_id": 11863,
+                "label": "GNG553#11863",
+                "activity": 0.436325804635188
+              },
+              {
+                "body_id": 181207,
+                "label": "ORN_DM1#181207",
+                "activity": 0.37555652090834407
+              },
+              {
+                "body_id": 183425,
+                "label": "ORN_DM1#183425",
+                "activity": 0.37555652090834407
+              },
+              {
+                "body_id": 184230,
+                "label": "ORN_DM1#184230",
+                "activity": 0.37555652090834407
+              },
+              {
+                "body_id": 192631,
+                "label": "ORN_DM1#192631",
+                "activity": 0.37555652090834407
+              },
+              {
+                "body_id": 10360,
+                "label": "DNa02#10360",
+                "activity": 0.3698285305231551
+              },
+              {
+                "body_id": 189518,
+                "label": "ORN_DM1#189518",
+                "activity": 0.36397051429127386
+              },
+              {
+                "body_id": 363119,
+                "label": "ORN_DM1#363119",
+                "activity": 0.36397051429127386
+              },
+              {
+                "body_id": 416090,
+                "label": "ORN_DM1#416090",
+                "activity": 0.36397051429127386
+              },
+              {
+                "body_id": 742571852,
+                "label": "ORN_DM1#742571852",
+                "activity": 0.36397051429127386
+              },
+              {
+                "body_id": 10442,
+                "label": "DNa01#10442",
+                "activity": 0.3624880851186534
+              },
+              {
+                "body_id": 530777,
+                "label": "lLN2X04#530777",
+                "activity": 0.3539086163645093
+              },
+              {
+                "body_id": 10408,
+                "label": "VP1d+VP4_l2PN2#10408",
+                "activity": 0.33982678812921513
+              },
+              {
+                "body_id": 10760,
+                "label": "DNa01#10760",
+                "activity": 0.32843809045483086
+              },
+              {
+                "body_id": 521758,
+                "label": "CB1108#521758",
+                "activity": 0.32728948023431936
+              },
+              {
+                "body_id": 523769,
+                "label": "DNa02#523769",
+                "activity": 0.3169462624322258
+              },
+              {
+                "body_id": 14473,
+                "label": "L2#14473",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 18571,
+                "label": "L2#18571",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 21982,
+                "label": "L2#21982",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 36800,
+                "label": "L2#36800",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 546043,
+                "label": "L2#546043",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 546087,
+                "label": "L2#546087",
+                "activity": 0.3152226056840472
+              },
+              {
+                "body_id": 26149,
+                "label": "Tm4#26149",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 187377,
+                "label": "Tm4#187377",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 512685,
+                "label": "Tm4#512685",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 520554,
+                "label": "Tm4#520554",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 524172,
+                "label": "TmY3#524172",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 542103,
+                "label": "Tm4#542103",
+                "activity": 0.30530203616362767
+              },
+              {
+                "body_id": 17340,
+                "label": "LC4#17340",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 28080,
+                "label": "LPLC1#28080",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 91616,
+                "label": "LPLC4#91616",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 97200,
+                "label": "LLPC1#97200",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 108445,
+                "label": "LLPC1#108445",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 525844,
+                "label": "LPLC2#525844",
+                "activity": 0.2971903837604384
+              },
+              {
+                "body_id": 10373,
+                "label": "PVLP141#10373",
+                "activity": 0.2920721605025351
+              },
+              {
+                "body_id": 10778,
+                "label": "CL286#10778",
+                "activity": 0.2920721605025351
+              },
+              {
+                "body_id": 14040,
+                "label": "LAL081#14040",
+                "activity": 0.2920721605025351
+              },
+              {
+                "body_id": 519982,
+                "label": "VES071#519982",
+                "activity": 0.2920721605025351
+              },
+              {
+                "body_id": 11177,
+                "label": "DNp09#11177",
+                "activity": 0.27500295394793717
+              },
+              {
+                "body_id": 10783,
+                "label": "DNp09#10783",
+                "activity": 0.26942201754662
+              },
+              {
+                "body_id": 13273,
+                "label": "LAL081#13273",
+                "activity": 0.07975133761349609
+              },
+              {
+                "body_id": 512484,
+                "label": "LC31a#512484",
+                "activity": 0.07975133761349609
+              },
+              {
+                "body_id": 514764,
+                "label": "PVLP141#514764",
+                "activity": 0.07975133761349609
+              },
+              {
+                "body_id": 519461,
+                "label": "LAL018#519461",
+                "activity": 0.07975133761349609
+              },
+              {
+                "body_id": 16128,
+                "label": "LC4#16128",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 19277,
+                "label": "LC14a-1#19277",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 22063,
+                "label": "LLPC1#22063",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 32400,
+                "label": "LLPC1#32400",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 39427,
+                "label": "LC31a#39427",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 42084,
+                "label": "LoVP93#42084",
+                "activity": 0.07882480847773743
+              },
+              {
+                "body_id": 24236,
+                "label": "L2#24236",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 27196,
+                "label": "L2#27196",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 27390,
+                "label": "L2#27390",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 28221,
+                "label": "L2#28221",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 37738,
+                "label": "L2#37738",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 63316,
+                "label": "L2#63316",
+                "activity": 0.0788056514210118
+              },
+              {
+                "body_id": 41833,
+                "label": "TmY3#41833",
+                "activity": 0.0786762917623414
+              },
+              {
+                "body_id": 51770,
+                "label": "TmY3#51770",
+                "activity": 0.0786762917623414
+              },
+              {
+                "body_id": 75799,
+                "label": "Tm4#75799",
+                "activity": 0.0786762917623414
+              },
+              {
+                "body_id": 76346,
+                "label": "Tm4#76346",
+                "activity": 0.0786762917623414
+              },
+              {
+                "body_id": 94364,
+                "label": "Tm4#94364",
+                "activity": 0.0786762917623414
+              },
+              {
+                "body_id": 134324,
+                "label": "Tm4#134324",
+                "activity": 0.0786762917623414
+              }
+            ]
+          },
+          "trail": [
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ],
+            [
+              -6.4,
+              -2.0
+            ]
+          ],
+          "learning": {
+            "reward": 0.0,
+            "association_strength": 0.0,
+            "mean_eligibility": 0.029759501935042166,
+            "active_kcs": 6,
+            "changed": false
+          }
+        },
+        "training": {
+          "set_progress": 0.6149317316092419,
+          "sets": 0,
+          "effort": 0.0,
+          "fatigue": 0.13791090054389898,
+          "fitness": 1.0,
+          "reward": 0.0,
+          "association_strength": 0.07609777792255246,
+          "total_work": 0.84,
+          "distance": 0.0
+        },
+        "exercise": {
+          "station_id": "station-1",
+          "kind": "bench_press",
+          "phase": "lowering",
+          "joint_position": 0.31040961034454867,
+          "joint_velocity": -0.47402088619080035,
+          "repetitions": 1,
+          "completed_sets": 0,
+          "rep_in_set": 1,
+          "recovery_remaining": 0.0,
+          "body_elevation": 1.5,
+          "body_pitch": 0.0,
+          "body_roll": 3.141592653589793
+        }
+      }
+    ]
+  }
+}

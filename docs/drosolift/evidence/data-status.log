@@ -1,0 +1,12 @@
+Validating and loading MaleCNS data...
+Dataset: male-cns:v1.0
+Connection rows: 151,856,684
+ORN_DM1 olfactory neurons: 74
+L1/L2 visual neurons: 3,534
+Validated motor roles: 6
+Validated runtime edges: 66
+Validated learning edges: 104
+Official PAM01 reward neurons: 44
+Validated gym runtime edges: 92
+Validated gym learning edges: 104
+Status: data is valid and ready

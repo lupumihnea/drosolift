@@ -1,0 +1,894 @@
+{
+  "hello": {
+    "type": "hello",
+    "schema": 3,
+    "backend": "compact",
+    "dataset": "male-cns:v1.0",
+    "fps": 10,
+    "world": {
+      "width": 20,
+      "height": 12
+    },
+    "experiment": "gym",
+    "population": 1,
+    "station": {
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 8,
+      "resistance": 2
+    },
+    "equipment": [
+      {
+        "id": "station-1",
+        "kind": "bench_press",
+        "x": -6.4,
+        "y": -2,
+        "heading": 0.22,
+        "load": 0.6,
+        "travel": 0.7,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-2",
+        "kind": "bicep_curl",
+        "x": -3.2,
+        "y": -2,
+        "heading": 0.33999999999999997,
+        "load": 0.4,
+        "travel": 0.55,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-3",
+        "kind": "bench_press",
+        "x": 0,
+        "y": -2,
+        "heading": 0.45999999999999996,
+        "load": 0.6,
+        "travel": 0.7,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-4",
+        "kind": "bicep_curl",
+        "x": 3.200000000000001,
+        "y": -2,
+        "heading": 0.58,
+        "load": 0.4,
+        "travel": 0.55,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-5",
+        "kind": "bench_press",
+        "x": 6.4,
+        "y": -2,
+        "heading": 0.7,
+        "load": 0.6,
+        "travel": 0.7,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-6",
+        "kind": "bicep_curl",
+        "x": -6.4,
+        "y": 2,
+        "heading": 0.82,
+        "load": 0.4,
+        "travel": 0.55,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-7",
+        "kind": "bench_press",
+        "x": -3.2,
+        "y": 2,
+        "heading": 0.94,
+        "load": 0.6,
+        "travel": 0.7,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-8",
+        "kind": "bicep_curl",
+        "x": 0,
+        "y": 2,
+        "heading": 1.06,
+        "load": 0.4,
+        "travel": 0.55,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-9",
+        "kind": "bench_press",
+        "x": 3.200000000000001,
+        "y": 2,
+        "heading": 1.18,
+        "load": 0.6,
+        "travel": 0.7,
+        "grip_radius": 0.45
+      },
+      {
+        "id": "station-10",
+        "kind": "bicep_curl",
+        "x": 6.4,
+        "y": 2,
+        "heading": 1.3,
+        "load": 0.4,
+        "travel": 0.55,
+        "grip_radius": 0.45
+      }
+    ]
+  },
+  "samples": [
+    {
+      "step": 610,
+      "elapsed": 61.0000000000006,
+      "body_id": 10783,
+      "activity": 0.22224851787580222,
+      "joint_position": 0.7981627811273422,
+      "repetitions": 14
+    },
+    {
+      "step": 611,
+      "elapsed": 61.1000000000006,
+      "body_id": 10783,
+      "activity": 0.22227333274553207,
+      "joint_position": 0.7551940138595354,
+      "repetitions": 14
+    },
+    {
+      "step": 612,
+      "elapsed": 61.2000000000006,
+      "body_id": 10783,
+      "activity": 0.222298144250139,
+      "joint_position": 0.7110041951683183,
+      "repetitions": 14
+    },
+    {
+      "step": 613,
+      "elapsed": 61.3000000000006,
+      "body_id": 10783,
+      "activity": 0.2223229523892994,
+      "joint_position": 0.6659139436972991,
+      "repetitions": 14
+    },
+    {
+      "step": 614,
+      "elapsed": 61.4000000000006,
+      "body_id": 10783,
+      "activity": 0.22234775716269006,
+      "joint_position": 0.6201596913698064,
+      "repetitions": 14
+    },
+    {
+      "step": 615,
+      "elapsed": 61.500000000000604,
+      "body_id": 10783,
+      "activity": 0.22237255856998842,
+      "joint_position": 0.5739157887904713,
+      "repetitions": 14
+    },
+    {
+      "step": 616,
+      "elapsed": 61.600000000000605,
+      "body_id": 10783,
+      "activity": 0.22239735661087212,
+      "joint_position": 0.5273108063016877,
+      "repetitions": 14
+    },
+    {
+      "step": 617,
+      "elapsed": 61.70000000000061,
+      "body_id": 10783,
+      "activity": 0.22242215128501946,
+      "joint_position": 0.48043955477593964,
+      "repetitions": 14
+    },
+    {
+      "step": 618,
+      "elapsed": 61.80000000000061,
+      "body_id": 10783,
+      "activity": 0.222446942592109,
+      "joint_position": 0.43337195003808887,
+      "repetitions": 14
+    },
+    {
+      "step": 619,
+      "elapsed": 61.90000000000061,
+      "body_id": 10783,
+      "activity": 0.22247173053181998,
+      "joint_position": 0.38615954970424027,
+      "repetitions": 14
+    },
+    {
+      "step": 620,
+      "elapsed": 62.00000000000061,
+      "body_id": 10783,
+      "activity": 0.2224965151038318,
+      "joint_position": 0.3388403736044347,
+      "repetitions": 14
+    },
+    {
+      "step": 621,
+      "elapsed": 62.10000000000061,
+      "body_id": 10783,
+      "activity": 0.2225212963078246,
+      "joint_position": 0.29144245847864475,
+      "repetitions": 14
+    },
+    {
+      "step": 622,
+      "elapsed": 62.200000000000614,
+      "body_id": 10783,
+      "activity": 0.1603941575956273,
+      "joint_position": 0.2439864792953658,
+      "repetitions": 14
+    },
+    {
+      "step": 623,
+      "elapsed": 62.300000000000615,
+      "body_id": 10783,
+      "activity": 0.07862903212869904,
+      "joint_position": 0.19648768227518904,
+      "repetitions": 14
+    },
+    {
+      "step": 624,
+      "elapsed": 62.40000000000062,
+      "body_id": 10783,
+      "activity": 0.07629817292340371,
+      "joint_position": 0.14895731034902235,
+      "repetitions": 14
+    },
+    {
+      "step": 625,
+      "elapsed": 62.50000000000062,
+      "body_id": 10783,
+      "activity": 0.0762764097520797,
+      "joint_position": 0.10140365432537428,
+      "repetitions": 14
+    },
+    {
+      "step": 626,
+      "elapsed": 62.60000000000062,
+      "body_id": 10783,
+      "activity": 0.076276276078647,
+      "joint_position": 0.05383282804647041,
+      "repetitions": 14
+    },
+    {
+      "step": 627,
+      "elapsed": 62.70000000000062,
+      "body_id": 10783,
+      "activity": 0.07627627541945264,
+      "joint_position": 0.006249340007076004,
+      "repetitions": 14
+    },
+    {
+      "step": 628,
+      "elapsed": 62.80000000000062,
+      "body_id": 10783,
+      "activity": 0.07627627541661341,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 629,
+      "elapsed": 62.900000000000624,
+      "body_id": 10783,
+      "activity": 0.07627627541660226,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 630,
+      "elapsed": 63.000000000000625,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 631,
+      "elapsed": 63.10000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 632,
+      "elapsed": 63.20000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 633,
+      "elapsed": 63.30000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 634,
+      "elapsed": 63.40000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 635,
+      "elapsed": 63.50000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 636,
+      "elapsed": 63.600000000000634,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 637,
+      "elapsed": 63.700000000000635,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 638,
+      "elapsed": 63.80000000000064,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 639,
+      "elapsed": 63.90000000000064,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 640,
+      "elapsed": 64.00000000000064,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 641,
+      "elapsed": 64.10000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 642,
+      "elapsed": 64.20000000000063,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 643,
+      "elapsed": 64.30000000000062,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 644,
+      "elapsed": 64.40000000000062,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 645,
+      "elapsed": 64.50000000000061,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 646,
+      "elapsed": 64.6000000000006,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 647,
+      "elapsed": 64.7000000000006,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0,
+      "repetitions": 15
+    },
+    {
+      "step": 648,
+      "elapsed": 64.8000000000006,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.0036041063841785502,
+      "repetitions": 15
+    },
+    {
+      "step": 649,
+      "elapsed": 64.90000000000059,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.015596560536557004,
+      "repetitions": 15
+    },
+    {
+      "step": 650,
+      "elapsed": 65.00000000000058,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.03387753460109385,
+      "repetitions": 15
+    },
+    {
+      "step": 651,
+      "elapsed": 65.10000000000058,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.0567924339009883,
+      "repetitions": 15
+    },
+    {
+      "step": 652,
+      "elapsed": 65.20000000000057,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.08310288890171559,
+      "repetitions": 15
+    },
+    {
+      "step": 653,
+      "elapsed": 65.30000000000057,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.11188233671430481,
+      "repetitions": 15
+    },
+    {
+      "step": 654,
+      "elapsed": 65.40000000000056,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.1424377936190182,
+      "repetitions": 15
+    },
+    {
+      "step": 655,
+      "elapsed": 65.50000000000055,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.17425124925392174,
+      "repetitions": 15
+    },
+    {
+      "step": 656,
+      "elapsed": 65.60000000000055,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.20693576086853105,
+      "repetitions": 15
+    },
+    {
+      "step": 657,
+      "elapsed": 65.70000000000054,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.24020256050083505,
+      "repetitions": 15
+    },
+    {
+      "step": 658,
+      "elapsed": 65.80000000000054,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.2738364127617157,
+      "repetitions": 15
+    },
+    {
+      "step": 659,
+      "elapsed": 65.90000000000053,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.30767715376750976,
+      "repetitions": 15
+    },
+    {
+      "step": 660,
+      "elapsed": 66.00000000000053,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.34160586083270417,
+      "repetitions": 15
+    },
+    {
+      "step": 661,
+      "elapsed": 66.10000000000052,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.37553449141019973,
+      "repetitions": 15
+    },
+    {
+      "step": 662,
+      "elapsed": 66.20000000000051,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.40939812110250173,
+      "repetitions": 15
+    },
+    {
+      "step": 663,
+      "elapsed": 66.30000000000051,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.44314912882892893,
+      "repetitions": 15
+    },
+    {
+      "step": 664,
+      "elapsed": 66.4000000000005,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.4767528407502551,
+      "repetitions": 15
+    },
+    {
+      "step": 665,
+      "elapsed": 66.5000000000005,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.5101842670546181,
+      "repetitions": 15
+    },
+    {
+      "step": 666,
+      "elapsed": 66.60000000000049,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.5434256574843311,
+      "repetitions": 15
+    },
+    {
+      "step": 667,
+      "elapsed": 66.70000000000049,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.576464670239412,
+      "repetitions": 15
+    },
+    {
+      "step": 668,
+      "elapsed": 66.80000000000048,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.6092930004040813,
+      "repetitions": 15
+    },
+    {
+      "step": 669,
+      "elapsed": 66.90000000000047,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.6419053526328432,
+      "repetitions": 15
+    },
+    {
+      "step": 670,
+      "elapsed": 67.00000000000047,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.6742986717437004,
+      "repetitions": 15
+    },
+    {
+      "step": 671,
+      "elapsed": 67.10000000000046,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.7064715665254333,
+      "repetitions": 15
+    },
+    {
+      "step": 672,
+      "elapsed": 67.20000000000046,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.7384238782925377,
+      "repetitions": 15
+    },
+    {
+      "step": 673,
+      "elapsed": 67.30000000000045,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.7701563578780329,
+      "repetitions": 15
+    },
+    {
+      "step": 674,
+      "elapsed": 67.40000000000045,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.8016704238617994,
+      "repetitions": 15
+    },
+    {
+      "step": 675,
+      "elapsed": 67.50000000000044,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.8329679816551686,
+      "repetitions": 15
+    },
+    {
+      "step": 676,
+      "elapsed": 67.60000000000043,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.864051288174169,
+      "repetitions": 15
+    },
+    {
+      "step": 677,
+      "elapsed": 67.70000000000043,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.8949228506633665,
+      "repetitions": 15
+    },
+    {
+      "step": 678,
+      "elapsed": 67.80000000000042,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.925585351101246,
+      "repetitions": 15
+    },
+    {
+      "step": 679,
+      "elapsed": 67.90000000000042,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9560415897674468,
+      "repetitions": 15
+    },
+    {
+      "step": 680,
+      "elapsed": 68.00000000000041,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9862944431624453,
+      "repetitions": 15
+    },
+    {
+      "step": 681,
+      "elapsed": 68.1000000000004,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9979409515985714,
+      "repetitions": 15
+    },
+    {
+      "step": 682,
+      "elapsed": 68.2000000000004,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9850391026249705,
+      "repetitions": 15
+    },
+    {
+      "step": 683,
+      "elapsed": 68.3000000000004,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9630213549052791,
+      "repetitions": 15
+    },
+    {
+      "step": 684,
+      "elapsed": 68.40000000000039,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9342813235118895,
+      "repetitions": 15
+    },
+    {
+      "step": 685,
+      "elapsed": 68.50000000000038,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.9005841179496827,
+      "repetitions": 15
+    },
+    {
+      "step": 686,
+      "elapsed": 68.60000000000038,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.8632313725541703,
+      "repetitions": 15
+    },
+    {
+      "step": 687,
+      "elapsed": 68.70000000000037,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.8231829438887526,
+      "repetitions": 15
+    },
+    {
+      "step": 688,
+      "elapsed": 68.80000000000037,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.7811466533416396,
+      "repetitions": 15
+    },
+    {
+      "step": 689,
+      "elapsed": 68.90000000000036,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.7376444654820299,
+      "repetitions": 15
+    },
+    {
+      "step": 690,
+      "elapsed": 69.00000000000036,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.6930612895766347,
+      "repetitions": 15
+    },
+    {
+      "step": 691,
+      "elapsed": 69.10000000000035,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.6476809670053921,
+      "repetitions": 15
+    },
+    {
+      "step": 692,
+      "elapsed": 69.20000000000034,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.60171280925008,
+      "repetitions": 15
+    },
+    {
+      "step": 693,
+      "elapsed": 69.30000000000034,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.5553111676473971,
+      "repetitions": 15
+    },
+    {
+      "step": 694,
+      "elapsed": 69.40000000000033,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.508589864597044,
+      "repetitions": 15
+    },
+    {
+      "step": 695,
+      "elapsed": 69.50000000000033,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.4616328354827404,
+      "repetitions": 15
+    },
+    {
+      "step": 696,
+      "elapsed": 69.60000000000032,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.41450197628154206,
+      "repetitions": 15
+    },
+    {
+      "step": 697,
+      "elapsed": 69.70000000000032,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.3672429305802872,
+      "repetitions": 15
+    },
+    {
+      "step": 698,
+      "elapsed": 69.80000000000031,
+      "body_id": 10783,
+      "activity": 0.07627627541660223,
+      "joint_position": 0.3198893570611483,
+      "repetitions": 15
+    },
+    {
+      "step": 699,
+      "elapsed": 69.9000000000003,
+      "body_id": 10783,
+      "activity": 0.13478796490749087,
+      "joint_position": 0.27246607644843907,
+      "repetitions": 15
+    },
+    {
+      "step": 700,
+      "elapsed": 70.0000000000003,
+      "body_id": 10783,
+      "activity": 0.2946767809090852,
+      "joint_position": 0.22499139214311542,
+      "repetitions": 15
+    },
+    {
+      "step": 701,
+      "elapsed": 70.10000000000029,
+      "body_id": 10783,
+      "activity": 0.29949472098087493,
+      "joint_position": 0.17747880151464637,
+      "repetitions": 15
+    },
+    {
+      "step": 702,
+      "elapsed": 70.20000000000029,
+      "body_id": 10783,
+      "activity": 0.29956832388990584,
+      "joint_position": 0.129938257848928,
+      "repetitions": 15
+    },
+    {
+      "step": 703,
+      "elapsed": 70.30000000000028,
+      "body_id": 10783,
+      "activity": 0.2995972200532665,
+      "joint_position": 0.08237710093912204,
+      "repetitions": 15
+    },
+    {
+      "step": 704,
+      "elapsed": 70.40000000000028,
+      "body_id": 10783,
+      "activity": 0.29962583297753304,
+      "joint_position": 0.03480074332579224,
+      "repetitions": 15
+    },
+    {
+      "step": 705,
+      "elapsed": 70.50000000000027,
+      "body_id": 10783,
+      "activity": 0.29965443723368346,
+      "joint_position": 0.001228668126530658,
+      "repetitions": 16
+    }
+  ]
+}

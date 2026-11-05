@@ -1,0 +1,18 @@
+{
+  "production_lock": {
+    "sha256": "0f317345f715968cfc2ff86f5b0e775e2bcb89abb321dbe9839ff5eed3745742",
+    "python": "3.12.2",
+    "fresh_environment_install": "passed",
+    "pip_check": "No broken requirements found"
+  },
+  "docker": {
+    "compose_config": "passed",
+    "image_build": "not executed",
+    "reason": "Docker daemon unavailable on this workstation; CI job configured"
+  },
+  "deployment": {
+    "performed": false,
+    "reason": "User explicitly declined hosting/deployment"
+  },
+  "github_repository": "https://github.com/lupumihnea/drosolift"
+}

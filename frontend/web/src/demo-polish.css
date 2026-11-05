@@ -1,0 +1,71 @@
+/* Conference presentation: geometry remains in Three.js; these are observer controls. */
+body{background:radial-gradient(ellipse at 30% -20%,#193039 0,#090e12 60%)}
+.topbar{background:linear-gradient(110deg,#111d23,#0a1117 65%);height:70px;border-color:#30444e}
+.brand{font-size:27px;letter-spacing:2px}.brand small{font-size:8px;letter-spacing:3px}.tabs{gap:22px}
+.workspace{height:calc(100dvh - 104px);padding:14px 18px 10px;gap:14px;grid-template-columns:minmax(0,1.57fr) minmax(360px,1fr)}
+.chamber,.activity-ribbon{border-color:#334b58;box-shadow:0 14px 44px #0003,inset 0 1px 0 #88bac809}
+.chamber-heading{min-height:54px;padding:12px 18px 9px;background:linear-gradient(120deg,#14232b,#0d171e)}
+.chamber-heading h2{font-size:18px;font-weight:550;letter-spacing:.2px}.eyebrow{font-size:8px;letter-spacing:1.7px;margin-bottom:4px}
+.exercise-selector{display:flex;align-items:center;gap:7px;padding:7px 13px;border-top:1px solid #233943;border-bottom:1px solid #2b424f;background:#0b151c;min-height:47px;position:relative;z-index:3}
+#exercise-context{font-size:7px;line-height:1.65;letter-spacing:1.3px;color:#73909e;max-width:68px;margin-right:3px}
+.exercise-selector>button{flex:1;text-align:left;padding:5px 10px;font-size:11px;line-height:1.35;background:#12232d;border-color:#2a4554;border-radius:6px;position:relative}
+.exercise-selector>button small{display:block;font-size:7px;letter-spacing:1.1px;color:#7c9aab;line-height:1.5}
+.exercise-selector>button[aria-pressed=true]{border-color:#46aeb3;background:linear-gradient(110deg,#14383e,#10252d);color:#e7ffff;box-shadow:inset 3px 0 0 #4be0dd}
+.exercise-selector>button[aria-pressed=true] small{color:#67d0d2}
+.exercise-selector>button[data-pending=true]{border-color:#d9a16c;color:#ffd6ad}
+#exercise-pending:empty{display:none}#exercise-pending{position:absolute;right:14px;bottom:-20px;color:#f1c28e;background:#15242deb;padding:3px 7px;border-radius:4px;font-size:8px;z-index:4}
+.workout-status{top:122px;left:20px;z-index:2}.workout-status .tag{font-size:8px;letter-spacing:1.7px}.workout-status .reps{font-size:34px}.workout-status .reps small{font-size:8px}.workout-status .phase{font-size:8px;letter-spacing:1.2px}
+.scene{min-height:205px}.metric-strip{padding:10px 17px;gap:10px}.metric-strip label{font-size:7px;letter-spacing:1px}.metric-strip output{font-size:15px}
+.workout-controls{padding:9px 13px;gap:7px}.workout-controls>button{padding:10px 7px;font-size:10px}.workout-controls #load-control button{font-size:10px}
+.control-note{font-size:8px;padding:0 15px 7px;min-height:17px;color:#92aebc}
+.feedback-strip{display:flex;align-items:center;gap:7px;min-height:25px;border-top:1px solid #213540;padding:5px 15px;color:#7e9eaf;background:#0b151d;font-size:8px;letter-spacing:.3px}
+.feedback-mark{width:5px;height:5px;border-radius:50%;background:#587079}.feedback-strip[data-profile=apparatus-visual-v1] .feedback-mark{background:#7bdbd4;box-shadow:0 0 7px #4be0dd66}
+#feedback-profile{flex:1}.indicator-reading{font:8px Consolas,monospace;white-space:nowrap;color:#6fbfce}.indicator-reading:last-child{color:#b89fdf}.indicator-reading b{font-weight:400;color:#d2e5e9}
+.body-overlay-note{display:none}.xray-mode .body-overlay-note{display:block;position:absolute;right:14px;top:12px;padding:5px 7px;border:1px solid #8e664c55;background:#171c22cf;color:#ecba9c;font-size:8px;letter-spacing:.2px;max-width:190px;line-height:1.4;text-align:right}
+.activity-ribbon{padding:15px 16px 11px;background:radial-gradient(ellipse at 45% 32%,#122a32,#0c171f 70%)}
+.activity-heading h2{font-size:16px;letter-spacing:1.4px}.activity-heading span{font-size:8px}.scope{font-size:8px;margin-top:5px;color:#7d9ba9}
+.neural-view-tools{display:flex;align-items:center;gap:4px;margin-top:9px;min-height:23px}
+.neural-view-tools button{font-size:8px;padding:5px 9px;border-radius:5px;border-color:#2c4656;background:#10202b;letter-spacing:.4px}
+.neural-view-tools button[aria-pressed=true]{color:#82ebec;border-color:#39868e;background:#123039}
+#neural-context{margin-left:auto;color:#8ea6b3;font-size:7px;letter-spacing:.9px;text-transform:uppercase;text-align:right}
+.neuron-map{margin:3px -7px 0;min-height:155px;flex:1;background:transparent}
+.anatomy-selection{font-size:8px;min-height:21px;padding:5px 7px;background:#0b1a22e8;border:1px solid #213c4855}
+.anatomy-footer{padding-top:6px;font-size:8px}.anatomy-legend{gap:11px;margin-bottom:5px}.anatomy-legend span:before{width:6px;height:6px}
+#anatomy-summary{font-size:7px;line-height:1.4}
+.neural-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin:9px 0 0}
+.neural-group{min-width:0;position:relative;overflow:hidden;border:1px solid #2b4553;border-radius:5px;background:#0d1c25;padding:6px 7px;text-align:left;font-size:8px;line-height:1.3;color:#c2d3dc;cursor:pointer}
+.neural-group:hover{border-color:#648590;background:#152a34}.neural-group[aria-pressed=true]{border-color:var(--group-color,#4be0dd);background:#16323c}
+.group-label{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#a4bbc8;font-size:7px;letter-spacing:.25px}
+.group-rate{display:block;font:10px Consolas,monospace;margin-top:2px;color:var(--group-color,#78dcdf)}
+.group-meter{display:block;height:2px;background:#243943;margin-top:5px;border-radius:2px;overflow:hidden}
+.group-meter>span,.group-meter>i{display:block;height:100%;background:var(--group-color,#4be0dd);width:0;box-shadow:0 0 6px var(--group-color,#4be0dd)}
+.neural-mode-note{margin:6px 0 0;font-size:7px;line-height:1.4;color:#6f8e9f;min-height:10px}
+.selected-neuron{padding:8px 10px;margin-top:7px;background:linear-gradient(110deg,#101f29,#0b1720);border-color:#2c4859}
+.selected-neuron .selection-heading{font-size:7px;letter-spacing:.8px}#selected-id{font-size:8px}#selected-label{font-size:11px;margin:4px 0 2px}#selected-value{font-size:10px}#selected-time{font-size:8px}#neuron-trace{height:25px;margin-top:4px}
+.neuron-tools{margin-top:8px;gap:6px}.neuron-search-control input{font-size:9px;padding:6px}.activity-count{font-size:8px}.neuron-details{margin-top:5px;font-size:9px}.neuron-details summary{padding:4px 0}
+.app-footer{font-size:8px;letter-spacing:.4px}
+@media(min-width:1600px){
+  .topbar{height:82px}.brand{font-size:33px}.brand small{font-size:9px}.workspace{height:calc(100dvh - 122px);padding:20px 28px 14px;gap:22px}
+  .chamber-heading{min-height:70px;padding:18px 24px 13px}.chamber-heading h2{font-size:23px}.eyebrow{font-size:10px}
+  .exercise-selector{padding:10px 20px;gap:10px;min-height:61px}#exercise-context{font-size:9px;max-width:100px}.exercise-selector>button{font-size:14px;padding:7px 14px}.exercise-selector>button small{font-size:8px}
+  .workout-status{top:153px;left:27px}.workout-status .tag{font-size:10px}.workout-status .reps{font-size:48px}.workout-status .reps small{font-size:10px}.workout-status .phase{font-size:10px}
+  .metric-strip{padding:17px 24px}.metric-strip label{font-size:9px}.metric-strip output{font-size:20px}.workout-controls{padding:13px 20px}.workout-controls>button,.workout-controls #load-control button{font-size:12px;padding:12px}
+  .control-note{font-size:10px;padding:0 24px 9px}.feedback-strip{min-height:32px;font-size:10px;padding:7px 24px}.indicator-reading,.indicator-reading b{font-size:10px}
+  .activity-ribbon{padding:22px 26px 16px}.activity-heading h2{font-size:21px}.activity-heading span{font-size:10px}.scope{font-size:10px}
+  .neural-view-tools{margin-top:13px;gap:6px}.neural-view-tools button{font-size:10px;padding:7px 13px}#neural-context{font-size:9px}
+  .neuron-map{min-height:270px}.anatomy-selection{font-size:10px;padding:7px 10px}.anatomy-footer{font-size:10px;padding-top:9px}#anatomy-summary{font-size:9px}
+  .neural-groups{gap:7px;margin-top:12px}.neural-group{padding:9px 11px}.group-label{font-size:9px}.group-rate{font-size:13px}.group-meter{height:3px;margin-top:7px}.neural-mode-note{font-size:9px;margin-top:8px}
+  .selected-neuron{padding:11px 14px;margin-top:10px}.selected-neuron .selection-heading{font-size:9px}#selected-id{font-size:10px}#selected-label{font-size:14px;margin:6px 0 3px}#selected-value{font-size:12px}#selected-time{font-size:10px}#neuron-trace{height:36px}
+  .neuron-tools{margin-top:11px}.neuron-search-control input{font-size:11px;padding:8px}.activity-count{font-size:10px}.neuron-details{font-size:11px;margin-top:7px}.body-overlay-note{font-size:10px!important;max-width:250px!important}
+}
+@media(max-width:850px){
+  .topbar{height:66px}.brand{font-size:22px}.workspace{height:auto;grid-template-columns:1fr;padding:12px}.chamber{height:650px}.activity-ribbon{height:790px}.workout-status{top:132px}.neural-groups{gap:6px}.neural-group{font-size:9px;padding:9px}.group-label{font-size:8px}.group-rate{font-size:12px}.neuron-map{min-height:270px}.neural-view-tools button{font-size:10px}.scope{font-size:9px}
+}
+@media(max-width:420px){
+  .topbar{gap:7px}.brand{font-size:17px}.tabs{gap:0}.workspace{padding:9px}.chamber{height:590px}.exercise-selector{padding:7px 9px;gap:5px}#exercise-context{display:none}.exercise-selector>button{font-size:10px}.workout-status{left:15px;top:125px}.workout-status .reps{font-size:32px}.scene{min-height:190px}.feedback-strip{padding:5px 10px;font-size:7px;gap:5px}.feedback-strip #feedback-profile{max-width:175px}.indicator-reading{font-size:7px}.activity-ribbon{height:790px;padding:15px}.neural-groups{grid-template-columns:repeat(2,minmax(0,1fr))}.neuron-map{min-height:230px}.body-overlay-note{display:none!important}#neural-context{font-size:6px}
+}
+@media(max-width:360px){
+  .topbar{height:78px;display:grid;grid-template-columns:1fr auto;grid-template-rows:36px 32px;gap:0 8px;padding:4px 12px 0}
+  .brand{grid-column:1;grid-row:1}.session-controls{grid-column:2;grid-row:1;margin-left:0}
+  .tabs{grid-column:1/-1;grid-row:2;gap:15px;justify-content:flex-start}.tabs button{font-size:9px;padding:0 7px}
+}

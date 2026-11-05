@@ -1,0 +1,90 @@
+{
+  "archive": "drosolift-conference-v2.zip",
+  "sha256": "0d796d718b93ff3df40057ae257799210a48e76015a80154a93ee72f026e1a29",
+  "bytes": 12356579,
+  "browser": "<local-filesystem path omitted>",
+  "software_rendering_requested": false,
+  "checks": [
+    {
+      "path": "/",
+      "exercise": "bench_press",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 2,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/",
+      "exercise": "bicep_curl",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 3,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/demo/",
+      "exercise": "bench_press",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 2,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    },
+    {
+      "path": "/demo/",
+      "exercise": "bicep_curl",
+      "default_mode": "RECORDED",
+      "seek_step": 111,
+      "seek_repetitions": 3,
+      "exact_export": true,
+      "latched_feedback": true,
+      "selected_neuron": 10783,
+      "websocket_connections": 0,
+      "scene_renderer": "WebGPU",
+      "external_requests": [],
+      "page_errors": []
+    }
+  ],
+  "entries": 58,
+  "manifest_verified": 57,
+  "restricted_assets": false,
+  "samples": {
+    "bench_press": {
+      "frames": 201,
+      "final_repetitions": 5,
+      "feedback_profile": "apparatus-visual-v1"
+    },
+    "bicep_curl": {
+      "frames": 201,
+      "final_repetitions": 6,
+      "feedback_profile": "apparatus-visual-v1"
+    }
+  },
+  "browser_version": "157.0.8103.15",
+  "javascript_mime": {
+    "/": [
+      "text/javascript"
+    ],
+    "/demo/": [
+      "text/javascript"
+    ]
+  },
+  "status": "passed"
+}

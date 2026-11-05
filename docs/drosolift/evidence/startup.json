@@ -1,0 +1,19 @@
+{
+  "command": "python -u -B main.py gym-web --flies 1 --seed 7 --port 8002 --no-learning --memory-dir <fresh temporary directory>",
+  "ready_seconds": 12.576538900000742,
+  "health": {
+    "status": "ready",
+    "schema": 3,
+    "backend": "compact",
+    "dataset": "male-cns:v1.0",
+    "experiment": "gym",
+    "population": 1
+  },
+  "pid": 41804,
+  "working_set_bytes": 225427456,
+  "peak_working_set_bytes": 437583872,
+  "machine": "DESKTOP-9CHQBV3",
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.2",
+  "note": "Single observed startup after source-file cache warmup; not a cold-install benchmark."
+}

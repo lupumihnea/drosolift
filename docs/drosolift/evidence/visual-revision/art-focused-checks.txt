@@ -1,0 +1,18 @@
+bun test v1.4.4 (38afee6c8)
+
+src\curl-support.test.ts:
+(pass) the four free curl feet meet their authored sloped supports without moving root or grips [1309.45ms]
+
+src\equipment-scene.test.ts:
+(pass) weights and grips share the actual station stroke and world transform [388.17ms]
+
+src\procedural-fly.test.ts:
+(pass) the shipped fly has redistributable original geometry and six articulated legs [24.23ms]
+(pass) replacement rig keeps bench/curl grips at both endpoints and independent pose state [163.53ms]
+(pass) the shipped replacement walks from received displacement and shares only immutable mesh resources [26.25ms]
+(pass) authored bench support folds four resting legs toward the pad and restores wings off the bench [21.89ms]
+
+ 6 pass
+ 0 fail
+ 103 expect() calls
+Ran 6 tests across 3 files. [2.65s]

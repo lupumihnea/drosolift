@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "system": "Windows-10-10.0.19045-SP0",
+  "processor": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+  "logical_cpus": 12,
+  "browser": "157.0.8103.15",
+  "rendering": {
+    "default": {
+      "before": {
+        "scene": {
+          "backend": "WebGPU",
+          "geometries": 51,
+          "textures": 12,
+          "estimatedBytes": 48954508,
+          "drawCalls": 160,
+          "triangles": 165933,
+          "points": 0,
+          "lines": 857
+        },
+        "neuron-map": {
+          "backend": "WebGPU",
+          "geometries": 22,
+          "textures": 3,
+          "estimatedBytes": 3904193,
+          "drawCalls": 151,
+          "triangles": 259,
+          "points": 287417,
+          "lines": 51996
+        }
+      },
+      "after_five_cycles": {
+        "scene": {
+          "backend": "WebGPU",
+          "geometries": 51,
+          "textures": 12,
+          "estimatedBytes": 48900931,
+          "drawCalls": 151,
+          "triangles": 165293,
+          "points": 0,
+          "lines": 850
+        },
+        "neuron-map": {
+          "backend": "WebGPU",
+          "geometries": 22,
+          "textures": 3,
+          "estimatedBytes": 3904193,
+          "drawCalls": 151,
+          "triangles": 259,
+          "points": 287417,
+          "lines": 51996
+        }
+      },
+      "mobile_widths": [
+        390,
+        320
+      ],
+      "page_errors": [],
+      "websockets": 0
+    },
+    "webgl": {
+      "before": {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 51,
+          "textures": 12,
+          "estimatedBytes": 48843202,
+          "drawCalls": 160,
+          "triangles": 165933,
+          "points": 0,
+          "lines": 857
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 22,
+          "textures": 3,
+          "estimatedBytes": 3905772,
+          "drawCalls": 151,
+          "triangles": 259,
+          "points": 287417,
+          "lines": 51996
+        }
+      },
+      "after_five_cycles": {
+        "scene": {
+          "backend": "WebGL2",
+          "geometries": 51,
+          "textures": 12,
+          "estimatedBytes": 48795300,
+          "drawCalls": 151,
+          "triangles": 165293,
+          "points": 0,
+          "lines": 850
+        },
+        "neuron-map": {
+          "backend": "WebGL2",
+          "geometries": 22,
+          "textures": 3,
+          "estimatedBytes": 3905772,
+          "drawCalls": 151,
+          "triangles": 259,
+          "points": 287417,
+          "lines": 51996
+        }
+      },
+      "mobile_widths": [
+        390,
+        320
+      ],
+      "page_errors": [],
+      "websockets": 0,
+      "graphics": {
+        "backend": "WebGL2",
+        "vendor": "Google Inc. (NVIDIA)",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 6GB (0x00001C03) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "hardwareConcurrency": 12,
+        "devicePixelRatio": 1,
+        "sceneCanvas": [
+          300,
+          250
+        ]
+      }
+    },
+    "renderer_unavailable": {
+      "readings": 91,
+      "curl_selection": true,
+      "play_pause": true
+    }
+  },
+  "demo": {
+    "actual_browser": true,
+    "source": "bundled actual 20-second model recordings",
+    "interaction_seconds": 23.672,
+    "bench": {
+      "step": "76",
+      "reps": "01"
+    },
+    "curl": {
+      "step": "80",
+      "reps": "02"
+    },
+    "websockets": 0,
+    "viewport": [
+      1280,
+      720
+    ],
+    "file": "drosolift-demo-v2.webm",
+    "bytes": 1429645,
+    "sha256": "8e3ba39e2ef15e5b2889dd142ca92d5ed80bd158ab05c6c65337fdf016628d05",
+    "duration_seconds": 24,
+    "raw_duration_seconds": 38.04,
+    "initialization_wait_trimmed": true
+  }
+}

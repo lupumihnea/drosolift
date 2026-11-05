@@ -1,0 +1,41 @@
+{
+  "archive": "drosolift-conference.zip",
+  "sha256": "979cabffcc840866cdf5873b6909c601d6d098e1936f2b834c031767de53c021",
+  "bytes": 8167660,
+  "browser": "<local-filesystem path omitted>",
+  "checks": [
+    {
+      "path": "/",
+      "default_mode": "RECORDED",
+      "seek_step": 100,
+      "seek_repetitions": 2,
+      "websocket_connections": 0,
+      "external_requests": [],
+      "javascript_mime": [
+        "text/javascript"
+      ],
+      "page_errors": []
+    },
+    {
+      "path": "/demo/",
+      "default_mode": "RECORDED",
+      "seek_step": 100,
+      "seek_repetitions": 2,
+      "websocket_connections": 0,
+      "external_requests": [],
+      "javascript_mime": [
+        "text/javascript"
+      ],
+      "page_errors": []
+    }
+  ],
+  "entries": 36,
+  "manifest_verified": 35,
+  "restricted_assets": false,
+  "sample": {
+    "frames": 201,
+    "final_repetitions": 5
+  },
+  "browser_version": "157.0.8103.15",
+  "status": "passed"
+}

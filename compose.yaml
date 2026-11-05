@@ -1,0 +1,22 @@
+# Future self-hosting example. Nothing is deployed by this repository.
+services:
+  gym:
+    build: .
+    ports:
+      - "127.0.0.1:8003:8003"
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - sessions:/app/data/runs
+    command:
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8003"
+      - --session-db
+      - data/runs/public/sessions.sqlite3
+      - --allow-origin
+      - "${DROSOLIFT_ORIGIN:?Set the exact HTTPS origin of your TLS reverse proxy}"
+    init: true
+    stop_grace_period: 30s
+volumes:
+  sessions:

@@ -1,0 +1,29 @@
+[libvpx-vp9 @ 00000198b5926a40] v1.14.1
+[Local filesystem path omitted from this publication copy.]
+  Metadata:
+    creation_time   : 2026-11-05T00:09:01.201000Z
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:48.16, start: 0.000000, bitrate: 1384 kb/s
+  Stream #0:0(eng): Video: vp9 (libvpx-vp9) (Profile 0), yuv420p(tv, progressive), 1280x720, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 1k tbn (default)
+      Metadata:
+        ENCODER         : Lavc61.3.100 libvpx-vp9
+        DURATION        : 00:00:48.160000000
+[libvpx-vp9 @ 00000198b70d0e00] v1.14.1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (libvpx-vp9) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 00000198b70d8040] v1.14.1
+[Local filesystem path omitted from this publication copy.]
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0(eng): Video: vp9, yuv420p(tv, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 1k tbn (default)
+      Metadata:
+        DURATION        : 00:00:48.160000000
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   93 fps=0.0 q=27.0 size=       0KiB time=00:00:03.72 bitrate=   1.0kbits/s speed=7.43x    
+frame=  266 fps=264 q=32.0 size=     256KiB time=00:00:10.64 bitrate= 197.1kbits/s speed=10.6x    
+frame=  436 fps=287 q=32.0 size=     768KiB time=00:00:17.44 bitrate= 360.7kbits/s speed=11.5x    
+[out#0/webm @ 00000198b5927500] video:1194KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.391266%
+frame=  609 fps=298 q=21.0 Lsize=    1198KiB time=00:00:24.36 bitrate= 403.0kbits/s speed=11.9x    

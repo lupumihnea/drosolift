@@ -1,0 +1,35 @@
+{
+  "asset": "DrosoLift procedural fly v1",
+  "source": "frontend/web/src/procedural-fly.ts",
+  "source_sha256": "976c864950d898ebd0b3bbb8e1d93531f2a11ff75b18bd58bf7d29e1cdbbf2b2",
+  "license": "Apache-2.0",
+  "generator": "TypeScript + existing Three.js primitives",
+  "source_meshes": [],
+  "source_textures": [],
+  "triangles": 36936,
+  "mesh_objects": 50,
+  "line_objects": 18,
+  "bones": 20,
+  "clips": [
+    "Walk",
+    "Feed"
+  ],
+  "coordinates": "+Z forward, +Y up; arbitrary display units",
+  "runtime_transformation": "Rotate Y by pi/2; normalize longitudinal bounds to 2.2 display units; apply received body posture; solve forelegs against received equipment grips; authored bench-only resting-leg fold and lateral wing fan in bench-support-pose.ts",
+  "specimen": "Original stylized illustration of unspecified sex; not CT-derived, not MaleCNS specimen",
+  "limitations": "Original authored tapered shell, pigmentation, microfacet lattice, bristles, wing veins and unchanged joint lengths. Not measured biomechanics or registered MaleCNS anatomy.",
+  "art_revision": 2,
+  "rendered_triangles_including_instances": 49212,
+  "eye_facets": 2048,
+  "generated_textures": {
+    "cuticle_grain": [
+      128,
+      256
+    ],
+    "abdomen_pigment": [
+      128,
+      256
+    ]
+  },
+  "triangle_count_note": "triangles counts each mesh geometry once; rendered_triangles_including_instances includes every authored hex facet instance"
+}

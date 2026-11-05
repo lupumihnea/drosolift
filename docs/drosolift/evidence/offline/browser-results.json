@@ -1,0 +1,42 @@
+{
+  "machine": {
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD",
+    "logical_cpus": 12,
+    "browser_version": "157.0.8103.15",
+    "software_rendering_requested": true
+  },
+  "url": "http://127.0.0.1:8000",
+  "started_utc": "2026-11-04T19:11:44Z",
+  "offline_replay": [
+    {
+      "path": "/",
+      "exact_seek_step": 100,
+      "quarter_speed_steps": 4,
+      "websocket_connections": 0,
+      "csv_rows": 201,
+      "page_errors": []
+    },
+    {
+      "path": "/conference/",
+      "exact_seek_step": 100,
+      "quarter_speed_steps": 4,
+      "websocket_connections": 0,
+      "csv_rows": 201,
+      "page_errors": []
+    }
+  ],
+  "recorded_build_defaults": [
+    {
+      "path": "/",
+      "no_replay_query": true,
+      "websocket_connections": 0
+    },
+    {
+      "path": "/conference/",
+      "no_replay_query": true,
+      "websocket_connections": 0
+    }
+  ],
+  "status": "passed"
+}

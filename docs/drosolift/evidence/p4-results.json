@@ -1,0 +1,95 @@
+{
+  "format": "drosolift-bench-comparison",
+  "version": 1,
+  "calibration_sha256": "474b9703981290773589086811778861ece092a5ccb08ca764cf1af167f6d97d",
+  "calibration_load": 0.6,
+  "evaluation_loads": [
+    0.4,
+    0.8,
+    1.2
+  ],
+  "dt": 0.1,
+  "seed": 7,
+  "implementation_sha256": {
+    "experiments/bench_comparison.py": "a73d5ad154f5088b2836186261d8d34a396bc929361d6507d87613954df7f4f4",
+    "world/equipment.py": "aaec20691f2e0ccc688aab3ca17c3c3c07f909773813019e9376d1c254a7fca9",
+    "world/gym.py": "e44eb4a0b53f43ededc88f55624c7b6b8514f4fc3af965382dbb61bee975196c",
+    "simulation/signals.py": "f08f8a4cfc94e35ff8aee314164efde51571d76319a93b5a5486cae05495600f"
+  },
+  "deterministic_repeats_identical": true,
+  "summaries": [
+    {
+      "condition": "recorded-neural",
+      "load": 0.4,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 16,
+      "completed_sets": 5,
+      "maximum_travel": 0.7,
+      "positive_work": 4.759999999999997,
+      "commanded_positive_impulse": 174.34679255998174
+    },
+    {
+      "condition": "periodic",
+      "load": 0.4,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 15,
+      "completed_sets": 5,
+      "maximum_travel": 0.7,
+      "positive_work": 4.200000000000006,
+      "commanded_positive_impulse": 174.34679255998174
+    },
+    {
+      "condition": "recorded-neural",
+      "load": 0.8,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 11,
+      "completed_sets": 3,
+      "maximum_travel": 0.7,
+      "positive_work": 6.719999999999992,
+      "commanded_positive_impulse": 174.34679255998174
+    },
+    {
+      "condition": "periodic",
+      "load": 0.8,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 11,
+      "completed_sets": 3,
+      "maximum_travel": 0.7,
+      "positive_work": 7.4997287656142815,
+      "commanded_positive_impulse": 174.34679255998174
+    },
+    {
+      "condition": "recorded-neural",
+      "load": 1.2,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 7,
+      "completed_sets": 2,
+      "maximum_travel": 0.7,
+      "positive_work": 6.305143293344943,
+      "commanded_positive_impulse": 174.34679255998174
+    },
+    {
+      "condition": "periodic",
+      "load": 1.2,
+      "duration": 60.0,
+      "period": 4.0,
+      "cycles": 15,
+      "repetitions": 4,
+      "completed_sets": 1,
+      "maximum_travel": 0.7,
+      "positive_work": 7.201255519763164,
+      "commanded_positive_impulse": 174.34679255998174
+    }
+  ],
+  "scope": "Deterministic engineered bench driven by a frozen received neural waveform versus matched periodic input. No biological specimen replicates or neural superiority claim."
+}

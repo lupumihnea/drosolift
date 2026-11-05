@@ -1,0 +1,38 @@
+{
+  "run_id": "d5ecb2d5-99ce-4efe-8f6d-b1e59f9f0f00",
+  "step": 48871,
+  "elapsed": 4887.100000000248,
+  "population": 1,
+  "flies": [
+    {
+      "id": "fly-1",
+      "exercise": {
+        "station_id": "station-1",
+        "kind": "bench_press",
+        "phase": "lowering",
+        "joint_position": 0.9812775773741205,
+        "joint_velocity": -0.19246378863866423,
+        "repetitions": 1569,
+        "completed_sets": 523,
+        "rep_in_set": 0,
+        "recovery_remaining": 0.0,
+        "body_elevation": 1.5,
+        "body_pitch": 0.0,
+        "body_roll": 3.141592653589793
+      },
+      "training": {
+        "set_progress": 0.1697870704376466,
+        "sets": 523,
+        "effort": 0.0,
+        "fatigue": 0.7374769105485892,
+        "fitness": 1.5,
+        "reward": 0.0,
+        "association_strength": 0.08124999999999993,
+        "total_work": 360.5999999999899,
+        "distance": 0.0
+      },
+      "derived_capacity": 0.6703384756328372,
+      "derived_available_capacity": 0.6703384756328372
+    }
+  ]
+}

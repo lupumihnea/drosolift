@@ -1,0 +1,78 @@
+bun test v1.4.4 (38afee6c8)
+
+src\animated-fly.test.ts:
+(pass) real rig clones share geometry but never animated skeleton state [59.72ms]
+(pass) walking phase depends on ground distance, not elapsed wall time [24.89ms]
+(pass) bench and curl forelegs reach the measured handles without moving the physical root [25.48ms]
+
+src\equipment-scene.test.ts:
+(pass) weights and grips share the actual station stroke and world transform [24.70ms]
+
+src\fly-asset.test.ts:
+(pass) the shipped GLB matches its attribution manifest and stays within the mesh budget [92.83ms]
+
+src\fly-scene.test.ts:
+(pass) worldToScene > maps world corners into the specimen chamber [0.09ms]
+(pass) worldToScene > projects all arena corners inside the oblique perspective viewport [0.94ms]
+(pass) worldToScene > fits the complete arena at desktop and portrait aspect ratios [0.08ms]
+(pass) eyeCameraPose > places a zero-heading eye at head height and looks forward [0.07ms]
+(pass) eyeCameraPose > uses the scene's negative z axis for a quarter turn [0.04ms]
+(pass) eyeCameraPose > preserves negative positions and headings [0.04ms]
+(pass) scene signals > interpolates across the shortest heading arc [0.05ms]
+(pass) scene signals > clamps odor halo scale and handles absent food [0.04ms]
+(pass) scene signals > uses zero intensity for an inactive network [0.09ms]
+
+src\neuron-anatomy.test.ts:
+(pass) shipped anatomy uses unique official body IDs and finite measured positions [265.95ms]
+(pass) anatomical highlights distinguish absent telemetry, received zero and tiny positive rates [0.26ms]
+(pass) malformed or duplicate anatomy is rejected, never replaced with invented coordinates [27.03ms]
+
+src\neuron-readings.test.ts:
+(pass) filterNeuronReadings > returns every reading sorted by activity then body ID for an empty query [0.18ms]
+(pass) filterNeuronReadings > matches labels without case sensitivity [0.39ms]
+(pass) filterNeuronReadings > matches a body ID substring [0.03ms]
+(pass) filterNeuronReadings > retains received zero-activity readings [0.02ms]
+(pass) filterNeuronReadings > returns an empty array when nothing matches [0.02ms]
+(pass) filterNeuronReadings > returns a new array without changing input order [0.04ms]
+
+src\observatory.test.ts:
+(pass) load acknowledgements reject non-finite state and distinguish pending from effective steps [0.27ms]
+(pass) seeking selects the recorded state without inventing counts or interpolating telemetry [0.06ms]
+(pass) selection follows identity across ranking changes and missing observations stay missing [0.29ms]
+
+src\procedural-fly.test.ts:
+(pass) the shipped fly has redistributable original geometry and six articulated legs [13.23ms]
+(pass) replacement rig keeps bench/curl grips at both endpoints and independent pose state [11.34ms]
+(pass) the shipped replacement walks from received displacement and shares only immutable mesh resources [8.69ms]
+(pass) authored bench support folds four resting legs toward the pad and restores wings off the bench [6.73ms]
+
+src\scene-disposal.test.ts:
+(pass) disposes shared point-cloud geometry and material exactly once [0.53ms]
+(pass) deduplicates resources shared by points, meshes, and lines [0.33ms]
+(pass) shared procedural surface textures are released exactly once [0.22ms]
+
+src\simulation-client.test.ts:
+(pass) retired sockets cannot overwrite a reconnected session; extensions require server negotiation [1.30ms]
+
+src\skeleton-view.test.ts:
+(pass) skeleton cache preserves native atlas axes and exact parent edges [0.36ms]
+(pass) morphology distinguishes unobserved from received zero and positive rate [0.29ms]
+
+src\snapshot.test.ts:
+(pass) parseServerMessage > accepts articulated equipment without changing neural readings [2.52ms]
+(pass) parseServerMessage > accepts gym populations without changing the existing nested frame [0.34ms]
+(pass) parseServerMessage > accepts gym hello and validates actual count acknowledgements [0.24ms]
+(pass) parseServerMessage > accepts a complete finite frame [0.06ms]
+(pass) parseServerMessage > accepts hello and running state messages [0.08ms]
+(pass) parseServerMessage > rejects incompatible, missing, and non-finite values [0.20ms]
+(pass) display formatting > formats official IDs without locale digit substitution [0.03ms]
+(pass) display formatting > formats activity readings consistently [0.08ms]
+
+src\training-history.test.ts:
+(pass) training traces keep actual per-fly samples and bounded memory [0.54ms]
+(pass) paused duplicate samples do not fabricate a learning curve; restart clears stale history [0.06ms]
+
+ 46 pass
+ 0 fail
+ 266 expect() calls
+Ran 46 tests across 13 files. [813.00ms]

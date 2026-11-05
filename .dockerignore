@@ -1,0 +1,17 @@
+.git
+.venv
+.tools
+**/node_modules
+**/__pycache__
+**/*.pyc
+frontend/web/dist*
+data/raw
+data/runs
+data/processed
+.env
+.env.local
+.env.*.local
+**/*.sqlite3*
+frontend/web/src/assets/fly/walking-fly.glb
+docs/media
+docs/drosolift/evidence/p0*
